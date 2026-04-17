@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: c22f3bd6841df13479690021fab1c9a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4057519756579536067
+    second: arvore_magica_grande_2_0
+  - first:
+      213: -4626747677229113897
+    second: arvore_magica_grande_2_1
+  - first:
+      213: -6615133399429044479
+    second: arvore_magica_grande_2_2
+  - first:
+      213: -4092342926963722526
+    second: arvore_magica_grande_2_3
+  - first:
+      213: -3207757897296722332
+    second: arvore_magica_grande_2_4
+  - first:
+      213: 8973794677645946041
+    second: arvore_magica_grande_2_5
+  - first:
+      213: -4811964562745063607
+    second: arvore_magica_grande_2_6
+  - first:
+      213: 3893857262234755227
+    second: arvore_magica_grande_2_7
+  - first:
+      213: -289340519086800842
+    second: arvore_magica_grande_2_8
+  - first:
+      213: -469818591421362268
+    second: arvore_magica_grande_2_9
+  - first:
+      213: -5228890502370213162
+    second: arvore_magica_grande_2_10
+  - first:
+      213: 1097396863629799286
+    second: arvore_magica_grande_2_11
+  - first:
+      213: -8396516898305376247
+    second: arvore_magica_grande_2_12
+  - first:
+      213: 6826976122457731
+    second: arvore_magica_grande_2_13
+  - first:
+      213: 8067989348838117303
+    second: arvore_magica_grande_2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 353
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc7d0098b43f4830800000000000000
+      internalID: 4057519756579536067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 317
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd1569408d7acfb0800000000000000
+      internalID: -4626747677229113897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 294
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107a531c8335234a0800000000000000
+      internalID: -6615133399429044479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 211
+        width: 22
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6be334ac31537c0800000000000000
+      internalID: -4092342926963722526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 237
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466cc261031cb73d0800000000000000
+      internalID: -3207757897296722332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 232
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bca060d6b2598c70800000000000000
+      internalID: 8973794677645946041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94700dd99b7783db0800000000000000
+      internalID: -4811964562745063607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 81
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90e399ac82c90630800000000000000
+      internalID: 3893857262234755227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 86
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63044b4b45e0cfbf0800000000000000
+      internalID: -289340519086800842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 49
+        width: 78
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af8475fa7eda79f0800000000000000
+      internalID: -469818591421362268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 58
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d24fccbacf3f67b0800000000000000
+      internalID: -5228890502370213162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 12
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f284a12acba3f00800000000000000
+      internalID: 1097396863629799286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 9
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90081fd1e54997b80800000000000000
+      internalID: -8396516898305376247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e4bae3911481000800000000000000
+      internalID: 6826976122457731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_grande_2_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf8125119147ff60800000000000000
+      internalID: 8067989348838117303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arvore_magica_grande_2_0: 4057519756579536067
+      arvore_magica_grande_2_1: -4626747677229113897
+      arvore_magica_grande_2_10: -5228890502370213162
+      arvore_magica_grande_2_11: 1097396863629799286
+      arvore_magica_grande_2_12: -8396516898305376247
+      arvore_magica_grande_2_13: 6826976122457731
+      arvore_magica_grande_2_14: 8067989348838117303
+      arvore_magica_grande_2_2: -6615133399429044479
+      arvore_magica_grande_2_3: -4092342926963722526
+      arvore_magica_grande_2_4: -3207757897296722332
+      arvore_magica_grande_2_5: 8973794677645946041
+      arvore_magica_grande_2_6: -4811964562745063607
+      arvore_magica_grande_2_7: 3893857262234755227
+      arvore_magica_grande_2_8: -289340519086800842
+      arvore_magica_grande_2_9: -469818591421362268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

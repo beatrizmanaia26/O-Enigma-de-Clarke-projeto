@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: ae51f2bf0dcc00246b467eec370ecd89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1314024613183261168
+    second: pedras_chao_0
+  - first:
+      213: -768781188971319373
+    second: pedras_chao_1
+  - first:
+      213: -1874374208195547072
+    second: pedras_chao_2
+  - first:
+      213: 2099089961351765551
+    second: pedras_chao_3
+  - first:
+      213: 1864464092785903139
+    second: pedras_chao_4
+  - first:
+      213: -5594094340658735153
+    second: pedras_chao_5
+  - first:
+      213: 4291507817681046681
+    second: pedras_chao_6
+  - first:
+      213: -8213216450588887924
+    second: pedras_chao_7
+  - first:
+      213: -283959788898846188
+    second: pedras_chao_8
+  - first:
+      213: 7708237829271294650
+    second: pedras_chao_9
+  - first:
+      213: -1930168502380747277
+    second: pedras_chao_10
+  - first:
+      213: -3900692070032896694
+    second: pedras_chao_11
+  - first:
+      213: -3078121848531763130
+    second: pedras_chao_12
+  - first:
+      213: -6180740099148980181
+    second: pedras_chao_13
+  - first:
+      213: -1311866510928265473
+    second: pedras_chao_14
+  - first:
+      213: -405005074203783097
+    second: pedras_chao_15
+  - first:
+      213: 4605172205359532562
+    second: pedras_chao_16
+  - first:
+      213: 6799146435667918759
+    second: pedras_chao_17
+  - first:
+      213: -5970436705878704607
+    second: pedras_chao_18
+  - first:
+      213: -6872122374803797750
+    second: pedras_chao_19
+  - first:
+      213: -3526314159325581831
+    second: pedras_chao_20
+  - first:
+      213: -5040600162803995604
+    second: pedras_chao_21
+  - first:
+      213: -7833634210604174690
+    second: pedras_chao_22
+  - first:
+      213: 7240620706625069105
+    second: pedras_chao_23
+  - first:
+      213: -7687265492121922282
+    second: pedras_chao_24
+  - first:
+      213: 8630082364538883724
+    second: pedras_chao_25
+  - first:
+      213: 2856363867350572529
+    second: pedras_chao_26
+  - first:
+      213: -3153739993859739952
+    second: pedras_chao_27
+  - first:
+      213: -1308862711465665810
+    second: pedras_chao_28
+  - first:
+      213: -8247820410167060356
+    second: pedras_chao_29
+  - first:
+      213: -649900061854869221
+    second: pedras_chao_30
+  - first:
+      213: -2273019523773910947
+    second: pedras_chao_31
+  - first:
+      213: 941439899213859824
+    second: pedras_chao_32
+  - first:
+      213: -2434176134867754905
+    second: pedras_chao_33
+  - first:
+      213: -7986117419656864611
+    second: pedras_chao_34
+  - first:
+      213: -4793597336358191146
+    second: pedras_chao_35
+  - first:
+      213: -4587642239871371152
+    second: pedras_chao_36
+  - first:
+      213: -8855446790848571769
+    second: pedras_chao_37
+  - first:
+      213: -7541806677005918213
+    second: pedras_chao_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedras_chao_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 289
+        width: 97
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f988e67c6a5c3210800000000000000
+      internalID: 1314024613183261168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 249
+        width: 128
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfac51f49db455f0800000000000000
+      internalID: -768781188971319373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 376
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040b958a692ecf5e0800000000000000
+      internalID: -1874374208195547072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 322
+        width: 140
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ed5f9c237712d10800000000000000
+      internalID: 2099089961351765551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 29
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32689fac638efd910800000000000000
+      internalID: 1864464092785903139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7530106d8cd52b0800000000000000
+      internalID: -5594094340658735153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 291
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cc0bf6f9f7e8b30800000000000000
+      internalID: 4291507817681046681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 231
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843147572bc40e80800000000000000
+      internalID: -8213216450588887924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a7034931c2f0cf0800000000000000
+      internalID: -283959788898846188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 245
+        width: 91
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab291f9377929fa60800000000000000
+      internalID: 7708237829271294650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 301
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5a2fa39f9a635e0800000000000000
+      internalID: -1930168502380747277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8183aa35fdd9c0800000000000000
+      internalID: -3900692070032896694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 270
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64045e2cc705845d0800000000000000
+      internalID: -3078121848531763130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 299
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20663570a9993aa0800000000000000
+      internalID: -6180740099148980181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_14
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 276
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeb36fdb505bcde0800000000000000
+      internalID: -1311866510928265473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_15
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 345
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7405ad3e702216af0800000000000000
+      internalID: -405005074203783097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 243
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a05f5b8bbd8ef30800000000000000
+      internalID: 4605172205359532562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 263
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af79d9e8ab6b5e50800000000000000
+      internalID: 6799146435667918759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 243
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e7520e27fb42da0800000000000000
+      internalID: -5970436705878704607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_19
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 242
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a094ec43c1151a0a0800000000000000
+      internalID: -6872122374803797750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_20
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 253
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fde7fe84f3001fc0800000000000000
+      internalID: -3526314159325581831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2caa41bbd03c0ab0800000000000000
+      internalID: -5040600162803995604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_22
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 242
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9237989037594390800000000000000
+      internalID: -7833634210604174690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 231
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a9b39b2adb7460800000000000000
+      internalID: 7240620706625069105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 231
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61554f783c8515590800000000000000
+      internalID: -7687265492121922282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 191
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e04b8bf2634c770800000000000000
+      internalID: 8630082364538883724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_26
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 211
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd11bebdc7d3a720800000000000000
+      internalID: 2856363867350572529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_27
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 225
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de2c005f2aab34d0800000000000000
+      internalID: -3153739993859739952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 53
+        width: 341
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea955f6c4cf5dde0800000000000000
+      internalID: -1308862711465665810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 153
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7896c8290bd98d80800000000000000
+      internalID: -8247820410167060356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 143
+        width: 171
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19d2a946571bf6f0800000000000000
+      internalID: -649900061854869221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50bded39cc9470e0800000000000000
+      internalID: -2273019523773910947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_32
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 115
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb8502b99aa01d00800000000000000
+      internalID: 941439899213859824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 114
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7606970c3b1183ed0800000000000000
+      internalID: -2434176134867754905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_34
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 94
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c1bc2e48c9b2190800000000000000
+      internalID: -7986117419656864611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df7c12ce98b97db0800000000000000
+      internalID: -4793597336358191146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 84
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078b3ef60bb6550c0800000000000000
+      internalID: -4587642239871371152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 322
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7861918df022b1580800000000000000
+      internalID: -8855446790848571769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_chao_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff946419ce165790800000000000000
+      internalID: -7541806677005918213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedras_chao_0: 1314024613183261168
+      pedras_chao_1: -768781188971319373
+      pedras_chao_10: -1930168502380747277
+      pedras_chao_11: -3900692070032896694
+      pedras_chao_12: -3078121848531763130
+      pedras_chao_13: -6180740099148980181
+      pedras_chao_14: -1311866510928265473
+      pedras_chao_15: -405005074203783097
+      pedras_chao_16: 4605172205359532562
+      pedras_chao_17: 6799146435667918759
+      pedras_chao_18: -5970436705878704607
+      pedras_chao_19: -6872122374803797750
+      pedras_chao_2: -1874374208195547072
+      pedras_chao_20: -3526314159325581831
+      pedras_chao_21: -5040600162803995604
+      pedras_chao_22: -7833634210604174690
+      pedras_chao_23: 7240620706625069105
+      pedras_chao_24: -7687265492121922282
+      pedras_chao_25: 8630082364538883724
+      pedras_chao_26: 2856363867350572529
+      pedras_chao_27: -3153739993859739952
+      pedras_chao_28: -1308862711465665810
+      pedras_chao_29: -8247820410167060356
+      pedras_chao_3: 2099089961351765551
+      pedras_chao_30: -649900061854869221
+      pedras_chao_31: -2273019523773910947
+      pedras_chao_32: 941439899213859824
+      pedras_chao_33: -2434176134867754905
+      pedras_chao_34: -7986117419656864611
+      pedras_chao_35: -4793597336358191146
+      pedras_chao_36: -4587642239871371152
+      pedras_chao_37: -8855446790848571769
+      pedras_chao_38: -7541806677005918213
+      pedras_chao_4: 1864464092785903139
+      pedras_chao_5: -5594094340658735153
+      pedras_chao_6: 4291507817681046681
+      pedras_chao_7: -8213216450588887924
+      pedras_chao_8: -283959788898846188
+      pedras_chao_9: 7708237829271294650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

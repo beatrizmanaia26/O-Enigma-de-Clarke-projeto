@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 820f8fa881a54e7498f90d27129e16b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8231627355367844837
+    second: banco_madeira_0
+  - first:
+      213: -5189072189563572878
+    second: banco_madeira_1
+  - first:
+      213: 7374605354902090885
+    second: banco_madeira_2
+  - first:
+      213: 4202849067028821056
+    second: banco_madeira_3
+  - first:
+      213: -4576848037602282357
+    second: banco_madeira_4
+  - first:
+      213: 4964141731472990764
+    second: banco_madeira_5
+  - first:
+      213: 4471430987897451290
+    second: banco_madeira_6
+  - first:
+      213: 5656988882191769001
+    second: banco_madeira_7
+  - first:
+      213: -6434863644334424157
+    second: banco_madeira_8
+  - first:
+      213: -817074226869536885
+    second: banco_madeira_9
+  - first:
+      213: -388960387555164303
+    second: banco_madeira_10
+  - first:
+      213: -6675175813553497249
+    second: banco_madeira_11
+  - first:
+      213: -1547645171408801656
+    second: banco_madeira_12
+  - first:
+      213: 5440046296251902161
+    second: banco_madeira_13
+  - first:
+      213: 462408137132545663
+    second: banco_madeira_14
+  - first:
+      213: -7233247277343404830
+    second: banco_madeira_15
+  - first:
+      213: 4890240551989224460
+    second: banco_madeira_16
+  - first:
+      213: -8469723776930292080
+    second: banco_madeira_17
+  - first:
+      213: -5267382189186615785
+    second: banco_madeira_18
+  - first:
+      213: 2817364563102008146
+    second: banco_madeira_19
+  - first:
+      213: -1104050926764971727
+    second: banco_madeira_20
+  - first:
+      213: 4659559534405201872
+    second: banco_madeira_21
+  - first:
+      213: 8079602636023852880
+    second: banco_madeira_22
+  - first:
+      213: 3538841392712460760
+    second: banco_madeira_23
+  - first:
+      213: 7016485508243515758
+    second: banco_madeira_24
+  - first:
+      213: 2992206994105089005
+    second: banco_madeira_25
+  - first:
+      213: -7296296590232264352
+    second: banco_madeira_26
+  - first:
+      213: -566000514415672215
+    second: banco_madeira_27
+  - first:
+      213: -2254022097278128385
+    second: banco_madeira_28
+  - first:
+      213: -996211068285652046
+    second: banco_madeira_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: banco_madeira_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 295
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eba618777d9c3270800000000000000
+      internalID: 8231627355367844837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 284
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d64332656bcf7b0800000000000000
+      internalID: -5189072189563572878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584f1a97f7cd75660800000000000000
+      internalID: 7374605354902090885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 253
+        width: 163
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044b5d475f4835a30800000000000000
+      internalID: 4202849067028821056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 287
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84b5cf75f4cb70c0800000000000000
+      internalID: -4576848037602282357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 229
+        width: 161
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22e3278a9c24e440800000000000000
+      internalID: 4964141731472990764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 158
+        width: 33
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a133d47fac6bd0e30800000000000000
+      internalID: 4471430987897451290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 260
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9addf559a69a18e40800000000000000
+      internalID: 5656988882191769001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 247
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3affe5ddb95c2b6a0800000000000000
+      internalID: -6434863644334424157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b877058d15b29a4f0800000000000000
+      internalID: -817074226869536885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 188
+        width: 197
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f731c96922a9af0800000000000000
+      internalID: -388960387555164303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 228
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b5dd3d6f20d53a0800000000000000
+      internalID: -6675175813553497249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88074d79ae8a58ae0800000000000000
+      internalID: -1547645171408801656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 130
+        width: 211
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d826c9a84dee7b40800000000000000
+      internalID: 5440046296251902161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 111
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76190330cdca6600800000000000000
+      internalID: 462408137132545663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 290
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8265bce75e9b90800000000000000
+      internalID: -7233247277343404830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0427875fdf9dd340800000000000000
+      internalID: 4890240551989224460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ed362791f757a80800000000000000
+      internalID: -8469723776930292080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 5
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716ff458ecf76e6b0800000000000000
+      internalID: -5267382189186615785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2530872a42a491720800000000000000
+      internalID: 2817364563102008146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_20
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 102
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139ab38188f9da0f0800000000000000
+      internalID: -1104050926764971727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 5
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfa10a85b41aa040800000000000000
+      internalID: 4659559534405201872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_22
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fe2863ac3802070800000000000000
+      internalID: 8079602636023852880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d923114f7d7c1130800000000000000
+      internalID: 3538841392712460760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69e78215609f5160800000000000000
+      internalID: 7016485508243515758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debb2126864768920800000000000000
+      internalID: 2992206994105089005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ef4b98e85eba90800000000000000
+      internalID: -7296296590232264352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964c09be7892528f0800000000000000
+      internalID: -566000514415672215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe2bd748da18b0e0800000000000000
+      internalID: -2254022097278128385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banco_madeira_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b37581cf4fbc22f0800000000000000
+      internalID: -996211068285652046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      banco_madeira_0: 8231627355367844837
+      banco_madeira_1: -5189072189563572878
+      banco_madeira_10: -388960387555164303
+      banco_madeira_11: -6675175813553497249
+      banco_madeira_12: -1547645171408801656
+      banco_madeira_13: 5440046296251902161
+      banco_madeira_14: 462408137132545663
+      banco_madeira_15: -7233247277343404830
+      banco_madeira_16: 4890240551989224460
+      banco_madeira_17: -8469723776930292080
+      banco_madeira_18: -5267382189186615785
+      banco_madeira_19: 2817364563102008146
+      banco_madeira_2: 7374605354902090885
+      banco_madeira_20: -1104050926764971727
+      banco_madeira_21: 4659559534405201872
+      banco_madeira_22: 8079602636023852880
+      banco_madeira_23: 3538841392712460760
+      banco_madeira_24: 7016485508243515758
+      banco_madeira_25: 2992206994105089005
+      banco_madeira_26: -7296296590232264352
+      banco_madeira_27: -566000514415672215
+      banco_madeira_28: -2254022097278128385
+      banco_madeira_29: -996211068285652046
+      banco_madeira_3: 4202849067028821056
+      banco_madeira_4: -4576848037602282357
+      banco_madeira_5: 4964141731472990764
+      banco_madeira_6: 4471430987897451290
+      banco_madeira_7: 5656988882191769001
+      banco_madeira_8: -6434863644334424157
+      banco_madeira_9: -817074226869536885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

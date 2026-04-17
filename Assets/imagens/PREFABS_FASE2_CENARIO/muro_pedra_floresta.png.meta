@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: b1796f57b05b7e041ab7b865e77384a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4865463793245153247
+    second: muro_pedra_floresta_0
+  - first:
+      213: 8034180107499080725
+    second: muro_pedra_floresta_1
+  - first:
+      213: -4628332974359816146
+    second: muro_pedra_floresta_2
+  - first:
+      213: 5308236294612884565
+    second: muro_pedra_floresta_3
+  - first:
+      213: -5362093603744332978
+    second: muro_pedra_floresta_4
+  - first:
+      213: 6903966401880186478
+    second: muro_pedra_floresta_5
+  - first:
+      213: 2246930213093613544
+    second: muro_pedra_floresta_6
+  - first:
+      213: -18341887318643455
+    second: muro_pedra_floresta_7
+  - first:
+      213: 3871611909939748347
+    second: muro_pedra_floresta_8
+  - first:
+      213: 5028500349682554875
+    second: muro_pedra_floresta_9
+  - first:
+      213: -5031987384849252582
+    second: muro_pedra_floresta_10
+  - first:
+      213: -4226191286408568529
+    second: muro_pedra_floresta_11
+  - first:
+      213: 1321944058289067091
+    second: muro_pedra_floresta_12
+  - first:
+      213: 8550282675042280196
+    second: muro_pedra_floresta_13
+  - first:
+      213: 8733084662284545533
+    second: muro_pedra_floresta_14
+  - first:
+      213: 4126463252294031589
+    second: muro_pedra_floresta_15
+  - first:
+      213: 7352173575996459160
+    second: muro_pedra_floresta_16
+  - first:
+      213: 6995874981704787360
+    second: muro_pedra_floresta_17
+  - first:
+      213: -7647737839008745587
+    second: muro_pedra_floresta_18
+  - first:
+      213: 2784934944318469506
+    second: muro_pedra_floresta_19
+  - first:
+      213: 6146896756068186766
+    second: muro_pedra_floresta_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muro_pedra_floresta_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 300
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128191855766a7cb0800000000000000
+      internalID: -4865463793245153247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c0ef8ad342f7f60800000000000000
+      internalID: 8034180107499080725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e285e098eabd4cfb0800000000000000
+      internalID: -4628332974359816146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c9c3429c4aaa940800000000000000
+      internalID: 5308236294612884565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 91
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43cc68e6440695b0800000000000000
+      internalID: -5362093603744332978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6edc4d1dd0dfcf50800000000000000
+      internalID: 6903966401880186478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef9982cf13be2f10800000000000000
+      internalID: 2246930213093613544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 53
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dacd19626debff0800000000000000
+      internalID: -18341887318643455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd5128f48abab530800000000000000
+      internalID: 3871611909939748347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 77
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf791c70d62d8c540800000000000000
+      internalID: 5028500349682554875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 106
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f30d3522aca2ab0800000000000000
+      internalID: -5031987384849252582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 106
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2124c49a6d8955c0800000000000000
+      internalID: -4226191286408568529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 107
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3541247fd1d785210800000000000000
+      internalID: 1321944058289067091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4036217aac4b8a670800000000000000
+      internalID: 8550282675042280196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_14
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 28
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfde1e00b36223970800000000000000
+      internalID: 8733084662284545533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 46
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e850bb0774244930800000000000000
+      internalID: 4126463252294031589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8984844f9ea280660800000000000000
+      internalID: 7352173575996459160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 107
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a56e89ea37561160800000000000000
+      internalID: 6995874981704787360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 55
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87f19274f6cdd590800000000000000
+      internalID: -7647737839008745587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_19
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285bcae939316a620800000000000000
+      internalID: 2784934944318469506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_floresta_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8af170380a2e4550800000000000000
+      internalID: 6146896756068186766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      muro_pedra_floresta_0: -4865463793245153247
+      muro_pedra_floresta_1: 8034180107499080725
+      muro_pedra_floresta_10: -5031987384849252582
+      muro_pedra_floresta_11: -4226191286408568529
+      muro_pedra_floresta_12: 1321944058289067091
+      muro_pedra_floresta_13: 8550282675042280196
+      muro_pedra_floresta_14: 8733084662284545533
+      muro_pedra_floresta_15: 4126463252294031589
+      muro_pedra_floresta_16: 7352173575996459160
+      muro_pedra_floresta_17: 6995874981704787360
+      muro_pedra_floresta_18: -7647737839008745587
+      muro_pedra_floresta_19: 2784934944318469506
+      muro_pedra_floresta_2: -4628332974359816146
+      muro_pedra_floresta_20: 6146896756068186766
+      muro_pedra_floresta_3: 5308236294612884565
+      muro_pedra_floresta_4: -5362093603744332978
+      muro_pedra_floresta_5: 6903966401880186478
+      muro_pedra_floresta_6: 2246930213093613544
+      muro_pedra_floresta_7: -18341887318643455
+      muro_pedra_floresta_8: 3871611909939748347
+      muro_pedra_floresta_9: 5028500349682554875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

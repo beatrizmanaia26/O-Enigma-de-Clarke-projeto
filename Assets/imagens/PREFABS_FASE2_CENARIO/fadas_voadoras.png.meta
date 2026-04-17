@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 00a5563c6703a5d4f8c70d3a47045da1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8200402441632704872
+    second: fadas_voadoras_0
+  - first:
+      213: 5973489656333478733
+    second: fadas_voadoras_1
+  - first:
+      213: 6747584272812777222
+    second: fadas_voadoras_2
+  - first:
+      213: 6623423835296136702
+    second: fadas_voadoras_3
+  - first:
+      213: 2376248434948609472
+    second: fadas_voadoras_4
+  - first:
+      213: -3079023740806309544
+    second: fadas_voadoras_5
+  - first:
+      213: -7915900446156338536
+    second: fadas_voadoras_6
+  - first:
+      213: -4986646009742033361
+    second: fadas_voadoras_7
+  - first:
+      213: -7391950875300899878
+    second: fadas_voadoras_8
+  - first:
+      213: 2452436848097362947
+    second: fadas_voadoras_9
+  - first:
+      213: -7972247421816002075
+    second: fadas_voadoras_10
+  - first:
+      213: -973058650603333943
+    second: fadas_voadoras_11
+  - first:
+      213: -4478078296099664548
+    second: fadas_voadoras_12
+  - first:
+      213: 2553666565784896978
+    second: fadas_voadoras_13
+  - first:
+      213: 465257672643392995
+    second: fadas_voadoras_14
+  - first:
+      213: -7511900693945914543
+    second: fadas_voadoras_15
+  - first:
+      213: -4828461286621799648
+    second: fadas_voadoras_16
+  - first:
+      213: 8008717576279837890
+    second: fadas_voadoras_17
+  - first:
+      213: 2497668563221406875
+    second: fadas_voadoras_18
+  - first:
+      213: 1529255039638737406
+    second: fadas_voadoras_19
+  - first:
+      213: -1517694142811684309
+    second: fadas_voadoras_20
+  - first:
+      213: 6733575141782175860
+    second: fadas_voadoras_21
+  - first:
+      213: -2775294321614300889
+    second: fadas_voadoras_22
+  - first:
+      213: 3941773521162318931
+    second: fadas_voadoras_23
+  - first:
+      213: 3177827391697142066
+    second: fadas_voadoras_24
+  - first:
+      213: -768956223095503366
+    second: fadas_voadoras_25
+  - first:
+      213: -175553001525507710
+    second: fadas_voadoras_26
+  - first:
+      213: 5351287210740468928
+    second: fadas_voadoras_27
+  - first:
+      213: -3174496818677737760
+    second: fadas_voadoras_28
+  - first:
+      213: 5762295763304057540
+    second: fadas_voadoras_29
+  - first:
+      213: 3821707024193333122
+    second: fadas_voadoras_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fadas_voadoras_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 126
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8969c3b4d61523e80800000000000000
+      internalID: -8200402441632704872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 295
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b2a3b813916e250800000000000000
+      internalID: 5973489656333478733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 300
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f9409552c34ad50800000000000000
+      internalID: 6747584272812777222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 282
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd7ea3c2e02beb50800000000000000
+      internalID: 6623423835296136702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 254
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c590379c512af020800000000000000
+      internalID: 2376248434948609472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 199
+        width: 155
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859de3a983c1545d0800000000000000
+      internalID: -3079023740806309544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 283
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ace750c72152290800000000000000
+      internalID: -7915900446156338536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 244
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ef4b0efdfdbcab0800000000000000
+      internalID: -4986646009742033361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 236
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad35d88d7d38a6990800000000000000
+      internalID: -7391950875300899878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 249
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3040cecd15ec80220800000000000000
+      internalID: 2452436848097362947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 151
+        width: 100
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e922296533ec5190800000000000000
+      internalID: -7972247421816002075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 229
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6da2110500f72f0800000000000000
+      internalID: -973058650603333943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 224
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dc79cf38baad1c0800000000000000
+      internalID: -4478078296099664548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 229
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d586603632707320800000000000000
+      internalID: 2553666565784896978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 230
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e53fe2636de47600800000000000000
+      internalID: 465257672643392995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 229
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15be75d5e1e50c790800000000000000
+      internalID: -7511900693945914543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 227
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b9e27ca0cddfcb0800000000000000
+      internalID: -4828461286621799648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 165
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc4690243ea42f60800000000000000
+      internalID: 8008717576279837890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_18
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 213
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94e875335089a220800000000000000
+      internalID: 2497668563221406875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 187
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef194a03b51093510800000000000000
+      internalID: 1529255039638737406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 167
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22c40cd73110fae0800000000000000
+      internalID: -1517694142811684309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 152
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470c35a5ae6727d50800000000000000
+      internalID: 6733575141782175860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 146
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7295505c48c2c79d0800000000000000
+      internalID: -2775294321614300889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 132
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354bbe1122ef3b630800000000000000
+      internalID: 3941773521162318931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 48
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2314d970d29e91c20800000000000000
+      internalID: 3177827391697142066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 135
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af50192a36e1455f0800000000000000
+      internalID: -768956223095503366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28981d8a97f409df0800000000000000
+      internalID: -175553001525507710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccc647ad57934a40800000000000000
+      internalID: 5351287210740468928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 61
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e61b1e66fbe1f3d0800000000000000
+      internalID: -3174496818677737760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 70
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca0a7e7779c7ff40800000000000000
+      internalID: 5762295763304057540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadas_voadoras_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287a8ac4a4e690530800000000000000
+      internalID: 3821707024193333122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fadas_voadoras_0: -8200402441632704872
+      fadas_voadoras_1: 5973489656333478733
+      fadas_voadoras_10: -7972247421816002075
+      fadas_voadoras_11: -973058650603333943
+      fadas_voadoras_12: -4478078296099664548
+      fadas_voadoras_13: 2553666565784896978
+      fadas_voadoras_14: 465257672643392995
+      fadas_voadoras_15: -7511900693945914543
+      fadas_voadoras_16: -4828461286621799648
+      fadas_voadoras_17: 8008717576279837890
+      fadas_voadoras_18: 2497668563221406875
+      fadas_voadoras_19: 1529255039638737406
+      fadas_voadoras_2: 6747584272812777222
+      fadas_voadoras_20: -1517694142811684309
+      fadas_voadoras_21: 6733575141782175860
+      fadas_voadoras_22: -2775294321614300889
+      fadas_voadoras_23: 3941773521162318931
+      fadas_voadoras_24: 3177827391697142066
+      fadas_voadoras_25: -768956223095503366
+      fadas_voadoras_26: -175553001525507710
+      fadas_voadoras_27: 5351287210740468928
+      fadas_voadoras_28: -3174496818677737760
+      fadas_voadoras_29: 5762295763304057540
+      fadas_voadoras_3: 6623423835296136702
+      fadas_voadoras_30: 3821707024193333122
+      fadas_voadoras_4: 2376248434948609472
+      fadas_voadoras_5: -3079023740806309544
+      fadas_voadoras_6: -7915900446156338536
+      fadas_voadoras_7: -4986646009742033361
+      fadas_voadoras_8: -7391950875300899878
+      fadas_voadoras_9: 2452436848097362947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

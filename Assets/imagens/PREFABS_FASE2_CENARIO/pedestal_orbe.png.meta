@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 34ec827e80be15e48ab689a751a03e45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8176439651652452956
+    second: pedestal_orbe_0
+  - first:
+      213: 6825224794357683730
+    second: pedestal_orbe_1
+  - first:
+      213: -2051878250459522610
+    second: pedestal_orbe_2
+  - first:
+      213: -6306938812527608554
+    second: pedestal_orbe_3
+  - first:
+      213: 7002191050066234172
+    second: pedestal_orbe_4
+  - first:
+      213: -3554939874009578996
+    second: pedestal_orbe_5
+  - first:
+      213: 2103226754128699163
+    second: pedestal_orbe_6
+  - first:
+      213: 4015632813285477831
+    second: pedestal_orbe_7
+  - first:
+      213: -1640656824765023315
+    second: pedestal_orbe_8
+  - first:
+      213: -5521250026273146689
+    second: pedestal_orbe_9
+  - first:
+      213: -5811812111651720039
+    second: pedestal_orbe_10
+  - first:
+      213: 7769403424844191133
+    second: pedestal_orbe_11
+  - first:
+      213: -493430042252382770
+    second: pedestal_orbe_12
+  - first:
+      213: 3811899638838088273
+    second: pedestal_orbe_13
+  - first:
+      213: -9155452440950874183
+    second: pedestal_orbe_14
+  - first:
+      213: 4602813742910779893
+    second: pedestal_orbe_15
+  - first:
+      213: 6410673259892393682
+    second: pedestal_orbe_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedestal_orbe_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 268
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad36db1573778e80800000000000000
+      internalID: -8176439651652452956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216d0e3f9c118be50800000000000000
+      internalID: 6825224794357683730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 238
+        width: 39
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9920f3a934683e0800000000000000
+      internalID: -2051878250459522610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 145
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dfa2bc0904978a0800000000000000
+      internalID: -6306938812527608554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 163
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b0e9c29a7cc2160800000000000000
+      internalID: 7002191050066234172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0289cbf4015aaec0800000000000000
+      internalID: -3554939874009578996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 133
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f50f9e699203d10800000000000000
+      internalID: 2103226754128699163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd884894c46ab730800000000000000
+      internalID: 4015632813285477831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 122
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab7f897f473b39e0800000000000000
+      internalID: -1640656824765023315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb87fdb9a549063b0800000000000000
+      internalID: -5521250026273146689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 98
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994bfaf3dab485fa0800000000000000
+      internalID: -5811812111651720039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 98
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d959a86304772db60800000000000000
+      internalID: 7769403424844191133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd6a0aadfbf629f0800000000000000
+      internalID: -493430042252382770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 136
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1525264768696e430800000000000000
+      internalID: 3811899638838088273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 52
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfd32b338c41f080800000000000000
+      internalID: -9155452440950874183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1bb7166ba70ef30800000000000000
+      internalID: 4602813742910779893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedestal_orbe_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 11
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d64bfa5d5947f850800000000000000
+      internalID: 6410673259892393682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedestal_orbe_0: -8176439651652452956
+      pedestal_orbe_1: 6825224794357683730
+      pedestal_orbe_10: -5811812111651720039
+      pedestal_orbe_11: 7769403424844191133
+      pedestal_orbe_12: -493430042252382770
+      pedestal_orbe_13: 3811899638838088273
+      pedestal_orbe_14: -9155452440950874183
+      pedestal_orbe_15: 4602813742910779893
+      pedestal_orbe_16: 6410673259892393682
+      pedestal_orbe_2: -2051878250459522610
+      pedestal_orbe_3: -6306938812527608554
+      pedestal_orbe_4: 7002191050066234172
+      pedestal_orbe_5: -3554939874009578996
+      pedestal_orbe_6: 2103226754128699163
+      pedestal_orbe_7: 4015632813285477831
+      pedestal_orbe_8: -1640656824765023315
+      pedestal_orbe_9: -5521250026273146689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

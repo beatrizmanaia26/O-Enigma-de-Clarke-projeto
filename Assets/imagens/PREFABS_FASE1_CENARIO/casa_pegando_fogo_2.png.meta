@@ -1,0 +1,1430 @@
+fileFormatVersion: 2
+guid: 0c20201b9ba435d41afce561b314bbd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6913003056048913317
+    second: casa_pegando_fogo_2_0
+  - first:
+      213: 8249548769020462087
+    second: casa_pegando_fogo_2_1
+  - first:
+      213: 7065612040590559456
+    second: casa_pegando_fogo_2_2
+  - first:
+      213: -5091399505884443134
+    second: casa_pegando_fogo_2_3
+  - first:
+      213: 8664138663604330505
+    second: casa_pegando_fogo_2_4
+  - first:
+      213: 1720841737534926646
+    second: casa_pegando_fogo_2_5
+  - first:
+      213: 996706986166026285
+    second: casa_pegando_fogo_2_6
+  - first:
+      213: 6736499470494412623
+    second: casa_pegando_fogo_2_7
+  - first:
+      213: 1534416376876733281
+    second: casa_pegando_fogo_2_8
+  - first:
+      213: 8352102677845528308
+    second: casa_pegando_fogo_2_9
+  - first:
+      213: -7174739872816195055
+    second: casa_pegando_fogo_2_10
+  - first:
+      213: -6633311443768087876
+    second: casa_pegando_fogo_2_11
+  - first:
+      213: -6222642993284174343
+    second: casa_pegando_fogo_2_12
+  - first:
+      213: 6280136351032163811
+    second: casa_pegando_fogo_2_13
+  - first:
+      213: 2602938490728280559
+    second: casa_pegando_fogo_2_14
+  - first:
+      213: 382182955316430321
+    second: casa_pegando_fogo_2_15
+  - first:
+      213: 8423123389680647753
+    second: casa_pegando_fogo_2_16
+  - first:
+      213: 6614614834542252100
+    second: casa_pegando_fogo_2_17
+  - first:
+      213: 1437366680128333710
+    second: casa_pegando_fogo_2_18
+  - first:
+      213: -4965602613301249004
+    second: casa_pegando_fogo_2_19
+  - first:
+      213: 1678077421392698527
+    second: casa_pegando_fogo_2_20
+  - first:
+      213: -7349033596813699217
+    second: casa_pegando_fogo_2_21
+  - first:
+      213: -8396529104640463267
+    second: casa_pegando_fogo_2_22
+  - first:
+      213: -6917204369850990610
+    second: casa_pegando_fogo_2_23
+  - first:
+      213: 7395336491649513244
+    second: casa_pegando_fogo_2_24
+  - first:
+      213: 3668213398657336435
+    second: casa_pegando_fogo_2_25
+  - first:
+      213: -2200098584521494588
+    second: casa_pegando_fogo_2_26
+  - first:
+      213: 512253081060115648
+    second: casa_pegando_fogo_2_27
+  - first:
+      213: -4493409212831507910
+    second: casa_pegando_fogo_2_28
+  - first:
+      213: -3683821475914587105
+    second: casa_pegando_fogo_2_29
+  - first:
+      213: -5243023393310255578
+    second: casa_pegando_fogo_2_30
+  - first:
+      213: 9192045486312044177
+    second: casa_pegando_fogo_2_31
+  - first:
+      213: -5816233737035432687
+    second: casa_pegando_fogo_2_32
+  - first:
+      213: -4571986402715102217
+    second: casa_pegando_fogo_2_33
+  - first:
+      213: -8262055440215034265
+    second: casa_pegando_fogo_2_34
+  - first:
+      213: 3293201352145303786
+    second: casa_pegando_fogo_2_35
+  - first:
+      213: -5942764203222858053
+    second: casa_pegando_fogo_2_36
+  - first:
+      213: -5289419232867386316
+    second: casa_pegando_fogo_2_37
+  - first:
+      213: 6235738759529835280
+    second: casa_pegando_fogo_2_38
+  - first:
+      213: 3400450676325837350
+    second: casa_pegando_fogo_2_39
+  - first:
+      213: -6939628142984423395
+    second: casa_pegando_fogo_2_40
+  - first:
+      213: -1309305906910222442
+    second: casa_pegando_fogo_2_41
+  - first:
+      213: 3363461765832403647
+    second: casa_pegando_fogo_2_42
+  - first:
+      213: -5199165750527965038
+    second: casa_pegando_fogo_2_43
+  - first:
+      213: 1234865804220923637
+    second: casa_pegando_fogo_2_44
+  - first:
+      213: -3398543374650009631
+    second: casa_pegando_fogo_2_45
+  - first:
+      213: 3186209141284280480
+    second: casa_pegando_fogo_2_46
+  - first:
+      213: -8735947880414227511
+    second: casa_pegando_fogo_2_47
+  - first:
+      213: -3580706741011523537
+    second: casa_pegando_fogo_2_48
+  - first:
+      213: 8586956853748093639
+    second: casa_pegando_fogo_2_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54c301e8541010a0800000000000000
+      internalID: -6913003056048913317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 405
+        width: 79
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704c9beb5e84c7270800000000000000
+      internalID: 8249548769020462087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 364
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e88f1837b81e0260800000000000000
+      internalID: 7065612040590559456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 344
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e8822ff17b759b0800000000000000
+      internalID: -5091399505884443134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 408
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9002dd0c5343d3870800000000000000
+      internalID: 8664138663604330505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 327
+        width: 111
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f6f606178a1e710800000000000000
+      internalID: 1720841737534926646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20839f19b305dd00800000000000000
+      internalID: 996706986166026285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 378
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f2d60b39adc7d50800000000000000
+      internalID: 6736499470494412623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 371
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1639749a0975b4510800000000000000
+      internalID: 1534416376876733281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 379
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe42985221a8e370800000000000000
+      internalID: 8352102677845528308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 380
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a95fc59143e6c90800000000000000
+      internalID: -7174739872816195055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 377
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba6badf26eb1f3a0800000000000000
+      internalID: -6633311443768087876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd2935aa2bb4a9a0800000000000000
+      internalID: -6222642993284174343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 367
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed3a48dcb6872750800000000000000
+      internalID: 6280136351032163811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1fc0034ce7f1420800000000000000
+      internalID: 2602938490728280559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 369
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f548da7f59cd4500800000000000000
+      internalID: 382182955316430321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 368
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ef2356812f4e470800000000000000
+      internalID: 8423123389680647753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 362
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4409be27525dbcb50800000000000000
+      internalID: 6614614834542252100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 368
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87280d416d82f310800000000000000
+      internalID: 1437366680128333710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c7d6a6bb2a61bb0800000000000000
+      internalID: -4965602613301249004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 367
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c17bf168ab94710800000000000000
+      internalID: 1678077421392698527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 368
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67128b61ecf20a90800000000000000
+      internalID: -7349033596813699217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 341
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e2dab1449897b80800000000000000
+      internalID: -8396529104640463267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 325
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef704846472100a0800000000000000
+      internalID: -6917204369850990610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 148
+        width: 150
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17b0436b5381a660800000000000000
+      internalID: 7395336491649513244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_25
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 332
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3748c4ba6ac18e230800000000000000
+      internalID: 3668213398657336435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 319
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfa1c67efda771e0800000000000000
+      internalID: -2200098584521494588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_27
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 53
+        width: 195
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c400b39673eb1700800000000000000
+      internalID: 512253081060115648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 301
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ad5b6c02434a1c0800000000000000
+      internalID: -4493409212831507910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_29
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 291
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14e728a2ef60ecc0800000000000000
+      internalID: -3683821475914587105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626dda4a00a0d37b0800000000000000
+      internalID: -5243023393310255578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 46
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196bcd21ba4b09f70800000000000000
+      internalID: 9192045486312044177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 135
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d3c5d5b36984fa0800000000000000
+      internalID: -5816233737035432687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 137
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f31044179a0d80c0800000000000000
+      internalID: -4571986402715102217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 137
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7663663f958475d80800000000000000
+      internalID: -8262055440215034265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_35
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 140
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8f4708e2dc3bd20800000000000000
+      internalID: 3293201352145303786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 263
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb68efa717f078da0800000000000000
+      internalID: -5942764203222858053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 129
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cf1d47b353896b0800000000000000
+      internalID: -5289419232867386316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 131
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b29e90d5bc98650800000000000000
+      internalID: 6235738759529835280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_39
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 85
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a63aeafd3d03f20800000000000000
+      internalID: 3400450676325837350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_40
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 32
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d181c10c8fc71bf90800000000000000
+      internalID: -6939628142984423395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 31
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697ab44f63964dde0800000000000000
+      internalID: -1309305906910222442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba6c08d7aa6dae20800000000000000
+      internalID: 3363461765832403647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 34
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2984767db4ad8d7b0800000000000000
+      internalID: -5199165750527965038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 23
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe7dd508ef132110800000000000000
+      internalID: 1234865804220923637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e79a389ec2f5d0d0800000000000000
+      internalID: -3398543374650009631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_46
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 15
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a81a5e2550b73c20800000000000000
+      internalID: 3186209141284280480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3559310bda3c680800000000000000
+      internalID: -8735947880414227511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_48
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f285921c036ce4ec0800000000000000
+      internalID: -3580706741011523537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_pegando_fogo_2_49
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2d24943cffa2770800000000000000
+      internalID: 8586956853748093639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      casa_pegando_fogo_2_0: -6913003056048913317
+      casa_pegando_fogo_2_1: 8249548769020462087
+      casa_pegando_fogo_2_10: -7174739872816195055
+      casa_pegando_fogo_2_11: -6633311443768087876
+      casa_pegando_fogo_2_12: -6222642993284174343
+      casa_pegando_fogo_2_13: 6280136351032163811
+      casa_pegando_fogo_2_14: 2602938490728280559
+      casa_pegando_fogo_2_15: 382182955316430321
+      casa_pegando_fogo_2_16: 8423123389680647753
+      casa_pegando_fogo_2_17: 6614614834542252100
+      casa_pegando_fogo_2_18: 1437366680128333710
+      casa_pegando_fogo_2_19: -4965602613301249004
+      casa_pegando_fogo_2_2: 7065612040590559456
+      casa_pegando_fogo_2_20: 1678077421392698527
+      casa_pegando_fogo_2_21: -7349033596813699217
+      casa_pegando_fogo_2_22: -8396529104640463267
+      casa_pegando_fogo_2_23: -6917204369850990610
+      casa_pegando_fogo_2_24: 7395336491649513244
+      casa_pegando_fogo_2_25: 3668213398657336435
+      casa_pegando_fogo_2_26: -2200098584521494588
+      casa_pegando_fogo_2_27: 512253081060115648
+      casa_pegando_fogo_2_28: -4493409212831507910
+      casa_pegando_fogo_2_29: -3683821475914587105
+      casa_pegando_fogo_2_3: -5091399505884443134
+      casa_pegando_fogo_2_30: -5243023393310255578
+      casa_pegando_fogo_2_31: 9192045486312044177
+      casa_pegando_fogo_2_32: -5816233737035432687
+      casa_pegando_fogo_2_33: -4571986402715102217
+      casa_pegando_fogo_2_34: -8262055440215034265
+      casa_pegando_fogo_2_35: 3293201352145303786
+      casa_pegando_fogo_2_36: -5942764203222858053
+      casa_pegando_fogo_2_37: -5289419232867386316
+      casa_pegando_fogo_2_38: 6235738759529835280
+      casa_pegando_fogo_2_39: 3400450676325837350
+      casa_pegando_fogo_2_4: 8664138663604330505
+      casa_pegando_fogo_2_40: -6939628142984423395
+      casa_pegando_fogo_2_41: -1309305906910222442
+      casa_pegando_fogo_2_42: 3363461765832403647
+      casa_pegando_fogo_2_43: -5199165750527965038
+      casa_pegando_fogo_2_44: 1234865804220923637
+      casa_pegando_fogo_2_45: -3398543374650009631
+      casa_pegando_fogo_2_46: 3186209141284280480
+      casa_pegando_fogo_2_47: -8735947880414227511
+      casa_pegando_fogo_2_48: -3580706741011523537
+      casa_pegando_fogo_2_49: 8586956853748093639
+      casa_pegando_fogo_2_5: 1720841737534926646
+      casa_pegando_fogo_2_6: 996706986166026285
+      casa_pegando_fogo_2_7: 6736499470494412623
+      casa_pegando_fogo_2_8: 1534416376876733281
+      casa_pegando_fogo_2_9: 8352102677845528308
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

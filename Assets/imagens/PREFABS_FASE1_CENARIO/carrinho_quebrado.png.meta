@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: e583cbe09f52ae34a907167c0f3eedb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3079207922001146064
+    second: carrinho_quebrado_0
+  - first:
+      213: 5951924360736666904
+    second: carrinho_quebrado_1
+  - first:
+      213: 1358989717373992492
+    second: carrinho_quebrado_2
+  - first:
+      213: -567828449032626217
+    second: carrinho_quebrado_3
+  - first:
+      213: -541986510683010826
+    second: carrinho_quebrado_4
+  - first:
+      213: 7950727990929839268
+    second: carrinho_quebrado_5
+  - first:
+      213: -8712654977143432354
+    second: carrinho_quebrado_6
+  - first:
+      213: 273892830928546740
+    second: carrinho_quebrado_7
+  - first:
+      213: -4816751726986590875
+    second: carrinho_quebrado_8
+  - first:
+      213: 1020666341483890304
+    second: carrinho_quebrado_9
+  - first:
+      213: -252397812095488419
+    second: carrinho_quebrado_10
+  - first:
+      213: -2107708529883952451
+    second: carrinho_quebrado_11
+  - first:
+      213: 8518998955944819664
+    second: carrinho_quebrado_12
+  - first:
+      213: 3913168351429265692
+    second: carrinho_quebrado_13
+  - first:
+      213: -7226019912980492240
+    second: carrinho_quebrado_14
+  - first:
+      213: 476666113114578116
+    second: carrinho_quebrado_15
+  - first:
+      213: 1374992746964087244
+    second: carrinho_quebrado_16
+  - first:
+      213: 121522501967580500
+    second: carrinho_quebrado_17
+  - first:
+      213: -4703871899217514472
+    second: carrinho_quebrado_18
+  - first:
+      213: 2880132467240680572
+    second: carrinho_quebrado_19
+  - first:
+      213: -771182301406254126
+    second: carrinho_quebrado_20
+  - first:
+      213: 3690404787298828399
+    second: carrinho_quebrado_21
+  - first:
+      213: -9116876889593620580
+    second: carrinho_quebrado_22
+  - first:
+      213: 1834927043537296901
+    second: carrinho_quebrado_23
+  - first:
+      213: 7777612191061879390
+    second: carrinho_quebrado_24
+  - first:
+      213: -930453754110207050
+    second: carrinho_quebrado_25
+  - first:
+      213: -808940876066199819
+    second: carrinho_quebrado_26
+  - first:
+      213: -189509527133347335
+    second: carrinho_quebrado_27
+  - first:
+      213: -8493444948917489805
+    second: carrinho_quebrado_28
+  - first:
+      213: -7121503817492194377
+    second: carrinho_quebrado_29
+  - first:
+      213: 5703915525947965704
+    second: carrinho_quebrado_30
+  - first:
+      213: -7314407189975640055
+    second: carrinho_quebrado_31
+  - first:
+      213: -5239178539107007898
+    second: carrinho_quebrado_32
+  - first:
+      213: 2267018565757892513
+    second: carrinho_quebrado_33
+  - first:
+      213: -3457873498571369805
+    second: carrinho_quebrado_34
+  - first:
+      213: 4750040924203756788
+    second: carrinho_quebrado_35
+  - first:
+      213: 4512017317612249426
+    second: carrinho_quebrado_36
+  - first:
+      213: 7949114976672989515
+    second: carrinho_quebrado_37
+  - first:
+      213: -3454659991881801677
+    second: carrinho_quebrado_38
+  - first:
+      213: -991418493265534502
+    second: carrinho_quebrado_39
+  - first:
+      213: -7335762695710538473
+    second: carrinho_quebrado_40
+  - first:
+      213: -2655451779814844395
+    second: carrinho_quebrado_41
+  - first:
+      213: -5230499005819568691
+    second: carrinho_quebrado_42
+  - first:
+      213: 1411344477104017835
+    second: carrinho_quebrado_43
+  - first:
+      213: 4907506490073057513
+    second: carrinho_quebrado_44
+  - first:
+      213: 3749599954624655053
+    second: carrinho_quebrado_45
+  - first:
+      213: 1667098959232370070
+    second: carrinho_quebrado_46
+  - first:
+      213: -6816274510524863954
+    second: carrinho_quebrado_47
+  - first:
+      213: 4111376905602676949
+    second: carrinho_quebrado_48
+  - first:
+      213: 6383476960394620584
+    second: carrinho_quebrado_49
+  - first:
+      213: 3473876224693001934
+    second: carrinho_quebrado_50
+  - first:
+      213: 1473669265265853375
+    second: carrinho_quebrado_51
+  - first:
+      213: 7655778019275727889
+    second: carrinho_quebrado_52
+  - first:
+      213: -5722945782641833300
+    second: carrinho_quebrado_53
+  - first:
+      213: 4061295726087188890
+    second: carrinho_quebrado_54
+  - first:
+      213: -8397834507807468282
+    second: carrinho_quebrado_55
+  - first:
+      213: -6627977467320219359
+    second: carrinho_quebrado_56
+  - first:
+      213: -6897381121721078216
+    second: carrinho_quebrado_57
+  - first:
+      213: -607090249770149670
+    second: carrinho_quebrado_58
+  - first:
+      213: -2562593354466984762
+    second: carrinho_quebrado_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: carrinho_quebrado_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 333
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0727c6a4b8bba20800000000000000
+      internalID: 3079207922001146064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 335
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815f3b3ebab799250800000000000000
+      internalID: 5951924360736666904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 328
+        width: 73
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e3c7d92f91cd210800000000000000
+      internalID: 1358989717373992492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 325
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df9c0ab80bae18f0800000000000000
+      internalID: -567828449032626217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 335
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f88fadd32a7a78f0800000000000000
+      internalID: -541986510683010826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 325
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4d025abf8a65e60800000000000000
+      internalID: 7950727990929839268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 325
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b93dcb57e661780800000000000000
+      internalID: -8712654977143432354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 324
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bba50e14101dc300800000000000000
+      internalID: 273892830928546740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 217
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56507b513d5772db0800000000000000
+      internalID: -4816751726986590875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 227
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086485e31a22a2e00800000000000000
+      internalID: 1020666341483890304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 250
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e66f3f68d4f7cf0800000000000000
+      internalID: -252397812095488419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 241
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac43a524aefb2e0800000000000000
+      internalID: -2107708529883952451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 226
+        width: 83
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbb3033a60993670800000000000000
+      internalID: 8518998955944819664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 135
+        width: 163
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c190e3df1ed5e4630800000000000000
+      internalID: 3913168351429265692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_14
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 219
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03016ea9c2508bb90800000000000000
+      internalID: -7226019912980492240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 197
+        width: 124
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc19aced457d9600800000000000000
+      internalID: 476666113114578116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 221
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1788b4e94f41310800000000000000
+      internalID: 1374992746964087244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 222
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d8ef9521cbfa100800000000000000
+      internalID: 121522501967580500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 218
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810b23a0e6d78beb0800000000000000
+      internalID: -4703871899217514472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 177
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c33f7283948f720800000000000000
+      internalID: 2880132467240680572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 185
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbac9368c53c45f0800000000000000
+      internalID: -771182301406254126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 177
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f600958f993f63330800000000000000
+      internalID: 3690404787298828399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 164
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ddcea5c85a7180800000000000000
+      internalID: -9116876889593620580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 181
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e5cca9c68f67910800000000000000
+      internalID: 1834927043537296901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 111
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aadf88411afeb60800000000000000
+      internalID: 7777612191061879390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 180
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb155a8d3d5613f0800000000000000
+      internalID: -930453754110207050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6e7c52f8016c4f0800000000000000
+      internalID: -808940876066199819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 118
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f12aa1d61abe5df0800000000000000
+      internalID: -189509527133347335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 169
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fef64b1d8312a80800000000000000
+      internalID: -8493444948917489805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 144
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb1ac362065b2d90800000000000000
+      internalID: -7121503817492194377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_30
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 134
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801c6f043f0682f40800000000000000
+      internalID: 5703915525947965704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 108
+        width: 86
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90850f20a610e7a90800000000000000
+      internalID: -7314407189975640055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 120
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6624da580e2ba47b0800000000000000
+      internalID: -5239178539107007898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 125
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7f637df51167f10800000000000000
+      internalID: 2267018565757892513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 110
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b29a67af5a2300d0800000000000000
+      internalID: -3457873498571369805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_35
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 120
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcabb3cd098be140800000000000000
+      internalID: 4750040924203756788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 113
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25160bc38d7ed9e30800000000000000
+      internalID: 4512017317612249426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_37
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 116
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41c45f74fde05e60800000000000000
+      internalID: 7949114976672989515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 118
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330a12c7a059e00d0800000000000000
+      internalID: -3454659991881801677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 110
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1a7251226cd32f0800000000000000
+      internalID: -991418493265534502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 106
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7158c9dd1b2223a90800000000000000
+      internalID: -7335762695710538473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 107
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51815f9eca0f52bd0800000000000000
+      internalID: -2655451779814844395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 14
+        width: 329
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd3718ddd88967b0800000000000000
+      internalID: -5230499005819568691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 66
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba19e75035a169310800000000000000
+      internalID: 1411344477104017835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 72
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e88ab1d627fa1440800000000000000
+      internalID: 4907506490073057513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce2931ea41490430800000000000000
+      internalID: 3749599954624655053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6950876bba9b22710800000000000000
+      internalID: 1667098959232370070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_47
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aad94627ab761a0800000000000000
+      internalID: -6816274510524863954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_48
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8313c338b8e0930800000000000000
+      internalID: 4111376905602676949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_49
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 3
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae2630797aa69850800000000000000
+      internalID: 6383476960394620584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_50
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece508e5500b53030800000000000000
+      internalID: 3473876224693001934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_51
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 12
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb305909366837410800000000000000
+      internalID: 1473669265265853375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_52
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1146c26eb89ce3a60800000000000000
+      internalID: 7655778019275727889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_53
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa40d4d1230490b0800000000000000
+      internalID: -5722945782641833300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_54
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 4
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a913d39f1fe9c5830800000000000000
+      internalID: 4061295726087188890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_55
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6055e9f3206e47b80800000000000000
+      internalID: -8397834507807468282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129c5192c91b404a0800000000000000
+      internalID: -6627977467320219359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_57
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e6457e9649740a0800000000000000
+      internalID: -6897381121721078216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_58
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8d8d362ae2397f0800000000000000
+      internalID: -607090249770149670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carrinho_quebrado_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccf73bdbe6df6cd0800000000000000
+      internalID: -2562593354466984762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      carrinho_quebrado_0: 3079207922001146064
+      carrinho_quebrado_1: 5951924360736666904
+      carrinho_quebrado_10: -252397812095488419
+      carrinho_quebrado_11: -2107708529883952451
+      carrinho_quebrado_12: 8518998955944819664
+      carrinho_quebrado_13: 3913168351429265692
+      carrinho_quebrado_14: -7226019912980492240
+      carrinho_quebrado_15: 476666113114578116
+      carrinho_quebrado_16: 1374992746964087244
+      carrinho_quebrado_17: 121522501967580500
+      carrinho_quebrado_18: -4703871899217514472
+      carrinho_quebrado_19: 2880132467240680572
+      carrinho_quebrado_2: 1358989717373992492
+      carrinho_quebrado_20: -771182301406254126
+      carrinho_quebrado_21: 3690404787298828399
+      carrinho_quebrado_22: -9116876889593620580
+      carrinho_quebrado_23: 1834927043537296901
+      carrinho_quebrado_24: 7777612191061879390
+      carrinho_quebrado_25: -930453754110207050
+      carrinho_quebrado_26: -808940876066199819
+      carrinho_quebrado_27: -189509527133347335
+      carrinho_quebrado_28: -8493444948917489805
+      carrinho_quebrado_29: -7121503817492194377
+      carrinho_quebrado_3: -567828449032626217
+      carrinho_quebrado_30: 5703915525947965704
+      carrinho_quebrado_31: -7314407189975640055
+      carrinho_quebrado_32: -5239178539107007898
+      carrinho_quebrado_33: 2267018565757892513
+      carrinho_quebrado_34: -3457873498571369805
+      carrinho_quebrado_35: 4750040924203756788
+      carrinho_quebrado_36: 4512017317612249426
+      carrinho_quebrado_37: 7949114976672989515
+      carrinho_quebrado_38: -3454659991881801677
+      carrinho_quebrado_39: -991418493265534502
+      carrinho_quebrado_4: -541986510683010826
+      carrinho_quebrado_40: -7335762695710538473
+      carrinho_quebrado_41: -2655451779814844395
+      carrinho_quebrado_42: -5230499005819568691
+      carrinho_quebrado_43: 1411344477104017835
+      carrinho_quebrado_44: 4907506490073057513
+      carrinho_quebrado_45: 3749599954624655053
+      carrinho_quebrado_46: 1667098959232370070
+      carrinho_quebrado_47: -6816274510524863954
+      carrinho_quebrado_48: 4111376905602676949
+      carrinho_quebrado_49: 6383476960394620584
+      carrinho_quebrado_5: 7950727990929839268
+      carrinho_quebrado_50: 3473876224693001934
+      carrinho_quebrado_51: 1473669265265853375
+      carrinho_quebrado_52: 7655778019275727889
+      carrinho_quebrado_53: -5722945782641833300
+      carrinho_quebrado_54: 4061295726087188890
+      carrinho_quebrado_55: -8397834507807468282
+      carrinho_quebrado_56: -6627977467320219359
+      carrinho_quebrado_57: -6897381121721078216
+      carrinho_quebrado_58: -607090249770149670
+      carrinho_quebrado_59: -2562593354466984762
+      carrinho_quebrado_6: -8712654977143432354
+      carrinho_quebrado_7: 273892830928546740
+      carrinho_quebrado_8: -4816751726986590875
+      carrinho_quebrado_9: 1020666341483890304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

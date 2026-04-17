@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 76b7d87bf3dfe0d4e8ec98d59b5e579a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3282085330497029547
+    second: placa_madeira_0
+  - first:
+      213: 1977612952362294566
+    second: placa_madeira_1
+  - first:
+      213: 3703251216901872588
+    second: placa_madeira_2
+  - first:
+      213: 1469851485140571340
+    second: placa_madeira_3
+  - first:
+      213: -2933382910608930584
+    second: placa_madeira_4
+  - first:
+      213: -5916665570494045776
+    second: placa_madeira_5
+  - first:
+      213: -7419248442465835010
+    second: placa_madeira_6
+  - first:
+      213: -4347706490591881906
+    second: placa_madeira_7
+  - first:
+      213: 1948737667141709762
+    second: placa_madeira_8
+  - first:
+      213: -5548537264639827382
+    second: placa_madeira_9
+  - first:
+      213: -5932951569290633856
+    second: placa_madeira_10
+  - first:
+      213: -2337106315329846710
+    second: placa_madeira_11
+  - first:
+      213: -2520042359902492185
+    second: placa_madeira_12
+  - first:
+      213: 6664580831563244376
+    second: placa_madeira_13
+  - first:
+      213: 3784107274361646063
+    second: placa_madeira_14
+  - first:
+      213: 3860105650174310100
+    second: placa_madeira_15
+  - first:
+      213: -4920632291145622344
+    second: placa_madeira_16
+  - first:
+      213: 4086847666446907523
+    second: placa_madeira_17
+  - first:
+      213: 4002804128614410369
+    second: placa_madeira_18
+  - first:
+      213: 6746904176505501995
+    second: placa_madeira_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: placa_madeira_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 123
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a3439f7c0b372d0800000000000000
+      internalID: -3282085330497029547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 124
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d14c89084e17b10800000000000000
+      internalID: 1977612952362294566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb18717c57946330800000000000000
+      internalID: 3703251216901872588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4526c5326f56410800000000000000
+      internalID: 1469851485140571340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 77
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e804f6d8c78a47d0800000000000000
+      internalID: -2933382910608930584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b12befe208c3eda0800000000000000
+      internalID: -5916665570494045776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 65
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef72476b9d8890990800000000000000
+      internalID: -7419248442465835010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 55
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e455c906bf7d9a3c0800000000000000
+      internalID: -4347706490591881906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 31
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfa76a559e4b0b10800000000000000
+      internalID: 1948737667141709762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 55
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42202651c2aff2b0800000000000000
+      internalID: -5548537264639827382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 38
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dd5da5bfbe9ada0800000000000000
+      internalID: -5932951569290633856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a424170503ee09fd0800000000000000
+      internalID: -2337106315329846710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9231f43d2070dd0800000000000000
+      internalID: -2520042359902492185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 19
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8536432b4f85d7c50800000000000000
+      internalID: 6664580831563244376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb2c485489d38430800000000000000
+      internalID: 3784107274361646063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d63e1a13a9d19530800000000000000
+      internalID: 3860105650174310100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcd2f7700766bbb0800000000000000
+      internalID: -4920632291145622344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388b3b1bc4667b830800000000000000
+      internalID: 4086847666446907523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188678fa521dc8730800000000000000
+      internalID: 4002804128614410369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placa_madeira_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29b5361a91d1ad50800000000000000
+      internalID: 6746904176505501995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      placa_madeira_0: -3282085330497029547
+      placa_madeira_1: 1977612952362294566
+      placa_madeira_10: -5932951569290633856
+      placa_madeira_11: -2337106315329846710
+      placa_madeira_12: -2520042359902492185
+      placa_madeira_13: 6664580831563244376
+      placa_madeira_14: 3784107274361646063
+      placa_madeira_15: 3860105650174310100
+      placa_madeira_16: -4920632291145622344
+      placa_madeira_17: 4086847666446907523
+      placa_madeira_18: 4002804128614410369
+      placa_madeira_19: 6746904176505501995
+      placa_madeira_2: 3703251216901872588
+      placa_madeira_3: 1469851485140571340
+      placa_madeira_4: -2933382910608930584
+      placa_madeira_5: -5916665570494045776
+      placa_madeira_6: -7419248442465835010
+      placa_madeira_7: -4347706490591881906
+      placa_madeira_8: 1948737667141709762
+      placa_madeira_9: -5548537264639827382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

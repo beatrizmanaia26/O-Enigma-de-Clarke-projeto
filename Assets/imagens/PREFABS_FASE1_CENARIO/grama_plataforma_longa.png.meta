@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 766264ef24d213b4b9a00edd89cc7dfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2872051305783299079
+    second: grama_plataforma_longa_0
+  - first:
+      213: -1619542925716434229
+    second: grama_plataforma_longa_1
+  - first:
+      213: -8117584288579846191
+    second: grama_plataforma_longa_2
+  - first:
+      213: 4386375479098659472
+    second: grama_plataforma_longa_3
+  - first:
+      213: -7824843118556556242
+    second: grama_plataforma_longa_4
+  - first:
+      213: -4976747896555734640
+    second: grama_plataforma_longa_5
+  - first:
+      213: -4749507842199899241
+    second: grama_plataforma_longa_6
+  - first:
+      213: 8062098528647578491
+    second: grama_plataforma_longa_7
+  - first:
+      213: 8066044117654118112
+    second: grama_plataforma_longa_8
+  - first:
+      213: -7678969380350939464
+    second: grama_plataforma_longa_9
+  - first:
+      213: 7037891982626295360
+    second: grama_plataforma_longa_10
+  - first:
+      213: -6988132324172747302
+    second: grama_plataforma_longa_11
+  - first:
+      213: 8632417058573660692
+    second: grama_plataforma_longa_12
+  - first:
+      213: 6696155433343085247
+    second: grama_plataforma_longa_13
+  - first:
+      213: -6922539661515666754
+    second: grama_plataforma_longa_14
+  - first:
+      213: 1415664505812324256
+    second: grama_plataforma_longa_15
+  - first:
+      213: 5306527540535474936
+    second: grama_plataforma_longa_16
+  - first:
+      213: -719155349817938494
+    second: grama_plataforma_longa_17
+  - first:
+      213: -3076587025505376910
+    second: grama_plataforma_longa_18
+  - first:
+      213: 5234007459004004395
+    second: grama_plataforma_longa_19
+  - first:
+      213: 2689596615085516257
+    second: grama_plataforma_longa_20
+  - first:
+      213: 3773006299785894022
+    second: grama_plataforma_longa_21
+  - first:
+      213: 3750071966077090694
+    second: grama_plataforma_longa_22
+  - first:
+      213: 728407551440287893
+    second: grama_plataforma_longa_23
+  - first:
+      213: 5573767687964792966
+    second: grama_plataforma_longa_24
+  - first:
+      213: -1327971410368681925
+    second: grama_plataforma_longa_25
+  - first:
+      213: 1243665884938039199
+    second: grama_plataforma_longa_26
+  - first:
+      213: -3907226808735901076
+    second: grama_plataforma_longa_27
+  - first:
+      213: 1460744711861963149
+    second: grama_plataforma_longa_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grama_plataforma_longa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c09e122739bd720800000000000000
+      internalID: 2872051305783299079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2dc2e2a4a3689e0800000000000000
+      internalID: -1619542925716434229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dff7ec291c885f80800000000000000
+      internalID: -8117584288579846191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092d82b12498fdc30800000000000000
+      internalID: 4386375479098659472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24d64734a2986390800000000000000
+      internalID: -7824843118556556242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0997f11f72a0feab0800000000000000
+      internalID: -4976747896555734640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7933ebf08cb561eb0800000000000000
+      internalID: -4749507842199899241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 69
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b730d30a5e352ef60800000000000000
+      internalID: 8062098528647578491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee1767a36850ff60800000000000000
+      internalID: 8066044117654118112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bea4139802de6590800000000000000
+      internalID: -7678969380350939464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 6
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e8208487d9ba160800000000000000
+      internalID: 7037891982626295360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add22460daa250f90800000000000000
+      internalID: -6988132324172747302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_12
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4123e4904918cc770800000000000000
+      internalID: 8632417058573660692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba673d83e58dec50800000000000000
+      internalID: 6696155433343085247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 6
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba4ec3ead23eef90800000000000000
+      internalID: -6922539661515666754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_15
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af82161e5375a310800000000000000
+      internalID: 1415664505812324256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 6
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fab174dea294a940800000000000000
+      internalID: 5306527540535474936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_17
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cda7c3050c0506f0800000000000000
+      internalID: -719155349817938494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2752d289664cd45d0800000000000000
+      internalID: -3076587025505376910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_19
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 4
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28bda19d0ee2a840800000000000000
+      internalID: 5234007459004004395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_20
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5e34f0fdd535520800000000000000
+      internalID: 2689596615085516257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6889c0a4d396c5430800000000000000
+      internalID: 3773006299785894022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_22
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bfc2c959eea0430800000000000000
+      internalID: 3750071966077090694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_23
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 6
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5987f4b0fc2db1a00800000000000000
+      internalID: 728407551440287893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68811bd5e200a5d40800000000000000
+      internalID: 5573767687964792966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_25
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38a915c909129de0800000000000000
+      internalID: -1327971410368681925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_26
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 5
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fe00b7883624110800000000000000
+      internalID: 1243665884938039199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_27
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ad9683bedb6c9c0800000000000000
+      internalID: -3907226808735901076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grama_plataforma_longa_28
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 5
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89001a739b954410800000000000000
+      internalID: 1460744711861963149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grama_plataforma_longa_0: 2872051305783299079
+      grama_plataforma_longa_1: -1619542925716434229
+      grama_plataforma_longa_10: 7037891982626295360
+      grama_plataforma_longa_11: -6988132324172747302
+      grama_plataforma_longa_12: 8632417058573660692
+      grama_plataforma_longa_13: 6696155433343085247
+      grama_plataforma_longa_14: -6922539661515666754
+      grama_plataforma_longa_15: 1415664505812324256
+      grama_plataforma_longa_16: 5306527540535474936
+      grama_plataforma_longa_17: -719155349817938494
+      grama_plataforma_longa_18: -3076587025505376910
+      grama_plataforma_longa_19: 5234007459004004395
+      grama_plataforma_longa_2: -8117584288579846191
+      grama_plataforma_longa_20: 2689596615085516257
+      grama_plataforma_longa_21: 3773006299785894022
+      grama_plataforma_longa_22: 3750071966077090694
+      grama_plataforma_longa_23: 728407551440287893
+      grama_plataforma_longa_24: 5573767687964792966
+      grama_plataforma_longa_25: -1327971410368681925
+      grama_plataforma_longa_26: 1243665884938039199
+      grama_plataforma_longa_27: -3907226808735901076
+      grama_plataforma_longa_28: 1460744711861963149
+      grama_plataforma_longa_3: 4386375479098659472
+      grama_plataforma_longa_4: -7824843118556556242
+      grama_plataforma_longa_5: -4976747896555734640
+      grama_plataforma_longa_6: -4749507842199899241
+      grama_plataforma_longa_7: 8062098528647578491
+      grama_plataforma_longa_8: 8066044117654118112
+      grama_plataforma_longa_9: -7678969380350939464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

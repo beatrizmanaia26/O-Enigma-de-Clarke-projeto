@@ -1,0 +1,2496 @@
+fileFormatVersion: 2
+guid: 46d6390836c7f3846854a5244b4ce925
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4497528433269895870
+    second: casa_normal_2_0
+  - first:
+      213: -6818993049066783790
+    second: casa_normal_2_1
+  - first:
+      213: 2128501615339685962
+    second: casa_normal_2_2
+  - first:
+      213: 9209078677944007662
+    second: casa_normal_2_3
+  - first:
+      213: -8213071647607246201
+    second: casa_normal_2_4
+  - first:
+      213: 3049415202891089100
+    second: casa_normal_2_5
+  - first:
+      213: -6016010386644552937
+    second: casa_normal_2_6
+  - first:
+      213: 430420203107254108
+    second: casa_normal_2_7
+  - first:
+      213: 9199067125940763110
+    second: casa_normal_2_8
+  - first:
+      213: 6310046049032613350
+    second: casa_normal_2_9
+  - first:
+      213: 8158946676946401826
+    second: casa_normal_2_10
+  - first:
+      213: -7198168520209854160
+    second: casa_normal_2_11
+  - first:
+      213: 1048610097416111896
+    second: casa_normal_2_12
+  - first:
+      213: -2620392251297556284
+    second: casa_normal_2_13
+  - first:
+      213: 3011116678066097457
+    second: casa_normal_2_14
+  - first:
+      213: -4646356072387233971
+    second: casa_normal_2_15
+  - first:
+      213: -1161756669622982818
+    second: casa_normal_2_16
+  - first:
+      213: 4640521316861014233
+    second: casa_normal_2_17
+  - first:
+      213: -6978001294742850781
+    second: casa_normal_2_18
+  - first:
+      213: 4438485232109343943
+    second: casa_normal_2_19
+  - first:
+      213: 4794244347791970760
+    second: casa_normal_2_20
+  - first:
+      213: 5080270586199605963
+    second: casa_normal_2_21
+  - first:
+      213: 4011796600484389512
+    second: casa_normal_2_22
+  - first:
+      213: -1762072874752082893
+    second: casa_normal_2_23
+  - first:
+      213: -5165939485953776611
+    second: casa_normal_2_24
+  - first:
+      213: 1960574458323526545
+    second: casa_normal_2_25
+  - first:
+      213: -7286628439724433716
+    second: casa_normal_2_26
+  - first:
+      213: 2892678479921544682
+    second: casa_normal_2_27
+  - first:
+      213: -3623458642814118805
+    second: casa_normal_2_28
+  - first:
+      213: 3384474533028382516
+    second: casa_normal_2_29
+  - first:
+      213: -6330341641851909247
+    second: casa_normal_2_30
+  - first:
+      213: -2222133257656404297
+    second: casa_normal_2_31
+  - first:
+      213: 6549058050253919954
+    second: casa_normal_2_32
+  - first:
+      213: 7870454597884154318
+    second: casa_normal_2_33
+  - first:
+      213: 8679652026631717686
+    second: casa_normal_2_34
+  - first:
+      213: 6518072913727476306
+    second: casa_normal_2_35
+  - first:
+      213: -6949654761939811307
+    second: casa_normal_2_36
+  - first:
+      213: 7208442037844918429
+    second: casa_normal_2_37
+  - first:
+      213: -2795069283674827375
+    second: casa_normal_2_38
+  - first:
+      213: -7116986222623451631
+    second: casa_normal_2_39
+  - first:
+      213: 468097904784255908
+    second: casa_normal_2_40
+  - first:
+      213: -4170475838379145603
+    second: casa_normal_2_41
+  - first:
+      213: 5556810686418801004
+    second: casa_normal_2_42
+  - first:
+      213: 2765570939255891053
+    second: casa_normal_2_43
+  - first:
+      213: -280347590535366748
+    second: casa_normal_2_44
+  - first:
+      213: 3978518985822901051
+    second: casa_normal_2_45
+  - first:
+      213: 8694852720245228518
+    second: casa_normal_2_46
+  - first:
+      213: 196773248063606427
+    second: casa_normal_2_47
+  - first:
+      213: -5195424071363539593
+    second: casa_normal_2_48
+  - first:
+      213: 7188222269047046565
+    second: casa_normal_2_49
+  - first:
+      213: 3643085745489745393
+    second: casa_normal_2_50
+  - first:
+      213: 985230226932757959
+    second: casa_normal_2_51
+  - first:
+      213: 8588500643647629112
+    second: casa_normal_2_52
+  - first:
+      213: 329973607703297287
+    second: casa_normal_2_53
+  - first:
+      213: 6409537015564606416
+    second: casa_normal_2_54
+  - first:
+      213: -5784058318840858947
+    second: casa_normal_2_55
+  - first:
+      213: 2915437480600124863
+    second: casa_normal_2_56
+  - first:
+      213: -5615576629733459458
+    second: casa_normal_2_57
+  - first:
+      213: -1970822099686564050
+    second: casa_normal_2_58
+  - first:
+      213: 3663021713426285136
+    second: casa_normal_2_59
+  - first:
+      213: -260503965212992471
+    second: casa_normal_2_60
+  - first:
+      213: 7408443177397926859
+    second: casa_normal_2_61
+  - first:
+      213: -2381557182686094598
+    second: casa_normal_2_62
+  - first:
+      213: 4302436951491833526
+    second: casa_normal_2_63
+  - first:
+      213: -3214436306614973697
+    second: casa_normal_2_64
+  - first:
+      213: 4810190096687103252
+    second: casa_normal_2_65
+  - first:
+      213: 4966361974891027923
+    second: casa_normal_2_66
+  - first:
+      213: -4053237706777224322
+    second: casa_normal_2_67
+  - first:
+      213: 5945741582284576521
+    second: casa_normal_2_68
+  - first:
+      213: 7072267046402196151
+    second: casa_normal_2_69
+  - first:
+      213: -6828003562420045092
+    second: casa_normal_2_70
+  - first:
+      213: -3351668081173915404
+    second: casa_normal_2_71
+  - first:
+      213: 225828722555285737
+    second: casa_normal_2_72
+  - first:
+      213: 447477687717186518
+    second: casa_normal_2_73
+  - first:
+      213: -4936053248402263147
+    second: casa_normal_2_74
+  - first:
+      213: -6387544794968287324
+    second: casa_normal_2_75
+  - first:
+      213: -488777870991484380
+    second: casa_normal_2_76
+  - first:
+      213: -5858963998888344563
+    second: casa_normal_2_77
+  - first:
+      213: 8098940295893370088
+    second: casa_normal_2_78
+  - first:
+      213: 4582344260444977020
+    second: casa_normal_2_79
+  - first:
+      213: -474676518964006852
+    second: casa_normal_2_80
+  - first:
+      213: 3259335845797266423
+    second: casa_normal_2_81
+  - first:
+      213: 4790678922259648076
+    second: casa_normal_2_82
+  - first:
+      213: 7354423727757242336
+    second: casa_normal_2_83
+  - first:
+      213: 2600891647836659578
+    second: casa_normal_2_84
+  - first:
+      213: -9102759676217548314
+    second: casa_normal_2_85
+  - first:
+      213: 4627566941594449808
+    second: casa_normal_2_86
+  - first:
+      213: 3183986897350034405
+    second: casa_normal_2_87
+  - first:
+      213: 5329420995782124142
+    second: casa_normal_2_88
+  - first:
+      213: 7443544484448052864
+    second: casa_normal_2_89
+  - first:
+      213: 8792746576483821494
+    second: casa_normal_2_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casa_normal_2_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 215
+        width: 126
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb27548f74e6a6e30800000000000000
+      internalID: 4497528433269895870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 224
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db348053f11e51a0800000000000000
+      internalID: -6818993049066783790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 224
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48ca2e11f4f98d10800000000000000
+      internalID: 2128501615339685962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 248
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebf97b04483dcf70800000000000000
+      internalID: 9209078677944007662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_4
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 221
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782b989e9de450e80800000000000000
+      internalID: -8213071647607246201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4cff478f2b15a20800000000000000
+      internalID: 3049415202891089100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 198
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713bdf27d66d28ca0800000000000000
+      internalID: -6016010386644552937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 206
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ffb5ee4e829f500800000000000000
+      internalID: 430420203107254108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 222
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e93ca2ffc6a9af70800000000000000
+      internalID: 9199067125940763110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed22f41379c19750800000000000000
+      internalID: 6310046049032613350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a7eb456c66a3170800000000000000
+      internalID: 8158946676946401826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 194
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0311e7f4ed7fa1c90800000000000000
+      internalID: -7198168520209854160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 195
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817006ce3596d8e00800000000000000
+      internalID: 1048610097416111896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 205
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c81931812f72abd0800000000000000
+      internalID: -2620392251297556284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 212
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d42654aa2a9c920800000000000000
+      internalID: 3011116678066097457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 195
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47316505c3d48fb0800000000000000
+      internalID: -4646356072387233971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_16
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e576ea7d67c90efe0800000000000000
+      internalID: -1161756669622982818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 157
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0f0281d81766040800000000000000
+      internalID: 4640521316861014233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 193
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323f2a02bc8292f90800000000000000
+      internalID: -6978001294742850781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_19
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 191
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4d1b07dcaa89d30800000000000000
+      internalID: 4438485232109343943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 197
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1909455d3988240800000000000000
+      internalID: 4794244347791970760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc20b458e2fb08640800000000000000
+      internalID: 5080270586199605963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 189
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882edf2b0c3cca730800000000000000
+      internalID: 4011796600484389512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_23
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 170
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cfc086e0cdb87e0800000000000000
+      internalID: -1762072874752082893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 183
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14af886865ee48b0800000000000000
+      internalID: -5165939485953776611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 171
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193e310151c553b10800000000000000
+      internalID: 1960574458323526545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 193
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce57ff4a02b0ea90800000000000000
+      internalID: -7286628439724433716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_27
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 183
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedf32d50cbd42820800000000000000
+      internalID: 2892678479921544682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_28
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 187
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64deb0ff83e6bdc0800000000000000
+      internalID: -3623458642814118805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_29
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 169
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4374384f7a118fe20800000000000000
+      internalID: 3384474533028382516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 174
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bcd8af0db1628a0800000000000000
+      internalID: -6330341641851909247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 164
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6fec553956921e0800000000000000
+      internalID: -2222133257656404297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 184
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d61cca299de2ea50800000000000000
+      internalID: 6549058050253919954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_33
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 193
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec199bfd1c8793d60800000000000000
+      internalID: 7870454597884154318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633026d0881547870800000000000000
+      internalID: 8679652026631717686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_35
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 172
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25252d2e7c8d47a50800000000000000
+      internalID: 6518072913727476306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_36
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 163
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514c9fa90dddd8f90800000000000000
+      internalID: -6949654761939811307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_37
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 168
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d904db967d7890460800000000000000
+      internalID: 7208442037844918429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_38
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 155
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195d4ff9b4be539d0800000000000000
+      internalID: -2795069283674827375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_39
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 153
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1161e29ecb26b3d90800000000000000
+      internalID: -7116986222623451631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_40
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 186
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab25c670940f7600800000000000000
+      internalID: 468097904784255908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76cf05325e7f16c0800000000000000
+      internalID: -4170475838379145603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 157
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c615618c0e1cd1d40800000000000000
+      internalID: 5556810686418801004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 135
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ad7bdd18416620800000000000000
+      internalID: 2765570939255891053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 143
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7b08c0a510c1cf0800000000000000
+      internalID: -280347590535366748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 142
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b331f1240f9863730800000000000000
+      internalID: 3978518985822901051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 165
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e34e845b725aa870800000000000000
+      internalID: 8694852720245228518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_47
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 163
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e81200a341bb200800000000000000
+      internalID: 196773248063606427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_48
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 143
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dccd8655526e7b0800000000000000
+      internalID: -5195424071363539593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_49
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 144
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a10a11a112b1c360800000000000000
+      internalID: 7188222269047046565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 141
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f594320f27de8230800000000000000
+      internalID: 3643085745489745393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5fd42ebad3cad00800000000000000
+      internalID: 985230226932757959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_52
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 134
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837a4d1e4db703770800000000000000
+      internalID: 8588500643647629112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_53
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 143
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70db8687f3d449400800000000000000
+      internalID: 329973607703297287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_54
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 139
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db127bd4ff33f850800000000000000
+      internalID: 6409537015564606416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_55
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 153
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6f851ba95eabfa0800000000000000
+      internalID: -5784058318840858947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdb70421f6b57820800000000000000
+      internalID: 2915437480600124863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 138
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef970cfcec67112b0800000000000000
+      internalID: -5615576629733459458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_58
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 133
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f51b00ebb36a4e0800000000000000
+      internalID: -1970822099686564050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_59
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 121
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052015147daa5d230800000000000000
+      internalID: 3663021713426285136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_60
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 114
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c16ea1601826cf0800000000000000
+      internalID: -260503965212992471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_61
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 151
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb387771d310d660800000000000000
+      internalID: 7408443177397926859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_62
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 138
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa17b14c5203fed0800000000000000
+      internalID: -2381557182686094598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 115
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be6f22bc9355bb30800000000000000
+      internalID: 4302436951491833526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa881fb5370463d0800000000000000
+      internalID: -3214436306614973697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_65
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 110
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41df22f486a31c240800000000000000
+      internalID: 4810190096687103252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_66
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 119
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd136b37ef0ce440800000000000000
+      internalID: 4966361974891027923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_67
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b1359d7c100c7c0800000000000000
+      internalID: -4053237706777224322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_68
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 129
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907575a9774838250800000000000000
+      internalID: 5945741582284576521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 129
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b20181886db52260800000000000000
+      internalID: 7072267046402196151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaf9d0bfee0e31a0800000000000000
+      internalID: -6828003562420045092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f81d9853ab7c71d0800000000000000
+      internalID: -3351668081173915404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_72
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 100
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0fcf3d60e422300800000000000000
+      internalID: 225828722555285737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_73
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 9
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbcb4d0692c53600800000000000000
+      internalID: 447477687717186518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 27
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593f19019bd9f7bb0800000000000000
+      internalID: -4936053248402263147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_75
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a715050ad1ea57a0800000000000000
+      internalID: -6387544794968287324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 40
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a1b71bd138739f0800000000000000
+      internalID: -488777870991484380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_77
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 34
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04457ef847c0bea0800000000000000
+      internalID: -5858963998888344563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e442d10a47356070800000000000000
+      internalID: 8098940295893370088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c777f5a93d1c79f30800000000000000
+      internalID: 4582344260444977020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 21
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c307eef883c9969f0800000000000000
+      internalID: -474676518964006852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_81
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 21
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3817cdeac7b3d20800000000000000
+      internalID: 3259335845797266423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_82
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 12
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ecc320919eb7240800000000000000
+      internalID: 4790678922259648076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_83
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 23
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efacac3a69201660800000000000000
+      internalID: 7354423727757242336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_84
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 12
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f95907c29381420800000000000000
+      internalID: 2600891647836659578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_85
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 15
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ad4f8d408ca180800000000000000
+      internalID: -9102759676217548314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_86
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 15
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097f3109d9b683040800000000000000
+      internalID: 4627566941594449808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_87
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e30c02b63bcf2c20800000000000000
+      internalID: 3183986897350034405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_88
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e622a10c828e5f940800000000000000
+      internalID: 5329420995782124142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_89
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08628516548cc4760800000000000000
+      internalID: 7443544484448052864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_normal_2_90
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7a953ec6c160a70800000000000000
+      internalID: 8792746576483821494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      casa_normal_2_0: 4497528433269895870
+      casa_normal_2_1: -6818993049066783790
+      casa_normal_2_10: 8158946676946401826
+      casa_normal_2_11: -7198168520209854160
+      casa_normal_2_12: 1048610097416111896
+      casa_normal_2_13: -2620392251297556284
+      casa_normal_2_14: 3011116678066097457
+      casa_normal_2_15: -4646356072387233971
+      casa_normal_2_16: -1161756669622982818
+      casa_normal_2_17: 4640521316861014233
+      casa_normal_2_18: -6978001294742850781
+      casa_normal_2_19: 4438485232109343943
+      casa_normal_2_2: 2128501615339685962
+      casa_normal_2_20: 4794244347791970760
+      casa_normal_2_21: 5080270586199605963
+      casa_normal_2_22: 4011796600484389512
+      casa_normal_2_23: -1762072874752082893
+      casa_normal_2_24: -5165939485953776611
+      casa_normal_2_25: 1960574458323526545
+      casa_normal_2_26: -7286628439724433716
+      casa_normal_2_27: 2892678479921544682
+      casa_normal_2_28: -3623458642814118805
+      casa_normal_2_29: 3384474533028382516
+      casa_normal_2_3: 9209078677944007662
+      casa_normal_2_30: -6330341641851909247
+      casa_normal_2_31: -2222133257656404297
+      casa_normal_2_32: 6549058050253919954
+      casa_normal_2_33: 7870454597884154318
+      casa_normal_2_34: 8679652026631717686
+      casa_normal_2_35: 6518072913727476306
+      casa_normal_2_36: -6949654761939811307
+      casa_normal_2_37: 7208442037844918429
+      casa_normal_2_38: -2795069283674827375
+      casa_normal_2_39: -7116986222623451631
+      casa_normal_2_4: -8213071647607246201
+      casa_normal_2_40: 468097904784255908
+      casa_normal_2_41: -4170475838379145603
+      casa_normal_2_42: 5556810686418801004
+      casa_normal_2_43: 2765570939255891053
+      casa_normal_2_44: -280347590535366748
+      casa_normal_2_45: 3978518985822901051
+      casa_normal_2_46: 8694852720245228518
+      casa_normal_2_47: 196773248063606427
+      casa_normal_2_48: -5195424071363539593
+      casa_normal_2_49: 7188222269047046565
+      casa_normal_2_5: 3049415202891089100
+      casa_normal_2_50: 3643085745489745393
+      casa_normal_2_51: 985230226932757959
+      casa_normal_2_52: 8588500643647629112
+      casa_normal_2_53: 329973607703297287
+      casa_normal_2_54: 6409537015564606416
+      casa_normal_2_55: -5784058318840858947
+      casa_normal_2_56: 2915437480600124863
+      casa_normal_2_57: -5615576629733459458
+      casa_normal_2_58: -1970822099686564050
+      casa_normal_2_59: 3663021713426285136
+      casa_normal_2_6: -6016010386644552937
+      casa_normal_2_60: -260503965212992471
+      casa_normal_2_61: 7408443177397926859
+      casa_normal_2_62: -2381557182686094598
+      casa_normal_2_63: 4302436951491833526
+      casa_normal_2_64: -3214436306614973697
+      casa_normal_2_65: 4810190096687103252
+      casa_normal_2_66: 4966361974891027923
+      casa_normal_2_67: -4053237706777224322
+      casa_normal_2_68: 5945741582284576521
+      casa_normal_2_69: 7072267046402196151
+      casa_normal_2_7: 430420203107254108
+      casa_normal_2_70: -6828003562420045092
+      casa_normal_2_71: -3351668081173915404
+      casa_normal_2_72: 225828722555285737
+      casa_normal_2_73: 447477687717186518
+      casa_normal_2_74: -4936053248402263147
+      casa_normal_2_75: -6387544794968287324
+      casa_normal_2_76: -488777870991484380
+      casa_normal_2_77: -5858963998888344563
+      casa_normal_2_78: 8098940295893370088
+      casa_normal_2_79: 4582344260444977020
+      casa_normal_2_8: 9199067125940763110
+      casa_normal_2_80: -474676518964006852
+      casa_normal_2_81: 3259335845797266423
+      casa_normal_2_82: 4790678922259648076
+      casa_normal_2_83: 7354423727757242336
+      casa_normal_2_84: 2600891647836659578
+      casa_normal_2_85: -9102759676217548314
+      casa_normal_2_86: 4627566941594449808
+      casa_normal_2_87: 3183986897350034405
+      casa_normal_2_88: 5329420995782124142
+      casa_normal_2_89: 7443544484448052864
+      casa_normal_2_9: 6310046049032613350
+      casa_normal_2_90: 8792746576483821494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

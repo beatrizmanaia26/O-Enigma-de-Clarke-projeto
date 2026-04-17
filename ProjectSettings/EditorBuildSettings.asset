@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/telaInicial.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/novoJogo.unity
+    guid: 7fe7c51b4c6708d4eb6ce0f650db03fa
+  - enabled: 1
+    path: Assets/Scenes/opcoes.unity
+    guid: 4a24658805a3b804d817ea66bdb52f6f
+  - enabled: 1
+    path: Assets/Scenes/historiaPersonagens.unity
+    guid: 5ff068de04efdc248a9011c2f8b9074a
+  - enabled: 1
+    path: Assets/Scenes/continuar.unity
+    guid: 73249eed72d4eb846a8201157f216a11
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

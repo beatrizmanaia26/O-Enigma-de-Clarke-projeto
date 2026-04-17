@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 06ca50a2b38b0fb4fb7c344ea2840a4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4695330660368371182
+    second: poste_lanterna_2_0
+  - first:
+      213: -3732888501266838388
+    second: poste_lanterna_2_1
+  - first:
+      213: -871856185558240602
+    second: poste_lanterna_2_2
+  - first:
+      213: 1703697216370864611
+    second: poste_lanterna_2_3
+  - first:
+      213: -3853866758023291277
+    second: poste_lanterna_2_4
+  - first:
+      213: -167167028465314174
+    second: poste_lanterna_2_5
+  - first:
+      213: 1144626846976144100
+    second: poste_lanterna_2_6
+  - first:
+      213: -4539356508240197171
+    second: poste_lanterna_2_7
+  - first:
+      213: -5530768671799727762
+    second: poste_lanterna_2_8
+  - first:
+      213: 2265125926506224290
+    second: poste_lanterna_2_9
+  - first:
+      213: 3868319494758059848
+    second: poste_lanterna_2_10
+  - first:
+      213: 5956156458894207334
+    second: poste_lanterna_2_11
+  - first:
+      213: 9069585396972494480
+    second: poste_lanterna_2_12
+  - first:
+      213: -562055430926905433
+    second: poste_lanterna_2_13
+  - first:
+      213: -3008531245263036263
+    second: poste_lanterna_2_14
+  - first:
+      213: 4315514371442363269
+    second: poste_lanterna_2_15
+  - first:
+      213: 2649574877537632496
+    second: poste_lanterna_2_16
+  - first:
+      213: 9195880614737983924
+    second: poste_lanterna_2_17
+  - first:
+      213: 2154106850060570992
+    second: poste_lanterna_2_18
+  - first:
+      213: 4127626684322672354
+    second: poste_lanterna_2_19
+  - first:
+      213: 8702433579729574892
+    second: poste_lanterna_2_20
+  - first:
+      213: -2412566326377493501
+    second: poste_lanterna_2_21
+  - first:
+      213: -3792042836758378545
+    second: poste_lanterna_2_22
+  - first:
+      213: -177869259416273814
+    second: poste_lanterna_2_23
+  - first:
+      213: 1368923620518658528
+    second: poste_lanterna_2_24
+  - first:
+      213: 5690705947704707700
+    second: poste_lanterna_2_25
+  - first:
+      213: 5290902566582666603
+    second: poste_lanterna_2_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poste_lanterna_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedc142db5a292140800000000000000
+      internalID: 4695330660368371182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 232
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c89df8fad123cc0800000000000000
+      internalID: -3732888501266838388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 258
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2f2942b6b86e3f0800000000000000
+      internalID: -871856185558240602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e17b9a779fb4a710800000000000000
+      internalID: 1703697216370864611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 214
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ed55c2a90548ac0800000000000000
+      internalID: -3853866758023291277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 251
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286da2a297a1eadf0800000000000000
+      internalID: -167167028465314174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 183
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e273668d0882ef00800000000000000
+      internalID: 1144626846976144100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 209
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc94c796e47f001c0800000000000000
+      internalID: -4539356508240197171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 206
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69a48e3233ce33b0800000000000000
+      internalID: -5530768671799727762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 200
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa5eec67085f6f10800000000000000
+      internalID: 2265125926506224290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 180
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fc5c2d5180fa530800000000000000
+      internalID: 3868319494758059848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 143
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669a9070eb488a250800000000000000
+      internalID: 5956156458894207334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 138
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e9d96add3addd70800000000000000
+      internalID: 9069585396972494480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 158
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afc58f309d2338f0800000000000000
+      internalID: -562055430926905433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 135
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990ee66b5cc8f36d0800000000000000
+      internalID: -3008531245263036263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b4aecc479c3eb30800000000000000
+      internalID: 4315514371442363269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 163
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f00e65205e25c420800000000000000
+      internalID: 2649574877537632496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_17
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 133
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9bb5e72b45e9f70800000000000000
+      internalID: 9195880614737983924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 132
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071981664cce4ed10800000000000000
+      internalID: 2154106850060570992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eee97ca996484930800000000000000
+      internalID: 4127626684322672354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 23
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb5639bb3145c870800000000000000
+      internalID: 8702433579729574892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 37
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c433f55b7d48ed0800000000000000
+      internalID: -2412566326377493501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 112
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7c3fd8125ff5bc0800000000000000
+      internalID: -3792042836758378545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cf708d9d4188df0800000000000000
+      internalID: -177869259416273814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e108ada7c46ff210800000000000000
+      internalID: 1368923620518658528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a4426a8e279fe40800000000000000
+      internalID: 5690705947704707700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poste_lanterna_2_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 5
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65cc561adf0d6940800000000000000
+      internalID: 5290902566582666603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poste_lanterna_2_0: 4695330660368371182
+      poste_lanterna_2_1: -3732888501266838388
+      poste_lanterna_2_10: 3868319494758059848
+      poste_lanterna_2_11: 5956156458894207334
+      poste_lanterna_2_12: 9069585396972494480
+      poste_lanterna_2_13: -562055430926905433
+      poste_lanterna_2_14: -3008531245263036263
+      poste_lanterna_2_15: 4315514371442363269
+      poste_lanterna_2_16: 2649574877537632496
+      poste_lanterna_2_17: 9195880614737983924
+      poste_lanterna_2_18: 2154106850060570992
+      poste_lanterna_2_19: 4127626684322672354
+      poste_lanterna_2_2: -871856185558240602
+      poste_lanterna_2_20: 8702433579729574892
+      poste_lanterna_2_21: -2412566326377493501
+      poste_lanterna_2_22: -3792042836758378545
+      poste_lanterna_2_23: -177869259416273814
+      poste_lanterna_2_24: 1368923620518658528
+      poste_lanterna_2_25: 5690705947704707700
+      poste_lanterna_2_26: 5290902566582666603
+      poste_lanterna_2_3: 1703697216370864611
+      poste_lanterna_2_4: -3853866758023291277
+      poste_lanterna_2_5: -167167028465314174
+      poste_lanterna_2_6: 1144626846976144100
+      poste_lanterna_2_7: -4539356508240197171
+      poste_lanterna_2_8: -5530768671799727762
+      poste_lanterna_2_9: 2265125926506224290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

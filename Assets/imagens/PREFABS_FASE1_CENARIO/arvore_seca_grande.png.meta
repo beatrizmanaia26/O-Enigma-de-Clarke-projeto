@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 31bea0a788c9dae498dd90c080d92282
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9134310453160894800
+    second: arvore_seca_grande_0
+  - first:
+      213: 7896149773960125121
+    second: arvore_seca_grande_1
+  - first:
+      213: -7714781718719231885
+    second: arvore_seca_grande_2
+  - first:
+      213: 2431164101537399921
+    second: arvore_seca_grande_3
+  - first:
+      213: 9191054388204739109
+    second: arvore_seca_grande_4
+  - first:
+      213: 2953277357640320100
+    second: arvore_seca_grande_5
+  - first:
+      213: 8851541129315710715
+    second: arvore_seca_grande_6
+  - first:
+      213: 4739775664834177279
+    second: arvore_seca_grande_7
+  - first:
+      213: 3738962055494236575
+    second: arvore_seca_grande_8
+  - first:
+      213: -4333740221145542838
+    second: arvore_seca_grande_9
+  - first:
+      213: 3444530262264769735
+    second: arvore_seca_grande_10
+  - first:
+      213: -4414901923121765327
+    second: arvore_seca_grande_11
+  - first:
+      213: -8023313648922785845
+    second: arvore_seca_grande_12
+  - first:
+      213: 4825656820795288808
+    second: arvore_seca_grande_13
+  - first:
+      213: -3763792666599177862
+    second: arvore_seca_grande_14
+  - first:
+      213: 3289714927296869014
+    second: arvore_seca_grande_15
+  - first:
+      213: -5011939495610990338
+    second: arvore_seca_grande_16
+  - first:
+      213: -8383148374978421300
+    second: arvore_seca_grande_17
+  - first:
+      213: 7271742654097909902
+    second: arvore_seca_grande_18
+  - first:
+      213: 8225585021427958363
+    second: arvore_seca_grande_19
+  - first:
+      213: 7747030370949684131
+    second: arvore_seca_grande_20
+  - first:
+      213: 1268101660085902438
+    second: arvore_seca_grande_21
+  - first:
+      213: -9010744858562790410
+    second: arvore_seca_grande_22
+  - first:
+      213: 8642217405963462678
+    second: arvore_seca_grande_23
+  - first:
+      213: 6863522533663894670
+    second: arvore_seca_grande_24
+  - first:
+      213: 3791161940689758238
+    second: arvore_seca_grande_25
+  - first:
+      213: 1578735883810991440
+    second: arvore_seca_grande_26
+  - first:
+      213: 2303410069640991682
+    second: arvore_seca_grande_27
+  - first:
+      213: -6728188808668201806
+    second: arvore_seca_grande_28
+  - first:
+      213: -8947136003534237188
+    second: arvore_seca_grande_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arvore_seca_grande_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be153bd9096c3180800000000000000
+      internalID: -9134310453160894800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 4
+        width: 228
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca9c224262c49d60800000000000000
+      internalID: 7896149773960125121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 256
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3780018c6e69fe490800000000000000
+      internalID: -7714781718719231885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 132
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17481d69eda3db120800000000000000
+      internalID: 2431164101537399921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 171
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a1d30154f2d8f70800000000000000
+      internalID: 9191054388204739109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 143
+        width: 117
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4640b511c162cf820800000000000000
+      internalID: 2953277357640320100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 178
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf67f9772cdf6da70800000000000000
+      internalID: 8851541129315710715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff86b71dad017c140800000000000000
+      internalID: 4739775664834177279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 130
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99f56afd2673e330800000000000000
+      internalID: 3738962055494236575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 81
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f0cc1ea367bd3c0800000000000000
+      internalID: -4333740221145542838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccef5c060e6dcf20800000000000000
+      internalID: 3444530262264769735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 65
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1346322971e1bb2c0800000000000000
+      internalID: -4414901923121765327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 69
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc70a62eeb677a090800000000000000
+      internalID: -8023313648922785845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 26
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca173af4d28f240800000000000000
+      internalID: 4825656820795288808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 55
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71c22bd28254cbc0800000000000000
+      internalID: -3763792666599177862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 38
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69274d5fb4a67ad20800000000000000
+      internalID: 3289714927296869014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 56
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef04b584593027ab0800000000000000
+      internalID: -5011939495610990338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd940208f219ab80800000000000000
+      internalID: -8383148374978421300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88ef83aa6b6ae460800000000000000
+      internalID: 7271742654097909902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 31
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52ccf7fef5272270800000000000000
+      internalID: 8225585021427958363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 29
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5e9ca31bf28b60800000000000000
+      internalID: 7747030370949684131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 33
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cd08cbdb3399110800000000000000
+      internalID: 1268101660085902438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 24
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbffa7ca4763f280800000000000000
+      internalID: -9010744858562790410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 15
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618662a31f25fe770800000000000000
+      internalID: 8642217405963462678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cecee3161204f50800000000000000
+      internalID: 6863522533663894670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_25
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 12
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e182bc8d2b9ec9430800000000000000
+      internalID: 3791161940689758238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 10
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d67bcfbebc8e510800000000000000
+      internalID: 1578735883810991440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3520d114b57ff10800000000000000
+      internalID: 2303410069640991682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcb29d0deba0a2a0800000000000000
+      internalID: -6728188808668201806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_grande_29
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 4
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1db30753365d380800000000000000
+      internalID: -8947136003534237188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arvore_seca_grande_0: -9134310453160894800
+      arvore_seca_grande_1: 7896149773960125121
+      arvore_seca_grande_10: 3444530262264769735
+      arvore_seca_grande_11: -4414901923121765327
+      arvore_seca_grande_12: -8023313648922785845
+      arvore_seca_grande_13: 4825656820795288808
+      arvore_seca_grande_14: -3763792666599177862
+      arvore_seca_grande_15: 3289714927296869014
+      arvore_seca_grande_16: -5011939495610990338
+      arvore_seca_grande_17: -8383148374978421300
+      arvore_seca_grande_18: 7271742654097909902
+      arvore_seca_grande_19: 8225585021427958363
+      arvore_seca_grande_2: -7714781718719231885
+      arvore_seca_grande_20: 7747030370949684131
+      arvore_seca_grande_21: 1268101660085902438
+      arvore_seca_grande_22: -9010744858562790410
+      arvore_seca_grande_23: 8642217405963462678
+      arvore_seca_grande_24: 6863522533663894670
+      arvore_seca_grande_25: 3791161940689758238
+      arvore_seca_grande_26: 1578735883810991440
+      arvore_seca_grande_27: 2303410069640991682
+      arvore_seca_grande_28: -6728188808668201806
+      arvore_seca_grande_29: -8947136003534237188
+      arvore_seca_grande_3: 2431164101537399921
+      arvore_seca_grande_4: 9191054388204739109
+      arvore_seca_grande_5: 2953277357640320100
+      arvore_seca_grande_6: 8851541129315710715
+      arvore_seca_grande_7: 4739775664834177279
+      arvore_seca_grande_8: 3738962055494236575
+      arvore_seca_grande_9: -4333740221145542838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

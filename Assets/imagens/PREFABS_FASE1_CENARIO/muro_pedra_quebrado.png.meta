@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 5e8050f1172c61442bfdf3b48ecef82c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5478217331251350110
+    second: muro_pedra_quebrado_0
+  - first:
+      213: -2507709563701871029
+    second: muro_pedra_quebrado_1
+  - first:
+      213: 2609855901652082749
+    second: muro_pedra_quebrado_2
+  - first:
+      213: 4977764339292810591
+    second: muro_pedra_quebrado_3
+  - first:
+      213: 4633950454003822549
+    second: muro_pedra_quebrado_4
+  - first:
+      213: 6911365553533338106
+    second: muro_pedra_quebrado_5
+  - first:
+      213: -7031525520038807205
+    second: muro_pedra_quebrado_6
+  - first:
+      213: 2552875496023577413
+    second: muro_pedra_quebrado_7
+  - first:
+      213: -6732103468798754187
+    second: muro_pedra_quebrado_8
+  - first:
+      213: -4433718568819452800
+    second: muro_pedra_quebrado_9
+  - first:
+      213: -8445313112525144265
+    second: muro_pedra_quebrado_10
+  - first:
+      213: 5850266081595522221
+    second: muro_pedra_quebrado_11
+  - first:
+      213: -7941201051318148618
+    second: muro_pedra_quebrado_12
+  - first:
+      213: 6826012469068965198
+    second: muro_pedra_quebrado_13
+  - first:
+      213: 5874569565435079009
+    second: muro_pedra_quebrado_14
+  - first:
+      213: -7535353135832506744
+    second: muro_pedra_quebrado_15
+  - first:
+      213: -8757433718300847632
+    second: muro_pedra_quebrado_16
+  - first:
+      213: 8928547428020745696
+    second: muro_pedra_quebrado_17
+  - first:
+      213: 5140183435606322613
+    second: muro_pedra_quebrado_18
+  - first:
+      213: 7423476739479267861
+    second: muro_pedra_quebrado_19
+  - first:
+      213: 8585775170982296707
+    second: muro_pedra_quebrado_20
+  - first:
+      213: 7386863800212773949
+    second: muro_pedra_quebrado_21
+  - first:
+      213: -5518368899749204738
+    second: muro_pedra_quebrado_22
+  - first:
+      213: -5153174964644482816
+    second: muro_pedra_quebrado_23
+  - first:
+      213: 6827732788202194833
+    second: muro_pedra_quebrado_24
+  - first:
+      213: 4456577204507314975
+    second: muro_pedra_quebrado_25
+  - first:
+      213: -4243039491618894116
+    second: muro_pedra_quebrado_26
+  - first:
+      213: 7807861912299255495
+    second: muro_pedra_quebrado_27
+  - first:
+      213: 7572564736014653214
+    second: muro_pedra_quebrado_28
+  - first:
+      213: 4478637452178402518
+    second: muro_pedra_quebrado_29
+  - first:
+      213: 6682370056514219028
+    second: muro_pedra_quebrado_30
+  - first:
+      213: 5548758450922331412
+    second: muro_pedra_quebrado_31
+  - first:
+      213: -3454123977746881523
+    second: muro_pedra_quebrado_32
+  - first:
+      213: 3569537964633812160
+    second: muro_pedra_quebrado_33
+  - first:
+      213: -8755657062337677087
+    second: muro_pedra_quebrado_34
+  - first:
+      213: -6153455455730394560
+    second: muro_pedra_quebrado_35
+  - first:
+      213: -5475889674960141770
+    second: muro_pedra_quebrado_36
+  - first:
+      213: -3411204369405952917
+    second: muro_pedra_quebrado_37
+  - first:
+      213: 5312030884116114786
+    second: muro_pedra_quebrado_38
+  - first:
+      213: -7232809052781358742
+    second: muro_pedra_quebrado_39
+  - first:
+      213: 4941803781269734134
+    second: muro_pedra_quebrado_40
+  - first:
+      213: 8876385150029142789
+    second: muro_pedra_quebrado_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5ff50bc5679f3b0800000000000000
+      internalID: -5478217331251350110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e33bf2073d23dd0800000000000000
+      internalID: -2507709563701871029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 236
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30edec6d12183420800000000000000
+      internalID: 2609855901652082749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 209
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5da7231b42941540800000000000000
+      internalID: 4977764339292810591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df68add2691f4040800000000000000
+      internalID: 4633950454003822549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 197
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1c93b5a5a1aef50800000000000000
+      internalID: 6911365553533338106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 199
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b593efc4bc00b6e90800000000000000
+      internalID: -7031525520038807205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 197
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543d848ecb2ad6320800000000000000
+      internalID: 2552875496023577413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57243173093c292a0800000000000000
+      internalID: -6732103468798754187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 200
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0849677d3744872c0800000000000000
+      internalID: -4433718568819452800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 184
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f7df628783cca80800000000000000
+      internalID: -8445313112525144265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 181
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac74035102503150800000000000000
+      internalID: 5850266081595522221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f12936d7bf2bc190800000000000000
+      internalID: -7941201051318148618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e452e33cc2edabe50800000000000000
+      internalID: 6826012469068965198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 182
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169241c15e9a68150800000000000000
+      internalID: 5874569565435079009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 180
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ed3993f3c0d6790800000000000000
+      internalID: -7535353135832506744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 181
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f156ac9e68577680800000000000000
+      internalID: -8757433718300847632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 180
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5776f849298eb70800000000000000
+      internalID: 8928547428020745696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 162
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd69afc999955740800000000000000
+      internalID: 5140183435606322613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 170
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a690763cc750760800000000000000
+      internalID: 7423476739479267861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 168
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cb4c3570dc62770800000000000000
+      internalID: 8585775170982296707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 152
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cdfdf2d79638660800000000000000
+      internalID: 7386863800212773949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 161
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efca2e629b0da63b0800000000000000
+      internalID: -5518368899749204738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 139
+        width: 86
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001fdee1cae3c78b0800000000000000
+      internalID: -5153174964644482816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_24
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 149
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1974416cbcaf0ce50800000000000000
+      internalID: 6827732788202194833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 143
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b03c40b51f8dd30800000000000000
+      internalID: 4456577204507314975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde0a1e1012bd15c0800000000000000
+      internalID: -4243039491618894116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 180
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c636e99a091b5c60800000000000000
+      internalID: 7807861912299255495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e179dc89187271960800000000000000
+      internalID: 7572564736014653214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcaadea801572e30800000000000000
+      internalID: 4478637452178402518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 6
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cac34692c8cbc50800000000000000
+      internalID: 6682370056514219028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_31
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d1cab9966210d40800000000000000
+      internalID: 5548758450922331412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 6
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04ec300b8c7010d0800000000000000
+      internalID: -3454123977746881523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cce44adddb898130800000000000000
+      internalID: 3569537964633812160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 7
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8f8309a48ad7680800000000000000
+      internalID: -8755657062337677087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a100c8dd88a9aa0800000000000000
+      internalID: -6153455455730394560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63285c66a5bb104b0800000000000000
+      internalID: -5475889674960141770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c3c4903b7f8a0d0800000000000000
+      internalID: -3411204369405952917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d25abd1ff18b940800000000000000
+      internalID: 5312030884116114786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61dcb0dc76ef9b90800000000000000
+      internalID: -7232809052781358742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_40
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2c3443b50d49440800000000000000
+      internalID: 4941803781269734134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muro_pedra_quebrado_41
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b1a0dc3414f2b70800000000000000
+      internalID: 8876385150029142789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      muro_pedra_quebrado_0: -5478217331251350110
+      muro_pedra_quebrado_1: -2507709563701871029
+      muro_pedra_quebrado_10: -8445313112525144265
+      muro_pedra_quebrado_11: 5850266081595522221
+      muro_pedra_quebrado_12: -7941201051318148618
+      muro_pedra_quebrado_13: 6826012469068965198
+      muro_pedra_quebrado_14: 5874569565435079009
+      muro_pedra_quebrado_15: -7535353135832506744
+      muro_pedra_quebrado_16: -8757433718300847632
+      muro_pedra_quebrado_17: 8928547428020745696
+      muro_pedra_quebrado_18: 5140183435606322613
+      muro_pedra_quebrado_19: 7423476739479267861
+      muro_pedra_quebrado_2: 2609855901652082749
+      muro_pedra_quebrado_20: 8585775170982296707
+      muro_pedra_quebrado_21: 7386863800212773949
+      muro_pedra_quebrado_22: -5518368899749204738
+      muro_pedra_quebrado_23: -5153174964644482816
+      muro_pedra_quebrado_24: 6827732788202194833
+      muro_pedra_quebrado_25: 4456577204507314975
+      muro_pedra_quebrado_26: -4243039491618894116
+      muro_pedra_quebrado_27: 7807861912299255495
+      muro_pedra_quebrado_28: 7572564736014653214
+      muro_pedra_quebrado_29: 4478637452178402518
+      muro_pedra_quebrado_3: 4977764339292810591
+      muro_pedra_quebrado_30: 6682370056514219028
+      muro_pedra_quebrado_31: 5548758450922331412
+      muro_pedra_quebrado_32: -3454123977746881523
+      muro_pedra_quebrado_33: 3569537964633812160
+      muro_pedra_quebrado_34: -8755657062337677087
+      muro_pedra_quebrado_35: -6153455455730394560
+      muro_pedra_quebrado_36: -5475889674960141770
+      muro_pedra_quebrado_37: -3411204369405952917
+      muro_pedra_quebrado_38: 5312030884116114786
+      muro_pedra_quebrado_39: -7232809052781358742
+      muro_pedra_quebrado_4: 4633950454003822549
+      muro_pedra_quebrado_40: 4941803781269734134
+      muro_pedra_quebrado_41: 8876385150029142789
+      muro_pedra_quebrado_5: 6911365553533338106
+      muro_pedra_quebrado_6: -7031525520038807205
+      muro_pedra_quebrado_7: 2552875496023577413
+      muro_pedra_quebrado_8: -6732103468798754187
+      muro_pedra_quebrado_9: -4433718568819452800
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

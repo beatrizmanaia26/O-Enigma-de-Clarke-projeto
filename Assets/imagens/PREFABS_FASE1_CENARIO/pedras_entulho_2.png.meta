@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: e60d48e294c61354c8446c5439a9c315
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1673266909903764645
+    second: pedras_entulho_2_0
+  - first:
+      213: -1300580507669635138
+    second: pedras_entulho_2_1
+  - first:
+      213: -19198113594038640
+    second: pedras_entulho_2_2
+  - first:
+      213: 7119463417591156599
+    second: pedras_entulho_2_3
+  - first:
+      213: 3384988619900663633
+    second: pedras_entulho_2_4
+  - first:
+      213: 1523977785808782203
+    second: pedras_entulho_2_5
+  - first:
+      213: -2754769482409965121
+    second: pedras_entulho_2_6
+  - first:
+      213: 6597185040162439268
+    second: pedras_entulho_2_7
+  - first:
+      213: -8766832129461738095
+    second: pedras_entulho_2_8
+  - first:
+      213: -8320254302992360179
+    second: pedras_entulho_2_9
+  - first:
+      213: -7334288289983336810
+    second: pedras_entulho_2_10
+  - first:
+      213: -9023126058644858627
+    second: pedras_entulho_2_11
+  - first:
+      213: 7400223700550796234
+    second: pedras_entulho_2_12
+  - first:
+      213: -6064497032961464242
+    second: pedras_entulho_2_13
+  - first:
+      213: 5136984382243707346
+    second: pedras_entulho_2_14
+  - first:
+      213: -8961902100309871461
+    second: pedras_entulho_2_15
+  - first:
+      213: -7541057183181264264
+    second: pedras_entulho_2_16
+  - first:
+      213: -952668626006777473
+    second: pedras_entulho_2_17
+  - first:
+      213: 3986064613500263440
+    second: pedras_entulho_2_18
+  - first:
+      213: -948769794113776180
+    second: pedras_entulho_2_19
+  - first:
+      213: -3433578077057288390
+    second: pedras_entulho_2_20
+  - first:
+      213: -6040510084580424097
+    second: pedras_entulho_2_21
+  - first:
+      213: -3320476665601592284
+    second: pedras_entulho_2_22
+  - first:
+      213: -7615575673045090728
+    second: pedras_entulho_2_23
+  - first:
+      213: -2089077728935444719
+    second: pedras_entulho_2_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedras_entulho_2_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 229
+        width: 76
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acba33a363a83710800000000000000
+      internalID: 1673266909903764645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 260
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfdd864be863fde0800000000000000
+      internalID: -1300580507669635138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 254
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096aedada6bcbbff0800000000000000
+      internalID: -19198113594038640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 260
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fc8ecf14a6dc260800000000000000
+      internalID: 7119463417591156599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 250
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1573be12735e9fe20800000000000000
+      internalID: 3384988619900663633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7308b8c8b1462510800000000000000
+      internalID: 1523977785808782203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 241
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb90eda40c715c9d0800000000000000
+      internalID: -2754769482409965121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 229
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460476437d8ed8b50800000000000000
+      internalID: 6597185040162439268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195a3fd70a4f55680800000000000000
+      internalID: -8766832129461738095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d99354bc4888c80800000000000000
+      internalID: -8320254302992360179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 152
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e6c33b8af573a90800000000000000
+      internalID: -7334288289983336810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 170
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df817eef7aa67c280800000000000000
+      internalID: -9023126058644858627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 131
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3c1c16f30e2b660800000000000000
+      internalID: 7400223700550796234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 81
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48ebe0641496dba0800000000000000
+      internalID: -6064497032961464242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d99d58241c3a4740800000000000000
+      internalID: 5136984382243707346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f33f958de0a380800000000000000
+      internalID: -8961902100309871461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 10
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aa2953278c85790800000000000000
+      internalID: -7541057183181264264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71e43e9ee077c2f0800000000000000
+      internalID: -952668626006777473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c107b95a8515730800000000000000
+      internalID: 3986064613500263440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc55a3826ea45d2f0800000000000000
+      internalID: -948769794113776180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a377e684eea7950d0800000000000000
+      internalID: -3433578077057288390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f564b62051ccb2ca0800000000000000
+      internalID: -6040510084580424097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424f7d5b01c4be1d0800000000000000
+      internalID: -3320476665601592284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e7a00464a005690800000000000000
+      internalID: -7615575673045090728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedras_entulho_2_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f7f9abfda1203e0800000000000000
+      internalID: -2089077728935444719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pedras_entulho_2_0: 1673266909903764645
+      pedras_entulho_2_1: -1300580507669635138
+      pedras_entulho_2_10: -7334288289983336810
+      pedras_entulho_2_11: -9023126058644858627
+      pedras_entulho_2_12: 7400223700550796234
+      pedras_entulho_2_13: -6064497032961464242
+      pedras_entulho_2_14: 5136984382243707346
+      pedras_entulho_2_15: -8961902100309871461
+      pedras_entulho_2_16: -7541057183181264264
+      pedras_entulho_2_17: -952668626006777473
+      pedras_entulho_2_18: 3986064613500263440
+      pedras_entulho_2_19: -948769794113776180
+      pedras_entulho_2_2: -19198113594038640
+      pedras_entulho_2_20: -3433578077057288390
+      pedras_entulho_2_21: -6040510084580424097
+      pedras_entulho_2_22: -3320476665601592284
+      pedras_entulho_2_23: -7615575673045090728
+      pedras_entulho_2_24: -2089077728935444719
+      pedras_entulho_2_3: 7119463417591156599
+      pedras_entulho_2_4: 3384988619900663633
+      pedras_entulho_2_5: 1523977785808782203
+      pedras_entulho_2_6: -2754769482409965121
+      pedras_entulho_2_7: 6597185040162439268
+      pedras_entulho_2_8: -8766832129461738095
+      pedras_entulho_2_9: -8320254302992360179
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

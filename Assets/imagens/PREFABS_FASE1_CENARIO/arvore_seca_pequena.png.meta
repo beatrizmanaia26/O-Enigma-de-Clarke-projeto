@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 90739ae3bd0462745a715f8cd79ee05f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8435600166490684971
+    second: arvore_seca_pequena_0
+  - first:
+      213: -110185255124296454
+    second: arvore_seca_pequena_1
+  - first:
+      213: -2808370406790215724
+    second: arvore_seca_pequena_2
+  - first:
+      213: 8782375734567096137
+    second: arvore_seca_pequena_3
+  - first:
+      213: -3162591041907193345
+    second: arvore_seca_pequena_4
+  - first:
+      213: -5218904782916557569
+    second: arvore_seca_pequena_5
+  - first:
+      213: -6883656999845800300
+    second: arvore_seca_pequena_6
+  - first:
+      213: -1313997403284862204
+    second: arvore_seca_pequena_7
+  - first:
+      213: -7269325664922608595
+    second: arvore_seca_pequena_8
+  - first:
+      213: -8432472481780892465
+    second: arvore_seca_pequena_9
+  - first:
+      213: 1063231493000262380
+    second: arvore_seca_pequena_10
+  - first:
+      213: -5864741641634215081
+    second: arvore_seca_pequena_11
+  - first:
+      213: -238812205838606746
+    second: arvore_seca_pequena_12
+  - first:
+      213: 6523771492026150042
+    second: arvore_seca_pequena_13
+  - first:
+      213: -6247863793540454336
+    second: arvore_seca_pequena_14
+  - first:
+      213: -3905540709150805336
+    second: arvore_seca_pequena_15
+  - first:
+      213: -8072108783585421621
+    second: arvore_seca_pequena_16
+  - first:
+      213: 7943210069701738349
+    second: arvore_seca_pequena_17
+  - first:
+      213: 4071893490184248072
+    second: arvore_seca_pequena_18
+  - first:
+      213: 139186487278479521
+    second: arvore_seca_pequena_19
+  - first:
+      213: 2896000027360237320
+    second: arvore_seca_pequena_20
+  - first:
+      213: -5287389369058849413
+    second: arvore_seca_pequena_21
+  - first:
+      213: 3027052636293456040
+    second: arvore_seca_pequena_22
+  - first:
+      213: -8723581177397646296
+    second: arvore_seca_pequena_23
+  - first:
+      213: -1712612573944714804
+    second: arvore_seca_pequena_24
+  - first:
+      213: -7503307427911834059
+    second: arvore_seca_pequena_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arvore_seca_pequena_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e37ee58a5411570800000000000000
+      internalID: 8435600166490684971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc94d0281b887ef0800000000000000
+      internalID: -110185255124296454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 143
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7cc819ef9a609d0800000000000000
+      internalID: -2808370406790215724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fc1e6133441e970800000000000000
+      internalID: 8782375734567096137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 87
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff90a4914383c14d0800000000000000
+      internalID: -3162591041907193345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 84
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4eba930c9b297b0800000000000000
+      internalID: -5218904782916557569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4965f880e665870a0800000000000000
+      internalID: -6883656999845800300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b8b65d25eb3cde0800000000000000
+      internalID: -1313997403284862204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c58a182da2e1b90800000000000000
+      internalID: -7269325664922608595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc713974f6d9fa80800000000000000
+      internalID: -8432472481780892465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2f94ed86b51ce00800000000000000
+      internalID: 1063231493000262380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b83f6bc804c9ea0800000000000000
+      internalID: -5864741641634215081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 33
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e56f660919facf0800000000000000
+      internalID: -238812205838606746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_13
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 44
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ce90a8b97198a50800000000000000
+      internalID: 6523771492026150042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 26
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0482ffc7bf02b49a0800000000000000
+      internalID: -6247863793540454336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a23d3fda6bbcc9c0800000000000000
+      internalID: -3905540709150805336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6941644db1aff80800000000000000
+      internalID: -8072108783585421621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 19
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fb0e43973fb3e60800000000000000
+      internalID: 7943210069701738349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b58a53e85428830800000000000000
+      internalID: 4071893490184248072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8a4cb6f5d7ee100800000000000000
+      internalID: 139186487278479521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 21
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80714546ea8a03820800000000000000
+      internalID: 2896000027360237320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 15
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d0214f16b6f96b0800000000000000
+      internalID: -5287389369058849413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 15
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a06eaea550420a20800000000000000
+      internalID: 3027052636293456040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cedef732d9fe680800000000000000
+      internalID: -8723581177397646296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9682410f39b38e0800000000000000
+      internalID: -1712612573944714804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_seca_pequena_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536e3c606a5eed790800000000000000
+      internalID: -7503307427911834059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arvore_seca_pequena_0: 8435600166490684971
+      arvore_seca_pequena_1: -110185255124296454
+      arvore_seca_pequena_10: 1063231493000262380
+      arvore_seca_pequena_11: -5864741641634215081
+      arvore_seca_pequena_12: -238812205838606746
+      arvore_seca_pequena_13: 6523771492026150042
+      arvore_seca_pequena_14: -6247863793540454336
+      arvore_seca_pequena_15: -3905540709150805336
+      arvore_seca_pequena_16: -8072108783585421621
+      arvore_seca_pequena_17: 7943210069701738349
+      arvore_seca_pequena_18: 4071893490184248072
+      arvore_seca_pequena_19: 139186487278479521
+      arvore_seca_pequena_2: -2808370406790215724
+      arvore_seca_pequena_20: 2896000027360237320
+      arvore_seca_pequena_21: -5287389369058849413
+      arvore_seca_pequena_22: 3027052636293456040
+      arvore_seca_pequena_23: -8723581177397646296
+      arvore_seca_pequena_24: -1712612573944714804
+      arvore_seca_pequena_25: -7503307427911834059
+      arvore_seca_pequena_3: 8782375734567096137
+      arvore_seca_pequena_4: -3162591041907193345
+      arvore_seca_pequena_5: -5218904782916557569
+      arvore_seca_pequena_6: -6883656999845800300
+      arvore_seca_pequena_7: -1313997403284862204
+      arvore_seca_pequena_8: -7269325664922608595
+      arvore_seca_pequena_9: -8432472481780892465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: f6bcaa138d412af4cba56ae30e4db426
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1952126242900480333
+    second: arvore_magica_pequena_0
+  - first:
+      213: 5185534805272688877
+    second: arvore_magica_pequena_1
+  - first:
+      213: -244836551501888822
+    second: arvore_magica_pequena_2
+  - first:
+      213: 7624381948583218995
+    second: arvore_magica_pequena_3
+  - first:
+      213: 5476498050196673457
+    second: arvore_magica_pequena_4
+  - first:
+      213: 6051354743904462028
+    second: arvore_magica_pequena_5
+  - first:
+      213: -631842208707774940
+    second: arvore_magica_pequena_6
+  - first:
+      213: -3768949842098555662
+    second: arvore_magica_pequena_7
+  - first:
+      213: -8677533729235787060
+    second: arvore_magica_pequena_8
+  - first:
+      213: -1140720388588447238
+    second: arvore_magica_pequena_9
+  - first:
+      213: 5536710501854104857
+    second: arvore_magica_pequena_10
+  - first:
+      213: 6248528143417702852
+    second: arvore_magica_pequena_11
+  - first:
+      213: 2231577792902552114
+    second: arvore_magica_pequena_12
+  - first:
+      213: 8602359648673063496
+    second: arvore_magica_pequena_13
+  - first:
+      213: 7873948603837088506
+    second: arvore_magica_pequena_14
+  - first:
+      213: 4416108297148077859
+    second: arvore_magica_pequena_15
+  - first:
+      213: 5065220840723004525
+    second: arvore_magica_pequena_16
+  - first:
+      213: -5008935165311248505
+    second: arvore_magica_pequena_17
+  - first:
+      213: -6434545367195811347
+    second: arvore_magica_pequena_18
+  - first:
+      213: 2027663302070955945
+    second: arvore_magica_pequena_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arvore_magica_pequena_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 360
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bee23f5687a8e4e0800000000000000
+      internalID: -1952126242900480333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 289
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8f3b66e68b6f740800000000000000
+      internalID: 5185534805272688877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 131
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2c2bf147a2a9cf0800000000000000
+      internalID: -244836551501888822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 85
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f043d8cfe3fc960800000000000000
+      internalID: 7624381948583218995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 87
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3971ff5fd600c40800000000000000
+      internalID: 5476498050196673457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 88
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ec40041bbaf350800000000000000
+      internalID: 6051354743904462028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 58
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426ffdbdbde3b37f0800000000000000
+      internalID: -631842208707774940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 47
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4737d561002bbc0800000000000000
+      internalID: -3768949842098555662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc22e6e7c05339780800000000000000
+      internalID: -8677533729235787060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9d322b9d85b20f0800000000000000
+      internalID: -1140720388588447238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d403fddd856dc40800000000000000
+      internalID: 5536710501854104857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c971758d3b37b650800000000000000
+      internalID: 6248528143417702852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a5b92ed2828fe10800000000000000
+      internalID: 2231577792902552114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 24
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842ef41f588b16770800000000000000
+      internalID: 8602359648673063496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af284678982e54d60800000000000000
+      internalID: 7873948603837088506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 20
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3279a25491b294d30800000000000000
+      internalID: 4416108297148077859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c333894874b4640800000000000000
+      internalID: 5065220840723004525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 6
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78719a07100bc7ab0800000000000000
+      internalID: -5008935165311248505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de188298417e3b6a0800000000000000
+      internalID: -6434545367195811347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arvore_magica_pequena_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe80cb705b32c10800000000000000
+      internalID: 2027663302070955945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arvore_magica_pequena_0: -1952126242900480333
+      arvore_magica_pequena_1: 5185534805272688877
+      arvore_magica_pequena_10: 5536710501854104857
+      arvore_magica_pequena_11: 6248528143417702852
+      arvore_magica_pequena_12: 2231577792902552114
+      arvore_magica_pequena_13: 8602359648673063496
+      arvore_magica_pequena_14: 7873948603837088506
+      arvore_magica_pequena_15: 4416108297148077859
+      arvore_magica_pequena_16: 5065220840723004525
+      arvore_magica_pequena_17: -5008935165311248505
+      arvore_magica_pequena_18: -6434545367195811347
+      arvore_magica_pequena_19: 2027663302070955945
+      arvore_magica_pequena_2: -244836551501888822
+      arvore_magica_pequena_3: 7624381948583218995
+      arvore_magica_pequena_4: 5476498050196673457
+      arvore_magica_pequena_5: 6051354743904462028
+      arvore_magica_pequena_6: -631842208707774940
+      arvore_magica_pequena_7: -3768949842098555662
+      arvore_magica_pequena_8: -8677533729235787060
+      arvore_magica_pequena_9: -1140720388588447238
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

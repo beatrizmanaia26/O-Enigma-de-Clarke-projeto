@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 0f1288ae34c960c4288b6a0d35e853fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1246767320693824612
+    second: casa_igreja_vila_0
+  - first:
+      213: -3107347104560014645
+    second: casa_igreja_vila_1
+  - first:
+      213: -3409371351625324772
+    second: casa_igreja_vila_2
+  - first:
+      213: 8487854050962732524
+    second: casa_igreja_vila_3
+  - first:
+      213: -5643539707384439831
+    second: casa_igreja_vila_4
+  - first:
+      213: -3420857405094412451
+    second: casa_igreja_vila_5
+  - first:
+      213: -985742388796961870
+    second: casa_igreja_vila_6
+  - first:
+      213: -7317208012255394328
+    second: casa_igreja_vila_7
+  - first:
+      213: -5505749755975596508
+    second: casa_igreja_vila_8
+  - first:
+      213: -5061960837057460199
+    second: casa_igreja_vila_9
+  - first:
+      213: 1542761517946813495
+    second: casa_igreja_vila_10
+  - first:
+      213: -4827149622202319949
+    second: casa_igreja_vila_11
+  - first:
+      213: 8801655422423905049
+    second: casa_igreja_vila_12
+  - first:
+      213: -8943462593640624891
+    second: casa_igreja_vila_13
+  - first:
+      213: 1572686769689124251
+    second: casa_igreja_vila_14
+  - first:
+      213: 2855683184671345943
+    second: casa_igreja_vila_15
+  - first:
+      213: 9010385581277815797
+    second: casa_igreja_vila_16
+  - first:
+      213: -3777819321246598837
+    second: casa_igreja_vila_17
+  - first:
+      213: 2598368773556360782
+    second: casa_igreja_vila_18
+  - first:
+      213: 3011421354213764518
+    second: casa_igreja_vila_19
+  - first:
+      213: -258735323379224194
+    second: casa_igreja_vila_20
+  - first:
+      213: 8613168363598698429
+    second: casa_igreja_vila_21
+  - first:
+      213: 4234287925124346163
+    second: casa_igreja_vila_22
+  - first:
+      213: -7786470584652781369
+    second: casa_igreja_vila_23
+  - first:
+      213: -5288942152355809368
+    second: casa_igreja_vila_24
+  - first:
+      213: 6923162890995187632
+    second: casa_igreja_vila_25
+  - first:
+      213: -2100158225383480154
+    second: casa_igreja_vila_26
+  - first:
+      213: 1668431624265888383
+    second: casa_igreja_vila_27
+  - first:
+      213: 101520666000591739
+    second: casa_igreja_vila_28
+  - first:
+      213: 4701518402260321782
+    second: casa_igreja_vila_29
+  - first:
+      213: -5807662013081488252
+    second: casa_igreja_vila_30
+  - first:
+      213: -522565680729155673
+    second: casa_igreja_vila_31
+  - first:
+      213: 148265887130315697
+    second: casa_igreja_vila_32
+  - first:
+      213: -5640145706597077358
+    second: casa_igreja_vila_33
+  - first:
+      213: 1575495151674203319
+    second: casa_igreja_vila_34
+  - first:
+      213: -8376258918094337495
+    second: casa_igreja_vila_35
+  - first:
+      213: -7265405831348583453
+    second: casa_igreja_vila_36
+  - first:
+      213: 5697570142917600676
+    second: casa_igreja_vila_37
+  - first:
+      213: -1817070434918641248
+    second: casa_igreja_vila_38
+  - first:
+      213: 8553538768660659382
+    second: casa_igreja_vila_39
+  - first:
+      213: 7931880838112595474
+    second: casa_igreja_vila_40
+  - first:
+      213: -8716266959404234066
+    second: casa_igreja_vila_41
+  - first:
+      213: 5717418552445165740
+    second: casa_igreja_vila_42
+  - first:
+      213: -2406342946018258421
+    second: casa_igreja_vila_43
+  - first:
+      213: -6629444329707625562
+    second: casa_igreja_vila_44
+  - first:
+      213: -4822239142248369220
+    second: casa_igreja_vila_45
+  - first:
+      213: 7850975911381643590
+    second: casa_igreja_vila_46
+  - first:
+      213: 3068124180763444045
+    second: casa_igreja_vila_47
+  - first:
+      213: 4721916365305025294
+    second: casa_igreja_vila_48
+  - first:
+      213: -2041284564531379958
+    second: casa_igreja_vila_49
+  - first:
+      213: 7697679238210443203
+    second: casa_igreja_vila_50
+  - first:
+      213: -1068944614951198808
+    second: casa_igreja_vila_51
+  - first:
+      213: 7653404184262264183
+    second: casa_igreja_vila_52
+  - first:
+      213: 8233825192513759438
+    second: casa_igreja_vila_53
+  - first:
+      213: 806184217606055372
+    second: casa_igreja_vila_54
+  - first:
+      213: 3336829619912839825
+    second: casa_igreja_vila_55
+  - first:
+      213: -9030057722483642238
+    second: casa_igreja_vila_56
+  - first:
+      213: -1996957040108716175
+    second: casa_igreja_vila_57
+  - first:
+      213: 4563500424369501789
+    second: casa_igreja_vila_58
+  - first:
+      213: 5053942932452096179
+    second: casa_igreja_vila_59
+  - first:
+      213: -1039119856722832681
+    second: casa_igreja_vila_60
+  - first:
+      213: 3717612026911808715
+    second: casa_igreja_vila_61
+  - first:
+      213: -344259458777017146
+    second: casa_igreja_vila_62
+  - first:
+      213: -8078430483703434784
+    second: casa_igreja_vila_63
+  - first:
+      213: -6025289920430227240
+    second: casa_igreja_vila_64
+  - first:
+      213: -1844345787712991598
+    second: casa_igreja_vila_65
+  - first:
+      213: 5877384558322340977
+    second: casa_igreja_vila_66
+  - first:
+      213: -3038105765682922007
+    second: casa_igreja_vila_67
+  - first:
+      213: -1810678063520092029
+    second: casa_igreja_vila_68
+  - first:
+      213: 5321338621111284155
+    second: casa_igreja_vila_69
+  - first:
+      213: 3273445861731949418
+    second: casa_igreja_vila_70
+  - first:
+      213: -1739889542874595882
+    second: casa_igreja_vila_71
+  - first:
+      213: 1192276373211721420
+    second: casa_igreja_vila_72
+  - first:
+      213: -483529153554583093
+    second: casa_igreja_vila_73
+  - first:
+      213: 8107206728153156121
+    second: casa_igreja_vila_74
+  - first:
+      213: -2805052882183073580
+    second: casa_igreja_vila_75
+  - first:
+      213: 2088261639347244387
+    second: casa_igreja_vila_76
+  - first:
+      213: -7755342058084825536
+    second: casa_igreja_vila_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casa_igreja_vila_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c5583c5486d4110800000000000000
+      internalID: 1246767320693824612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 366
+        width: 194
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca9cd6954c70e4d0800000000000000
+      internalID: -3107347104560014645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 387
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17aafeb1da7fa0d0800000000000000
+      internalID: -3409371351625324772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 389
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57efce94aeac570800000000000000
+      internalID: 8487854050962732524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 388
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebd981798e1ea1b0800000000000000
+      internalID: -5643539707384439831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 361
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f3516805ca680d0800000000000000
+      internalID: -3420857405094412451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 386
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb46b32580f152f0800000000000000
+      internalID: -985742388796961870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 393
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e500e1c41e047a90800000000000000
+      internalID: -7317208012255394328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 393
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42681e484c5a793b0800000000000000
+      internalID: -5505749755975596508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 393
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9184048207d40c9b0800000000000000
+      internalID: -5061960837057460199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 385
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cbc5a3d6df86510800000000000000
+      internalID: 1542761517946813495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 367
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb38f27ef4820db0800000000000000
+      internalID: -4827149622202319949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 349
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913b7f839f2c52a70800000000000000
+      internalID: 8801655422423905049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 366
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d8e04d72072e380800000000000000
+      internalID: -8943462593640624891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 372
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9dd64ad84e43d510800000000000000
+      internalID: 1572686769689124251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 375
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d4465f9bc61a720800000000000000
+      internalID: 2855683184671345943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 335
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3ad5572f15b0d70800000000000000
+      internalID: 9010385581277815797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 282
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b493d73d75d729bc0800000000000000
+      internalID: -3777819321246598837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 310
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e465b4ff1a24f0420800000000000000
+      internalID: 2598368773556360782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_19
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 246
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adefe634c7bac920800000000000000
+      internalID: 3011421354213764518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 232
+        width: 78
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71b22f1899c86cf0800000000000000
+      internalID: -258735323379224194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 272
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7deeefdfe188770800000000000000
+      internalID: 8613168363598698429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 241
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33133c50f6633ca30800000000000000
+      internalID: 4234287925124346163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 235
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c82ebbf146e0f390800000000000000
+      internalID: -7786470584652781369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 250
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7fd3b6227e996b0800000000000000
+      internalID: -5288942152355809368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 232
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf3fe708f3041060800000000000000
+      internalID: 6923162890995187632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 224
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a427eb983dbad2e0800000000000000
+      internalID: -2100158225383480154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f727568f8b5772710800000000000000
+      internalID: 1668431624265888383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 211
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b8352028ca86100800000000000000
+      internalID: 101520666000591739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 169
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f540bfb3162f3140800000000000000
+      internalID: 4701518402260321782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 51
+        width: 199
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4847fbe5b2a076fa0800000000000000
+      internalID: -5807662013081488252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 229
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7145438497fb8f0800000000000000
+      internalID: -522565680729155673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 215
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbe5bee90fbe0200800000000000000
+      internalID: 148265887130315697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 223
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e26d4dc5d2ab1b0800000000000000
+      internalID: -5640145706597077358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 194
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc14ec3e784dd510800000000000000
+      internalID: 1575495151674203319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 154
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a0a40b4ec81cb80800000000000000
+      internalID: -8376258918094337495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_36
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 195
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e38a61e3e71c2b90800000000000000
+      internalID: -7265405831348583453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 198
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5a973abd5d11f40800000000000000
+      internalID: 5697570142917600676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 191
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a15fc2111878c6e0800000000000000
+      internalID: -1817070434918641248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_39
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcfc86013644b670800000000000000
+      internalID: 8553538768660659382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_40
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 148
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ecd6ce893b31e60800000000000000
+      internalID: 7931880838112595474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_41
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 134
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa8c359169990780800000000000000
+      internalID: -8716266959404234066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 160
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e8ba91e9585f40800000000000000
+      internalID: 5717418552445165740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_43
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 141
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0290d607d3fa9ed0800000000000000
+      internalID: -2406342946018258421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 140
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3ac85a18b7ff3a0800000000000000
+      internalID: -6629444329707625562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_45
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 50
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb33d48ac07f31db0800000000000000
+      internalID: -4822239142248369220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 130
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6413d02cef444fc60800000000000000
+      internalID: 7850975911381643590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 132
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d430131dfaa249a20800000000000000
+      internalID: 3068124180763444045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e031c1d9aed978140800000000000000
+      internalID: 4721916365305025294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_49
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 52
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a018e95f086eba3e0800000000000000
+      internalID: -2041284564531379958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_50
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 48
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7de6cab76a3da60800000000000000
+      internalID: 7697679238210443203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_51
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 49
+        width: 26
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af544549885a21f0800000000000000
+      internalID: -1068944614951198808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_52
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 39
+        width: 32
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775c07d5e8a563a60800000000000000
+      internalID: 7653404184262264183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 131
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8e17e436c644270800000000000000
+      internalID: 8233825192513759438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_54
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc56fe94644203b00800000000000000
+      internalID: 806184217606055372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_55
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 60
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19218ea2cdcce4e20800000000000000
+      internalID: 3336829619912839825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_56
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 46
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280f61e385acea280800000000000000
+      internalID: -9030057722483642238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fba9007226944e0800000000000000
+      internalID: -1996957040108716175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5673ee157fc45f30800000000000000
+      internalID: 4563500424369501789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b837e3f156332640800000000000000
+      internalID: 5053942932452096179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_60
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 47
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d21bfceefd4491f0800000000000000
+      internalID: -1039119856722832681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_61
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 49
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc5cc4117c979330800000000000000
+      internalID: 3717612026911808715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_62
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 47
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c41701a8d1f83bf0800000000000000
+      internalID: -344259458777017146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_63
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 46
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e17b24c646a3ef80800000000000000
+      internalID: -8078430483703434784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_64
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 49
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0c300adbed16ca0800000000000000
+      internalID: -6025289920430227240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e016027419766e0800000000000000
+      internalID: -1844345787712991598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 79
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1745b27bd1aa09150800000000000000
+      internalID: 5877384558322340977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_67
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 47
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed376617ea76d5d0800000000000000
+      internalID: -3038105765682922007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_68
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 33
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380fa4505ed2fd6e0800000000000000
+      internalID: -1810678063520092029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_69
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 117
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1b7e0484139d940800000000000000
+      internalID: 5321338621111284155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_70
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 30
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b5104faad9d6d20800000000000000
+      internalID: 3273445861731949418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_71
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 5
+        width: 117
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddfa88ddabaad7e0800000000000000
+      internalID: -1739889542874595882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_72
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 84
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce20636b01db8010800000000000000
+      internalID: 1192276373211721420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc175d3fbc82a49f0800000000000000
+      internalID: -483529153554583093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_74
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 9
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ac930c095928070800000000000000
+      internalID: 8107206728153156121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0da45f3437219d0800000000000000
+      internalID: -2805052882183073580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_76
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 116
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d0e5b95eefafc10800000000000000
+      internalID: 2088261639347244387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_igreja_vila_77
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046053cdc7d7f5490800000000000000
+      internalID: -7755342058084825536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      casa_igreja_vila_0: 1246767320693824612
+      casa_igreja_vila_1: -3107347104560014645
+      casa_igreja_vila_10: 1542761517946813495
+      casa_igreja_vila_11: -4827149622202319949
+      casa_igreja_vila_12: 8801655422423905049
+      casa_igreja_vila_13: -8943462593640624891
+      casa_igreja_vila_14: 1572686769689124251
+      casa_igreja_vila_15: 2855683184671345943
+      casa_igreja_vila_16: 9010385581277815797
+      casa_igreja_vila_17: -3777819321246598837
+      casa_igreja_vila_18: 2598368773556360782
+      casa_igreja_vila_19: 3011421354213764518
+      casa_igreja_vila_2: -3409371351625324772
+      casa_igreja_vila_20: -258735323379224194
+      casa_igreja_vila_21: 8613168363598698429
+      casa_igreja_vila_22: 4234287925124346163
+      casa_igreja_vila_23: -7786470584652781369
+      casa_igreja_vila_24: -5288942152355809368
+      casa_igreja_vila_25: 6923162890995187632
+      casa_igreja_vila_26: -2100158225383480154
+      casa_igreja_vila_27: 1668431624265888383
+      casa_igreja_vila_28: 101520666000591739
+      casa_igreja_vila_29: 4701518402260321782
+      casa_igreja_vila_3: 8487854050962732524
+      casa_igreja_vila_30: -5807662013081488252
+      casa_igreja_vila_31: -522565680729155673
+      casa_igreja_vila_32: 148265887130315697
+      casa_igreja_vila_33: -5640145706597077358
+      casa_igreja_vila_34: 1575495151674203319
+      casa_igreja_vila_35: -8376258918094337495
+      casa_igreja_vila_36: -7265405831348583453
+      casa_igreja_vila_37: 5697570142917600676
+      casa_igreja_vila_38: -1817070434918641248
+      casa_igreja_vila_39: 8553538768660659382
+      casa_igreja_vila_4: -5643539707384439831
+      casa_igreja_vila_40: 7931880838112595474
+      casa_igreja_vila_41: -8716266959404234066
+      casa_igreja_vila_42: 5717418552445165740
+      casa_igreja_vila_43: -2406342946018258421
+      casa_igreja_vila_44: -6629444329707625562
+      casa_igreja_vila_45: -4822239142248369220
+      casa_igreja_vila_46: 7850975911381643590
+      casa_igreja_vila_47: 3068124180763444045
+      casa_igreja_vila_48: 4721916365305025294
+      casa_igreja_vila_49: -2041284564531379958
+      casa_igreja_vila_5: -3420857405094412451
+      casa_igreja_vila_50: 7697679238210443203
+      casa_igreja_vila_51: -1068944614951198808
+      casa_igreja_vila_52: 7653404184262264183
+      casa_igreja_vila_53: 8233825192513759438
+      casa_igreja_vila_54: 806184217606055372
+      casa_igreja_vila_55: 3336829619912839825
+      casa_igreja_vila_56: -9030057722483642238
+      casa_igreja_vila_57: -1996957040108716175
+      casa_igreja_vila_58: 4563500424369501789
+      casa_igreja_vila_59: 5053942932452096179
+      casa_igreja_vila_6: -985742388796961870
+      casa_igreja_vila_60: -1039119856722832681
+      casa_igreja_vila_61: 3717612026911808715
+      casa_igreja_vila_62: -344259458777017146
+      casa_igreja_vila_63: -8078430483703434784
+      casa_igreja_vila_64: -6025289920430227240
+      casa_igreja_vila_65: -1844345787712991598
+      casa_igreja_vila_66: 5877384558322340977
+      casa_igreja_vila_67: -3038105765682922007
+      casa_igreja_vila_68: -1810678063520092029
+      casa_igreja_vila_69: 5321338621111284155
+      casa_igreja_vila_7: -7317208012255394328
+      casa_igreja_vila_70: 3273445861731949418
+      casa_igreja_vila_71: -1739889542874595882
+      casa_igreja_vila_72: 1192276373211721420
+      casa_igreja_vila_73: -483529153554583093
+      casa_igreja_vila_74: 8107206728153156121
+      casa_igreja_vila_75: -2805052882183073580
+      casa_igreja_vila_76: 2088261639347244387
+      casa_igreja_vila_77: -7755342058084825536
+      casa_igreja_vila_8: -5505749755975596508
+      casa_igreja_vila_9: -5061960837057460199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

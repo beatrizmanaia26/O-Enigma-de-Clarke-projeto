@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 477e24eb727a836429bc28a27e60561f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5875799945197920815
+    second: casa_queimada_0
+  - first:
+      213: 6840788592683103998
+    second: casa_queimada_1
+  - first:
+      213: -3963046480287603052
+    second: casa_queimada_2
+  - first:
+      213: 5532899988550227326
+    second: casa_queimada_3
+  - first:
+      213: 1410556489269206614
+    second: casa_queimada_4
+  - first:
+      213: -7774233590641535262
+    second: casa_queimada_5
+  - first:
+      213: -4941958137228699060
+    second: casa_queimada_6
+  - first:
+      213: 8981872132956046230
+    second: casa_queimada_7
+  - first:
+      213: 1960291625169220849
+    second: casa_queimada_8
+  - first:
+      213: 6789813091810878851
+    second: casa_queimada_9
+  - first:
+      213: -3792183499962879430
+    second: casa_queimada_10
+  - first:
+      213: 5982052654967492634
+    second: casa_queimada_11
+  - first:
+      213: 7651532466456653590
+    second: casa_queimada_12
+  - first:
+      213: 2973650218143582345
+    second: casa_queimada_13
+  - first:
+      213: 7755195337666400237
+    second: casa_queimada_14
+  - first:
+      213: 5171766038780468245
+    second: casa_queimada_15
+  - first:
+      213: 2436256011024213391
+    second: casa_queimada_16
+  - first:
+      213: -6307431577964093291
+    second: casa_queimada_17
+  - first:
+      213: 5643553515882494072
+    second: casa_queimada_18
+  - first:
+      213: 8250291647279878170
+    second: casa_queimada_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casa_queimada_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 317
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddd737c417f47ea0800000000000000
+      internalID: -5875799945197920815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 23
+        width: 422
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6bb622bfc5fee50800000000000000
+      internalID: 6840788592683103998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496681a293e6009c0800000000000000
+      internalID: -3963046480287603052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e759c4b993fc8cc40800000000000000
+      internalID: 5532899988550227326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e538e47ad439310800000000000000
+      internalID: 1410556489269206614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6d6ec2dbf5c1490800000000000000
+      internalID: -7774233590641535262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ad1aff143aa6bb0800000000000000
+      internalID: -4941958137228699060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 55
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69343deed1506ac70800000000000000
+      internalID: 8981872132956046230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 69
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f47266d8da543b10800000000000000
+      internalID: 1960291625169220849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3852fa478034a3e50800000000000000
+      internalID: 6789813091810878851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a327d99d2357f5bc0800000000000000
+      internalID: -3792183499962879430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 162
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1015070235840350800000000000000
+      internalID: 5982052654967492634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 29
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f648a1d34bf2a60800000000000000
+      internalID: 7651532466456653590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 5
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98806ba4e17844920800000000000000
+      internalID: 2973650218143582345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def0f51221dff9b60800000000000000
+      internalID: 7755195337666400237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 77
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c50f2afcdc5c740800000000000000
+      internalID: 5171766038780468245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8522072fe15fc120800000000000000
+      internalID: 2436256011024213391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5906e56e5608778a0800000000000000
+      internalID: -6307431577964093291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_18
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8783519950ee15e40800000000000000
+      internalID: 5643553515882494072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa_queimada_19
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 6
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a105d719a8cee7270800000000000000
+      internalID: 8250291647279878170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      casa_queimada_0: -5875799945197920815
+      casa_queimada_1: 6840788592683103998
+      casa_queimada_10: -3792183499962879430
+      casa_queimada_11: 5982052654967492634
+      casa_queimada_12: 7651532466456653590
+      casa_queimada_13: 2973650218143582345
+      casa_queimada_14: 7755195337666400237
+      casa_queimada_15: 5171766038780468245
+      casa_queimada_16: 2436256011024213391
+      casa_queimada_17: -6307431577964093291
+      casa_queimada_18: 5643553515882494072
+      casa_queimada_19: 8250291647279878170
+      casa_queimada_2: -3963046480287603052
+      casa_queimada_3: 5532899988550227326
+      casa_queimada_4: 1410556489269206614
+      casa_queimada_5: -7774233590641535262
+      casa_queimada_6: -4941958137228699060
+      casa_queimada_7: 8981872132956046230
+      casa_queimada_8: 1960291625169220849
+      casa_queimada_9: 6789813091810878851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
