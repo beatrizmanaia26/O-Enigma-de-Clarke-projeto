@@ -32,6 +32,31 @@ public class MenuNavegacao : MonoBehaviour
         
         Debug.Log("Mostrando HISTÓRIA e PERSONAGENS...");
     }
+
+    public void Voltar()
+    {
+        SceneManager.LoadScene("telaInicial");
+        
+        Debug.Log("Voltando");
+    }
     
-  
+    public void IrParaInventario()
+    {
+        SceneManager.LoadScene("inventario");
+        
+        Debug.Log("Mostrando INVENTARIO");
+    }
+    public void VoltarFase()
+    {
+        // TODO        
+        Debug.Log("Voltando pra fase");
+    }
+
+    public void IrParaMapa()
+    {
+        SceneManager.LoadScene("mapaJogo");
+
+        Debug.Log("Mostrando MAPA");
+    }
+
 }
