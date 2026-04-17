@@ -20,6 +20,54 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/continuar.unity
     guid: 73249eed72d4eb846a8201157f216a11
+  - enabled: 1
+    path: Assets/Scenes/tela4Jogo.unity
+    guid: 68d5877cc383b504485e82b673cbb5b9
+  - enabled: 1
+    path: Assets/Scenes/inventario.unity
+    guid: 6ed23a12949601e45966e1fb0bfa54bb
+  - enabled: 1
+    path: Assets/Scenes/mapaJogo.unity
+    guid: bd7d126364744724599eefd8ab388de7
+  - enabled: 1
+    path: Assets/Scenes/telaDerrota.unity
+    guid: 375f71556e1914546937e9ad0f823814
+  - enabled: 1
+    path: Assets/Scenes/telaPause.unity
+    guid: b2b5751ae2e3fbd4ba0da419e352dced
+  - enabled: 1
+    path: Assets/Scenes/telaVitoria.unity
+    guid: cf170148fdd79a04d9e5b40a9624578d
+  - enabled: 1
+    path: Assets/Scenes/fase1Jogo.unity
+    guid: c62033edefb0bb64596125867ce7ae77
+  - enabled: 1
+    path: Assets/Scenes/fase1TelaInicial.unity
+    guid: 1d173cd22809a0d45b31f3767344c9c6
+  - enabled: 1
+    path: Assets/Scenes/fase2TelaInicial.unity
+    guid: 6a499d76374307a48b2098dfdfbd5e08
+  - enabled: 1
+    path: Assets/Scenes/fase3Jogo.unity
+    guid: 6902eed3fae377045bc36473aeed7ee7
+  - enabled: 1
+    path: Assets/Scenes/fase3TelaInicial.unity
+    guid: eb04195cf34cda6418b96b653c8f68b6
+  - enabled: 1
+    path: Assets/Scenes/fase4TelaInicial.unity
+    guid: 67eada017b3c6504e8da82087f615eab
+  - enabled: 1
+    path: Assets/Scenes/tela2Jogo.unity
+    guid: e4bd42aaef61bfb42b9814c383569bde
+  - enabled: 1
+    path: Assets/Scenes/telaInteracaoFase1.unity
+    guid: 716caf68025880647a3337b5eec92c7a
+  - enabled: 1
+    path: Assets/Scenes/telaInteracaoFase2.unity
+    guid: 258092b3da2d94a4ab97bddc51bb717f
+  - enabled: 1
+    path: Assets/Scenes/telainteracaoFase3.unity
+    guid: 48ef12b971f59f84398e0c688281c425
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
