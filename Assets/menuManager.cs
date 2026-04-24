@@ -52,6 +52,13 @@ public class MenuNavegacao : MonoBehaviour
         Debug.Log("Voltando pra fase");
     }
 
+    public void VoltarTelaPause()
+    {
+        SceneManager.LoadScene("telaPause");
+        
+        Debug.Log("Voltando");
+    }
+    
     public void IrParaMapa()
     {
         SceneManager.LoadScene("mapaJogo");
@@ -59,7 +66,31 @@ public class MenuNavegacao : MonoBehaviour
         Debug.Log("Mostrando MAPA");
     }
 
-    public void JogarFase1()
+    public void irFase1()
+    {
+        SceneManager.LoadScene("fase1TelaInicial");
+
+        Debug.Log("Mostrando tela inicial fase1");
+    }
+    public void irFase2()
+    {
+        SceneManager.LoadScene("fase2TelaInicial");
+
+        Debug.Log("Mostrando tela inicial fase2");
+    }
+     public void irFase3()
+    {
+        SceneManager.LoadScene("fase3TelaInicial");
+
+        Debug.Log("Mostrando tela inicial fase3");
+    }
+    public void irFase4()
+    {
+        SceneManager.LoadScene("fase4TelaInicial");
+
+        Debug.Log("Mostrando tela inicial fase4");
+    }
+      public void JogarFase1()
     {
         SceneManager.LoadScene("fase1Jogo");
 

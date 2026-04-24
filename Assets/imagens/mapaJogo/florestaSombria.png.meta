@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4506153a012a2e54183f3d4a267bde24
+guid: 62069fd7165ba54478f54918abf30fae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2734021628894367902
-    second: jogar_0
+      213: 883396217241852502
+    second: florestaSombria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jogar_0
+      name: florestaSombria_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1537
-        height: 1023
+        width: 263
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e90db7e9f2231f520800000000000000
-      internalID: 2734021628894367902
+      spriteID: 65adf9cdd24724c00800000000000000
+      internalID: 883396217241852502
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      jogar_0: 2734021628894367902
+      florestaSombria_0: 883396217241852502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
