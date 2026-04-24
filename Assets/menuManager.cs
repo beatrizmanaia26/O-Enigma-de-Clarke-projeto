@@ -59,4 +59,28 @@ public class MenuNavegacao : MonoBehaviour
         Debug.Log("Mostrando MAPA");
     }
 
+    public void JogarFase1()
+    {
+        SceneManager.LoadScene("fase1Jogo");
+
+        Debug.Log("Mostrando tela inicial fase1");
+    }
+    public void JogarFase2()
+    {
+        SceneManager.LoadScene("fase2Jogo");
+
+        Debug.Log("Mostrando tela inicial fase2");
+    }
+     public void JogarFase3()
+    {
+        SceneManager.LoadScene("fase3Jogo");
+
+        Debug.Log("Mostrando tela inicial fase3");
+    }
+    public void JogarFase4()
+    {
+        SceneManager.LoadScene("fase4Jogo");
+
+        Debug.Log("Mostrando tela inicial fase4");
+    }
 }

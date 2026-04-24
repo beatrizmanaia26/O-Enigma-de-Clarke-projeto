@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/telaInicial.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/novoJogo.unity
     guid: 7fe7c51b4c6708d4eb6ce0f650db03fa
   - enabled: 1
@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/continuar.unity
     guid: 73249eed72d4eb846a8201157f216a11
   - enabled: 1
-    path: Assets/Scenes/tela4Jogo.unity
+    path: Assets/Scenes/fase4Jogo.unity
     guid: 68d5877cc383b504485e82b673cbb5b9
   - enabled: 1
     path: Assets/Scenes/inventario.unity
@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/fase4TelaInicial.unity
     guid: 67eada017b3c6504e8da82087f615eab
   - enabled: 1
-    path: Assets/Scenes/tela2Jogo.unity
+    path: Assets/Scenes/fase2Jogo.unity
     guid: e4bd42aaef61bfb42b9814c383569bde
   - enabled: 1
     path: Assets/Scenes/telaInteracaoFase1.unity
@@ -68,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/telainteracaoFase3.unity
     guid: 48ef12b971f59f84398e0c688281c425
+  - enabled: 1
+    path: Assets/Scenes/novoJogo.unity
+    guid: 367ac4869b7e819479e225d6bb427017
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

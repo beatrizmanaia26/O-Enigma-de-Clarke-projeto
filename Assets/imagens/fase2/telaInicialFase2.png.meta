@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c8569882bb51ea6459e899a0baaf6527
+guid: 341295100951f0f49809d3cdcf557784
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8454814585613893996
-    second: inicial_fase6_0
+      213: 1747559233164637950
+    second: telaInicialFase2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inicial_fase6_0
+      name: telaInicialFase2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 1024
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c61ce41f119855570800000000000000
-      internalID: 8454814585613893996
+      spriteID: ef67bb41dd3904810800000000000000
+      internalID: 1747559233164637950
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inicial_fase6_0: 8454814585613893996
+      telaInicialFase2_0: 1747559233164637950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
