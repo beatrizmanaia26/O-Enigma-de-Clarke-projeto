@@ -114,4 +114,72 @@ public class MenuNavegacao : MonoBehaviour
 
         Debug.Log("Mostrando tela inicial fase4");
     }
+    //CENAS PARA CONTAR HISÓRIA EM "NOVO JOGO"
+    public void CarregarHistoriapt2()
+    {
+        SceneManager.LoadScene("novoJogoHistoria2");
+
+        Debug.Log("Mostrando tela historiapt2 novo jogo");
+    }
+    public void CarregarHistoriapt3()
+    {
+        SceneManager.LoadScene("novoJogoHistoria3");
+
+        Debug.Log("Mostrando tela historiapt3 novo jogo");
+    }
+    public void CarregarHistoriapt4()
+    {
+        SceneManager.LoadScene("novoJogoHistoria4");
+
+        Debug.Log("Mostrando tela historiapt4 novo jogo");
+    }
+    public void CarregarHistoriapt5()
+    {
+        SceneManager.LoadScene("novoJogoHistoria5");
+
+        Debug.Log("Mostrando tela historiapt5 novo jogo");
+    }
+     //CENAS PARA CONTAR HISÓRIA EM "HISTORIA PERSONAGENS"
+    public void CarregarHistoriaLobo()
+    {
+        SceneManager.LoadScene("historiaPersonagensLobo");
+
+        Debug.Log("Mostrando tela historiaPersonagem lobo");
+    }
+    public void CarregarHistoriaMoradorFerido()
+    {
+        SceneManager.LoadScene("historiaPersonagensMoradorFerido");
+
+        Debug.Log("Mostrando tela historiaPersonagem Morador Ferido");
+    }
+    public void CarregarHistoriaBruxa()
+    {
+        SceneManager.LoadScene("historiaPersonagensBruxa");
+
+        Debug.Log("Mostrando tela historiaPersonagem bruxa");
+    }
+    public void CarregarHistoriaGuerreiroFerido()
+    {
+        SceneManager.LoadScene("historiaPersonagensGuerreiroFerido");
+
+        Debug.Log("Mostrando tela historiaPersonagem Guerreiro Ferido");
+    }
+    public void CarregarHistoriaGnomo()
+    {
+        SceneManager.LoadScene("historiaPersonagensGnomo");
+
+        Debug.Log("Mostrando tela historiaPersonagem Gnomo");
+    }
+    public void CarregarHistoriaMago()
+    {
+        SceneManager.LoadScene("historiaPersonagensMago");
+
+        Debug.Log("Mostrando tela historiaPersonagem mago");
+    }
+    public void CarregarHistoriaAranhaBau()
+    {
+        SceneManager.LoadScene("historiaPersonagensAranhaBau");
+
+        Debug.Log("Mostrando tela historiaPersonagem aranha bau");
+    }
 }
