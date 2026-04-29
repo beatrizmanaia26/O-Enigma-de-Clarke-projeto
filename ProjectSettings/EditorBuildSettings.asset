@@ -39,10 +39,10 @@ EditorBuildSettings:
     path: Assets/Scenes/telaVitoria.unity
     guid: cf170148fdd79a04d9e5b40a9624578d
   - enabled: 1
-    path: Assets/Scenes/fase1/fase1Jogo.unity
+    path: Assets/Scenes/fase1Jogo.unity
     guid: c62033edefb0bb64596125867ce7ae77
   - enabled: 1
-    path: Assets/Scenes/fase1/fase1TelaInicial.unity
+    path: Assets/Scenes/fase1TelaInicial.unity
     guid: 1d173cd22809a0d45b31f3767344c9c6
   - enabled: 1
     path: Assets/Scenes/fase2TelaInicial.unity
