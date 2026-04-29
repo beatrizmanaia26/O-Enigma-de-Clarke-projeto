@@ -203,8 +203,8 @@ Transform:
   m_GameObject: {fileID: 22910098}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: -3.55, z: 0}
-  m_LocalScale: {x: 0.4355169, y: 0.59122074, z: 1}
+  m_LocalPosition: {x: 0.02, y: -3.57, z: 0}
+  m_LocalScale: {x: 0.32550532, y: 0.3779083, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -569,7 +569,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37.579803, y: -163.13034}
+  m_AnchoredPosition: {x: 37, y: -237.75}
   m_SizeDelta: {x: 324.4983, y: 59.0967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &670652618
@@ -592,17 +592,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: aperte                  para pular
+  m_text: aperte                     para pular
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284657100
+  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -706,8 +706,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: 0}
-  m_SizeDelta: {x: 485.7892, y: 84.2351}
+  m_AnchoredPosition: {x: 42, y: 32}
+  m_SizeDelta: {x: 586.1381, y: 84.2351}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690688370
 MonoBehaviour:
@@ -735,15 +735,15 @@ MonoBehaviour:
     coragem, entrega uma pista valiosa e um fragmento importante para a continua\xE7\xE3o
     da aventura."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283876851
+  m_fontColor: {r: 0.9523747, g: 0.7722487, b: 0.33646, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -760,8 +760,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1398,7 +1398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275.6, y: -176}
+  m_AnchoredPosition: {x: -436, y: -233.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803170653
@@ -1423,15 +1423,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gnomo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284657100
+  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

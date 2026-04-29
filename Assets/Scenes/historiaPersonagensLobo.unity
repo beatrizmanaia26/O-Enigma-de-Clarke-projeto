@@ -293,8 +293,8 @@ Transform:
   m_GameObject: {fileID: 148466236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11, y: -4.08, z: 0}
-  m_LocalScale: {x: 0.4556212, y: 0.48507228, z: 1}
+  m_LocalPosition: {x: -0.05, y: -4.02, z: 0}
+  m_LocalScale: {x: 0.3912875, y: 0.38529292, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -333,7 +333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -264.5, y: -166}
+  m_AnchoredPosition: {x: -428.4, y: -241.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541614398
@@ -358,15 +358,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lobo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284657100
+  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -470,8 +470,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89, y: -0.0000038147}
-  m_SizeDelta: {x: 475.4248, y: 95.2484}
+  m_AnchoredPosition: {x: 82, y: 48}
+  m_SizeDelta: {x: 591.2498, y: 81.6575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &593217794
 MonoBehaviour:
@@ -500,15 +500,15 @@ MonoBehaviour:
     Em um mundo tomado pela sombra, o lobo representa a mem\xF3ria do lar, da prote\xE7\xE3o
     e da for\xE7a que ainda permanece ao lado dela."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284994303
+  m_fontColor: {r: 1, g: 0.82538617, b: 0.40293336, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -525,8 +525,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -564,7 +564,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -20.930664, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -612,7 +612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48, y: -182}
+  m_AnchoredPosition: {x: 52, y: -265}
   m_SizeDelta: {x: 380.5657, y: 59.951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788470100
@@ -635,17 +635,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: aperte                    para pular
+  m_text: aperte                         para pular
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284657100
+  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

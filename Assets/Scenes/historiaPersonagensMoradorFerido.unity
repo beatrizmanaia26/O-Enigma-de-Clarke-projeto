@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169.8, y: -163.3}
+  m_AnchoredPosition: {x: 181, y: -248}
   m_SizeDelta: {x: 572.3378, y: 67.1848}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204386193
@@ -178,15 +178,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: aperte                      para pular
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284657100
+  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -599,8 +599,8 @@ Transform:
   m_GameObject: {fileID: 769682835}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.59, y: -3.6, z: 0}
-  m_LocalScale: {x: 0.48433265, y: 0.5096685, z: 1}
+  m_LocalPosition: {x: 0.32, y: -3.74, z: 0}
+  m_LocalScale: {x: 0.29665375, y: 0.36527944, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -834,7 +834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151.6, y: -19.7}
+  m_AnchoredPosition: {x: 66, y: 36}
   m_SizeDelta: {x: 578.25, y: 174.1126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1691300683
@@ -863,15 +863,15 @@ MonoBehaviour:
     mas tamb\xE9m com esperan\xE7a. Suas palavras d\xE3o in\xEDcio \xE0 jornada,
     revelando que ainda existem pistas escondidas entre as ru\xEDnas."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283742177
+  m_fontColor: {r: 0.8804949, g: 0.7190928, b: 0.3286038, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -888,8 +888,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354.7541, y: -151.82}
-  m_SizeDelta: {x: 171.951, y: 90.136}
+  m_AnchoredPosition: {x: 361.70862, y: -105.54907}
+  m_SizeDelta: {x: 185.8683, y: 75.2341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1940146139
 GameObject:
@@ -1260,7 +1260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302.6, y: -187.1}
+  m_AnchoredPosition: {x: -470.7, y: -275.9}
   m_SizeDelta: {x: 275.9461, y: 67.2605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2017288650
@@ -1285,15 +1285,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Morador  da Vila
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
+  m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284657100
+  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
