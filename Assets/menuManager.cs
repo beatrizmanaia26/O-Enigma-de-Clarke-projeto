@@ -152,12 +152,6 @@ public class MenuNavegacao : MonoBehaviour
 
         Debug.Log("Mostrando tela historiaPersonagem Morador Ferido");
     }
-    public void CarregarHistoriaBruxa()
-    {
-        SceneManager.LoadScene("historiaPersonagensBruxa");
-
-        Debug.Log("Mostrando tela historiaPersonagem bruxa");
-    }
     public void CarregarHistoriaGuerreiroFerido()
     {
         SceneManager.LoadScene("historiaPersonagensGuerreiroFerido");
@@ -181,5 +175,11 @@ public class MenuNavegacao : MonoBehaviour
         SceneManager.LoadScene("historiaPersonagensAranhaBau");
 
         Debug.Log("Mostrando tela historiaPersonagem aranha bau");
+    }
+    public void CarregarHistoriaBruxa()
+    {
+        SceneManager.LoadScene("historiaPersonagensBruxa");
+
+        Debug.Log("Mostrando tela historiaPersonagem bruxa");
     }
 }
