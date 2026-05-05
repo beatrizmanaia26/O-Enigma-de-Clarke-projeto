@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9d8c1c8202d13574ab8163057fae8fb1
+guid: 000bd91ae5f9f07458c1290d04cc342e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6017069432315601388
-    second: fundo_fase6_0
+      213: 1932083307451471774
+    second: clarkeParada_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fundo_fase6_0
+      name: clarkeParada_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1672
-        height: 941
+        x: 83
+        y: 103
+        width: 334
+        height: 321
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41e97f92b331f7ca0800000000000000
-      internalID: -6017069432315601388
+      spriteID: e975b11188320da10800000000000000
+      internalID: 1932083307451471774
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fundo_fase6_0: -6017069432315601388
+      clarkeParada_0: 1932083307451471774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
