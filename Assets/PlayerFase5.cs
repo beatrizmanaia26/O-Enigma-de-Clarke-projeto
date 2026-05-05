@@ -51,6 +51,15 @@ public class Player : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision)
     {
+    Debug.Log("COLIDIU COM: " + collision.gameObject.name);
+    Debug.Log("TAG: " + collision.gameObject.tag);
+    
+    // Verifica se é inimigo (tag minúscula)
+    if (collision.gameObject.CompareTag("inimigo"))
+    {
+        Debug.Log("É INIMIGO! PERDENDO VIDA...");
+        PerderVida();
+    }
         // Se encostar em algo com tag "Inimigo"
         if (collision.gameObject.CompareTag("inimigo"))
         {
@@ -107,4 +116,5 @@ public class Player : MonoBehaviour
         // Ou recarregar a fase:
         // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    
 }
