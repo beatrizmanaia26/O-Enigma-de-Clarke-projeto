@@ -10,6 +10,8 @@ TagManager:
   - mago
   - escada
   - pedraAzul
+  - aranha
+  - estrela
   layers:
   - Default
   - TransparentFX
