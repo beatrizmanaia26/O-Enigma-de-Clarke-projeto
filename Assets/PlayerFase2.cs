@@ -52,10 +52,10 @@ public class PlayerFase2 : MonoBehaviour
         }
 
         // INIMIGO
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            PerderVida();
-        }
+        // if (collision.gameObject.CompareTag("Enemy"))
+        // {
+        //     PerderVida();
+        // }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -68,31 +68,30 @@ public class PlayerFase2 : MonoBehaviour
 
     void PerderVida()
     {
-        if (vidasRestantes <= 0) return;
+    //     if (vidasRestantes <= 0) return;
 
-        vidasRestantes--;
-        AtualizarVidas();
+    //     vidasRestantes--;
+    //     AtualizarVidas();
 
-        Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);
+    //     Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);
 
-        if (vidasRestantes <= 0)
-        {
-            Morrer();
-        }
+    //     if (vidasRestantes <= 0)
+    //     {
+    //         Morrer();
+    //     }
     }
 
     void AtualizarVidas()
-    {
-        vida5.SetActive(vidasRestantes >= 5);
-        vida4.SetActive(vidasRestantes >= 4);
-        vida3.SetActive(vidasRestantes >= 3);
-        vida2.SetActive(vidasRestantes >= 2);
-        vida1.SetActive(vidasRestantes >= 1);
-    }
+     {
+    //     vida5.SetActive(vidasRestantes >= 5);
+    //     vida4.SetActive(vidasRestantes >= 4);
+    //     vida3.SetActive(vidasRestantes >= 3);
+    //     vida2.SetActive(vidasRestantes >= 2);
+    //     vida1.SetActive(vidasRestantes >= 1);
+     }
 
-    void Morrer()
-    {
-        Debug.Log("Player morreu! Game Over!");
-        gameObject.SetActive(false);
-    }
+    void Morrer(){
+    //     Debug.Log("Player morreu! Game Over!");
+    //     gameObject.SetActive(false);
+     }
 }
