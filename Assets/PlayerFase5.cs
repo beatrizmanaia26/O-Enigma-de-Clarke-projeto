@@ -7,11 +7,11 @@ public class Player : MonoBehaviour
     public float forcaPulo = 7f;
     
     [Header("Vidas")]
-    public GameObject vida5;  // Arraste a imagem vida5 aqui
-    public GameObject vida4;  // Arraste a imagem vida4 aqui
-    public GameObject vida3;  // Arraste a imagem vida3 aqui
-    public GameObject vida2;  // Arraste a imagem vida2 aqui
-    public GameObject vida1;  // Arraste a imagem vida1 aqui
+    public GameObject vida5;
+    public GameObject vida4;
+    public GameObject vida3;
+    public GameObject vida2;
+    public GameObject vida1;
     
     private Rigidbody2D rb;
     private bool estaNoChao;
@@ -20,29 +20,24 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
-        // Garante que todas as vidas estão visíveis no início
         AtualizarVidas();
     }
     
     void Update()
     {
-        // Movimento com as teclas A e D
         float movimento = 0;
         
         if (Input.GetKey(KeyCode.D))
         {
-            movimento = 1;  // Frente
+            movimento = 1;
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            movimento = -1; // Trás
+            movimento = -1;
         }
         
-        // Aplica a velocidade
         rb.linearVelocity = new Vector2(movimento * velocidade, rb.linearVelocity.y);
         
-        // Pulo com Espaço
         if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
@@ -51,18 +46,13 @@ public class Player : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision)
     {
-    Debug.Log("COLIDIU COM: " + collision.gameObject.name);
-    Debug.Log("TAG: " + collision.gameObject.tag);
-    
-    // Verifica se é inimigo (tag minúscula)
-    if (collision.gameObject.CompareTag("inimigo"))
-    {
-        Debug.Log("É INIMIGO! PERDENDO VIDA...");
-        PerderVida();
-    }
-        // Se encostar em algo com tag "Inimigo"
+        Debug.Log("COLIDIU COM: " + collision.gameObject.name);
+        Debug.Log("TAG: " + collision.gameObject.tag);
+        
+        // Verifica se é inimigo - APENAS UMA VEZ!
         if (collision.gameObject.CompareTag("inimigo"))
         {
+            Debug.Log("É INIMIGO! PERDENDO VIDA...");
             PerderVida();
         }
     }
@@ -85,7 +75,7 @@ public class Player : MonoBehaviour
     
     void PerderVida()
     {
-        if (vidasRestantes <= 0) return; // Já morreu
+        if (vidasRestantes <= 0) return;
         
         vidasRestantes--;
         AtualizarVidas();
@@ -100,7 +90,6 @@ public class Player : MonoBehaviour
     
     void AtualizarVidas()
     {
-        // Mostra/esconde as imagens conforme as vidas restantes
         vida5.SetActive(vidasRestantes >= 5);
         vida4.SetActive(vidasRestantes >= 4);
         vida3.SetActive(vidasRestantes >= 3);
@@ -111,10 +100,6 @@ public class Player : MonoBehaviour
     void Morrer()
     {
         Debug.Log("Player morreu! Game Over!");
-        // Opcional: desativa o player ou recarrega a fase
         gameObject.SetActive(false);
-        // Ou recarregar a fase:
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    
 }

@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - acido
   - chao
   - Ground
+  - inimigo
+  - mago
+  - escada
   layers:
   - Default
   - TransparentFX
