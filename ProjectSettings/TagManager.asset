@@ -9,6 +9,7 @@ TagManager:
   - inimigo
   - mago
   - escada
+  - pedraAzul
   layers:
   - Default
   - TransparentFX
