@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class StarPickup : MonoBehaviour
+public class PedraAzulPickup : MonoBehaviour
 {
     public int value = 1;
     private bool playerProximo = false;
@@ -25,15 +25,15 @@ public class StarPickup : MonoBehaviour
     {
         if (playerProximo && Input.GetKeyDown(KeyCode.E))
         {
-            ColetarEstrela();
+            ColetarPedra();
         }
     }
 
-    private void ColetarEstrela()
+    private void ColetarPedra()
     {
         if (InventoryManager.Instance != null)
         {
-            InventoryManager.Instance.AddStar(value);
+            InventoryManager.Instance.AddBlueStone(value);
         }
         Destroy(gameObject);
     }

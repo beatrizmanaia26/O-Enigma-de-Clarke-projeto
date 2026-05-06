@@ -4,6 +4,7 @@ using TMPro;
 public class InventoryUI : MonoBehaviour
 {
     public TextMeshProUGUI coinsText;
+    public TextMeshProUGUI starsText;   
     public GameObject swordIcon;
 
     private void Start()
@@ -22,6 +23,9 @@ public class InventoryUI : MonoBehaviour
         {
             if (coinsText != null)
                 coinsText.text = "Moedas: " + InventoryManager.Instance.coins;
+
+            if (starsText != null)               
+                starsText.text = "Estrelas: " + InventoryManager.Instance.stars;
 
             if (swordIcon != null)
                 swordIcon.SetActive(InventoryManager.Instance.hasSword);
