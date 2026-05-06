@@ -880,8 +880,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinPickup
   value: 1
-  duracaoBrilho: 0.3
-  escalaBrilho: 1.5
 --- !u!58 &106283464
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1004,8 +1002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinPickup
   value: 1
-  duracaoBrilho: 0.3
-  escalaBrilho: 1.5
 --- !u!1 &109669235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9950ed9cb4233f4da433074909eca12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Aranha
-  velocidade: 2
+  velocidadeBase: 2
   limiteEsquerda: {fileID: 1314570052}
   limiteDireita: {fileID: 1774415834}
 --- !u!50 &370058911
@@ -3190,7 +3186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9950ed9cb4233f4da433074909eca12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  velocidade: 2
+  velocidadeBase: 2
   limiteEsquerda: {fileID: 1314570052}
   limiteDireita: {fileID: 1774415834}
 --- !u!50 &480124114
@@ -5623,7 +5619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9950ed9cb4233f4da433074909eca12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Aranha
-  velocidade: 2
+  velocidadeBase: 2
   limiteEsquerda: {fileID: 265762954}
   limiteDireita: {fileID: 2030030203}
 --- !u!50 &964760440
@@ -6215,7 +6211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9950ed9cb4233f4da433074909eca12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Aranha
-  velocidade: 2
+  velocidadeBase: 2
   limiteEsquerda: {fileID: 1872523658}
   limiteDireita: {fileID: 1920495228}
 --- !u!50 &1104501407
@@ -6302,6 +6298,7 @@ GameObject:
   - component: {fileID: 1152789654}
   - component: {fileID: 1152789653}
   - component: {fileID: 1152789655}
+  - component: {fileID: 1152789656}
   m_Layer: 0
   m_Name: estrela_0
   m_TagString: estrela
@@ -6428,6 +6425,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.63, y: 3.58}
   m_EdgeRadius: 0
+--- !u!114 &1152789656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152789652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27afc7a04b6979a428c3697191f49b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  value: 1
 --- !u!1 &1221599234
 GameObject:
   m_ObjectHideFlags: 0
@@ -8258,8 +8268,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinPickup
   value: 1
-  duracaoBrilho: 0.3
-  escalaBrilho: 1.5
 --- !u!58 &1607989144
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8382,8 +8390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinPickup
   value: 1
-  duracaoBrilho: 0.3
-  escalaBrilho: 1.5
 --- !u!1 &1756504052
 GameObject:
   m_ObjectHideFlags: 0
@@ -9283,7 +9289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9950ed9cb4233f4da433074909eca12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Aranha
-  velocidade: 2
+  velocidadeBase: 2
   limiteEsquerda: {fileID: 862371704}
   limiteDireita: {fileID: 2128891937}
 --- !u!50 &1873270094
@@ -9605,6 +9611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
   coins: 0
+  stars: 0
   hasSword: 0
 --- !u!61 &1942102652
 BoxCollider2D:

@@ -6,6 +6,7 @@ public class InventoryManager : MonoBehaviour
 
     [Header("Itens")]
     public int coins = 0;
+    public int stars = 0;      
     public bool hasSword = false;
 
     private void Awake()
@@ -34,7 +35,21 @@ public class InventoryManager : MonoBehaviour
             coins -= amount;
             return true;
         }
+        return false;
+    }
+    public void AddStar(int amount)
+    {
+        stars += amount;
+        Debug.Log("Estrelas: " + stars);
+    }
 
+    public bool SpendStar(int amount)
+    {
+        if (stars >= amount)
+        {
+            stars -= amount;
+            return true;
+        }
         return false;
     }
 
