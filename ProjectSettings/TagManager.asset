@@ -6,6 +6,7 @@ TagManager:
   tags:
   - acido
   - chao
+  - Ground
   layers:
   - Default
   - TransparentFX
