@@ -1,11 +1,11 @@
 using UnityEngine;
 using System.Collections;
 
-public class StarPickup : MonoBehaviour
+public class FlorPickup : MonoBehaviour
 {
     public int value = 1;
-    public float duracaoEfeito = 0.2f;
-    public float escalaMaxima = 1.01f;   // aumenta apenas 1%
+    public float duracaoBrilho = 0.5f;  // tempo que brilha antes de sumir
+    public float escalaBrilho = 1.2f;   // tamanho máximo do brilho
 
     private bool playerProximo = false;
     private bool coletando = false;
@@ -13,57 +13,61 @@ public class StarPickup : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Color corOriginal;
 
-    void Start()
+    private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         escalaOriginal = transform.localScale;
         if (spriteRenderer != null) corOriginal = spriteRenderer.color;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !coletando)
             playerProximo = true;
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
             playerProximo = false;
     }
 
-    void Update()
+    private void Update()
     {
         if (playerProximo && Input.GetKeyDown(KeyCode.E) && !coletando)
         {
-            StartCoroutine(ColetarComEfeito());
+            StartCoroutine(ColetarComBrilho());
         }
     }
 
-    IEnumerator ColetarComEfeito()
+    private IEnumerator ColetarComBrilho()
     {
         coletando = true;
         playerProximo = false;
-        float tempo = 0;
 
-        while (tempo < duracaoEfeito)
+        // Efeito de brilho (aumenta e muda cor)
+        float tempo = 0;
+        while (tempo < duracaoBrilho)
         {
-            float t = tempo / duracaoEfeito;
-            float escalaAtual = Mathf.Lerp(1f, escalaMaxima, t);
-            transform.localScale = escalaOriginal * escalaAtual;
+            float t = tempo / duracaoBrilho; // 0 → 1
+            float escala = Mathf.Lerp(1f, escalaBrilho, t);
+            transform.localScale = escalaOriginal * escala;
 
             if (spriteRenderer != null)
             {
-                Color corFinal = Color.Lerp(corOriginal, new Color(1f, 0.95f, 0.7f), t);
-                spriteRenderer.color = corFinal;
+                Color corBrilho = Color.Lerp(corOriginal, Color.yellow, t);
+                spriteRenderer.color = corBrilho;
             }
 
             tempo += Time.deltaTime;
             yield return null;
         }
 
+        // Adiciona ao inventário
         if (InventoryManager.Instance != null)
-            InventoryManager.Instance.AddStar(value);
+            InventoryManager.Instance.AddFlor(value);
+
+        // Destroi a flor
         Destroy(gameObject);
     }
 }
