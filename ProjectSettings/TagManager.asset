@@ -12,6 +12,7 @@ TagManager:
   - pedraAzul
   - aranha
   - estrela
+  - Ramp
   layers:
   - Default
   - TransparentFX
