@@ -1,243 +1,219 @@
-// using UnityEngine;
-// using System.Collections;
-
-// public class Aranha : MonoBehaviour
-// {
-//     [Header("Movimento")]
-//     public float velocidadeBase = 2f;
-//     public Transform limiteEsquerda;
-//     public Transform limiteDireita;
-
-//     private float velocidadeAtual;
-//     private bool movendoParaDireita = true;
-//     private Rigidbody2D rb;
-//     private SpriteRenderer sr;
-//     private int vida = 1;
-
-//     void Start()
-//     {
-//         rb = GetComponent<Rigidbody2D>();
-//         sr = GetComponent<SpriteRenderer>();
-//         if (rb == null)
-//         {
-//             rb = gameObject.AddComponent<Rigidbody2D>();
-//             rb.bodyType = RigidbodyType2D.Kinematic;
-//         }
-//         velocidadeAtual = velocidadeBase;
-
-//         if (AranhaManager.Instance != null)
-//             AranhaManager.Instance.RegistrarAranha(this);
-//         else
-//             Debug.LogWarning("AranhaManager não encontrado na cena!");
-//     }
-
-//     void Update()
-//     {
-//         Mover();
-//     }
-
-//     void Mover()
-//     {
-//         if (limiteEsquerda == null || limiteDireita == null) return;
-//         float direcao = movendoParaDireita ? 1f : -1f;
-//         rb.linearVelocity = new Vector2(direcao * velocidadeAtual, rb.linearVelocity.y);
-
-//         if (movendoParaDireita && transform.position.x >= limiteDireita.position.x)
-//         {
-//             movendoParaDireita = false;
-//             Virar();
-//         }
-//         else if (!movendoParaDireita && transform.position.x <= limiteEsquerda.position.x)
-//         {
-//             movendoParaDireita = true;
-//             Virar();
-//         }
-//     }
-
-//     void Virar()
-//     {
-//         Vector3 escala = transform.localScale;
-//         escala.x *= -1;
-//         transform.localScale = escala;
-//     }
-
-//     public void ReceberDano()
-//     {
-//         vida--;
-//         if (vida <= 0)
-//             Morrer();
-//         else
-//             StartCoroutine(Piscar());
-//     }
-
-//     void Morrer()
-//     {
-//         if (AranhaManager.Instance != null)
-//         {
-//             AranhaManager.Instance.RemoverAranha(this);
-//             AranhaManager.Instance.AoMatarAranha();
-//         }
-//         Destroy(gameObject);
-//     }
-
-//     public void AumentarVelocidade()
-//     {
-//         velocidadeAtual = velocidadeBase * 1.5f;
-//         if (sr != null)
-//             sr.color = new Color(1f, 0.5f, 0.5f); // avermelhado
-//         Debug.Log(name + " velocidade aumentada para " + velocidadeAtual);
-//     }
-
-//     public void TornarResistente()
-//     {
-//         vida = 2;
-//         if (sr != null)
-//             sr.color = new Color(0.5f, 0.5f, 1f); // azulado
-//         Debug.Log(name + " agora é resistente (vida = 2)");
-//     }
-
-//     IEnumerator Piscar()
-//     {
-//         if (sr == null) yield break;
-//         Color original = sr.color;
-//         for (int i = 0; i < 3; i++)
-//         {
-//             sr.color = Color.white;
-//             yield return new WaitForSeconds(0.1f);
-//             sr.color = original;
-//             yield return new WaitForSeconds(0.1f);
-//         }
-//     }
-// }
 using UnityEngine;
 using System.Collections;
 
 public class Aranha : MonoBehaviour
 {
     [Header("Movimento")]
-    public float velocidade = 2f;
-    
-    // Limites - você pode arrastar os objetos ou deixar vazio que ele procura
+    public float velocidadeBase = 2f;
     public Transform limiteEsquerda;
     public Transform limiteDireita;
     
-    private bool andandoParaDireita = true;
+    [Header("Bloqueio")]
+    public bool isBlocking = true;  // Se é um bloqueio
+    public string itemNecessario = "crown";  // Item necessário (crown)
+    public int quantidadeNecessaria = 1;  // Quantidade necessária
+    
+    private float velocidadeAtual;
+    private bool movendoParaDireita = true;
+    private Rigidbody2D rb;
     private SpriteRenderer sr;
     private int vida = 1;
-    private float limiteEsqX;
-    private float limiteDirX;
-
+    private bool bloqueioAtivo = true;
+    private Collider2D colisor;
+    
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        colisor = GetComponent<Collider2D>();
         
-        // Configurar limites
-        ConfigurarLimites();
+        if (rb == null)
+        {
+            rb = gameObject.AddComponent<Rigidbody2D>();
+            rb.bodyType = RigidbodyType2D.Kinematic;
+        }
         
-        // Registrar no manager
+        velocidadeAtual = velocidadeBase;
+        
         if (AranhaManager.Instance != null)
             AranhaManager.Instance.RegistrarAranha(this);
+        
+        // Se for bloqueio, começa ativo
+        if (isBlocking)
+        {
+            bloqueioAtivo = true;
+            // Muda a cor para indicar que é bloqueio
+            if (sr != null)
+                sr.color = new Color(0.8f, 0.3f, 0.3f); // Vermelho escuro
+        }
     }
     
-    void ConfigurarLimites()
-    {
-        // Se não foram arrastados, procura na cena
-        if (limiteEsquerda == null)
-        {
-            GameObject esq = GameObject.Find("limiteAranha_esqLinha1");
-            if (esq != null) limiteEsquerda = esq.transform;
-        }
-        
-        if (limiteDireita == null)
-        {
-            GameObject dir = GameObject.Find("limiteAranha_dirLinha1");
-            if (dir != null) limiteDireita = dir.transform;
-        }
-        
-        // Se ainda não tem, usa limites baseados na posição atual
-        if (limiteEsquerda == null || limiteDireita == null)
-        {
-            Debug.LogWarning($"{name}: Usando limites automáticos (distância 3)");
-            limiteEsqX = transform.position.x - 3f;
-            limiteDirX = transform.position.x + 3f;
-        }
-        else
-        {
-            limiteEsqX = limiteEsquerda.position.x;
-            limiteDirX = limiteDireita.position.x;
-            Debug.Log($"{name}: Limites configurados! Esq={limiteEsqX}, Dir={limiteDirX}");
-        }
-        
-        // Garantir que a aranha comece dentro dos limites
-        float xAranha = transform.position.x;
-        if (xAranha < limiteEsqX) transform.position = new Vector3(limiteEsqX, transform.position.y);
-        if (xAranha > limiteDirX) transform.position = new Vector3(limiteDirX, transform.position.y);
-    }
-
     void Update()
     {
-        Mover();
+        if (!isBlocking || !bloqueioAtivo)
+        {
+            Mover(); // Só se move se não for bloqueio ou se já foi desbloqueado
+        }
     }
     
     void Mover()
     {
-        // Calcula nova posição
-        float direcao = andandoParaDireita ? 1f : -1f;
-        float novoX = transform.position.x + (direcao * velocidade * Time.deltaTime);
+        if (limiteEsquerda == null || limiteDireita == null) return;
+        float direcao = movendoParaDireita ? 1f : -1f;
+        rb.linearVelocity = new Vector2(direcao * velocidadeAtual, rb.linearVelocity.y);
         
-        // Verifica limites
-        if (novoX >= limiteDirX)
+        if (movendoParaDireita && transform.position.x >= limiteDireita.position.x)
         {
-            novoX = limiteDirX;
-            andandoParaDireita = false;
+            movendoParaDireita = false;
             Virar();
         }
-        else if (novoX <= limiteEsqX)
+        else if (!movendoParaDireita && transform.position.x <= limiteEsquerda.position.x)
         {
-            novoX = limiteEsqX;
-            andandoParaDireita = true;
+            movendoParaDireita = true;
             Virar();
         }
-        
-        // Aplica movimento
-        transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
     }
     
     void Virar()
     {
         Vector3 escala = transform.localScale;
-        escala.x = andandoParaDireita ? Mathf.Abs(escala.x) : -Mathf.Abs(escala.x);
+        escala.x *= -1;
         transform.localScale = escala;
     }
-
+    
+    // Verifica se o player pode passar
+    public bool PodePassar()
+    {
+        if (!isBlocking || !bloqueioAtivo)
+            return true; // Não é bloqueio ou já foi desbloqueado
+        
+        // Verifica se tem o item no inventário
+        if (InventoryManager.Instance != null)
+        {
+            bool temItem = false;
+            
+            switch (itemNecessario.ToLower())
+            {
+                case "crown":
+                case "coroa":
+                    temItem = InventoryManager.Instance.crowns >= quantidadeNecessaria;
+                    break;
+                case "coin":
+                case "moeda":
+                    temItem = InventoryManager.Instance.coins >= quantidadeNecessaria;
+                    break;
+                case "star":
+                case "estrela":
+                    temItem = InventoryManager.Instance.stars >= quantidadeNecessaria;
+                    break;
+                case "bluestone":
+                case "pedra":
+                    temItem = InventoryManager.Instance.blueStones >= quantidadeNecessaria;
+                    break;
+                case "flor":
+                    temItem = InventoryManager.Instance.flor >= quantidadeNecessaria;
+                    break;
+            }
+            
+            if (temItem)
+            {
+                Desbloquear();
+                return true;
+            }
+        }
+        
+        return false;
+    }
+    
+    void Desbloquear()
+{
+    bloqueioAtivo = false;
+    isBlocking = false;
+    
+    if (sr != null)
+        sr.color = new Color(0.3f, 0.8f, 0.3f);
+        
+    // Consome a coroa
+    if (InventoryManager.Instance != null)
+    {
+        InventoryManager.Instance.SpendCrown(quantidadeNecessaria);
+        Debug.Log($"Consumiu {quantidadeNecessaria} coroa(s)!");
+    }
+}
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (isBlocking && bloqueioAtivo)
+            {
+                if (!PodePassar())
+                {
+                    // Bloqueia o movimento do player
+                    BloquearPlayer(collision.gameObject);
+                }
+            }
+        }
+    }
+    
+    void BloquearPlayer(GameObject player)
+    {
+        Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
+        if (playerRb != null)
+        {
+            // Empurra o player de volta
+            Vector2 direcaoBloqueio = (player.transform.position - transform.position).normalized;
+            playerRb.linearVelocity = new Vector2(0, playerRb.linearVelocity.y);
+            
+            // Mostra mensagem
+            Debug.Log($"Precisa de {quantidadeNecessaria} {itemNecessario} para passar!");
+        }
+    }
+    
     public void ReceberDano()
     {
+        if (isBlocking && bloqueioAtivo)
+        {
+            Debug.Log("A aranha bloqueio não pode ser morta! Use a coroa para passar.");
+            return;
+        }
+        
         vida--;
         if (vida <= 0)
             Morrer();
         else
             StartCoroutine(Piscar());
     }
-
+    
     void Morrer()
     {
         if (AranhaManager.Instance != null)
+        {
+            AranhaManager.Instance.RemoverAranha(this);
             AranhaManager.Instance.AoMatarAranha();
+        }
         Destroy(gameObject);
     }
-
+    
     public void AumentarVelocidade()
     {
-        velocidade *= 1.5f;
-        if (sr != null) sr.color = Color.red;
+        if (!isBlocking)
+        {
+            velocidadeAtual = velocidadeBase * 1.5f;
+            if (sr != null)
+                sr.color = new Color(1f, 0.5f, 0.5f);
+        }
     }
-
+    
     public void TornarResistente()
     {
-        vida = 2;
-        if (sr != null) sr.color = Color.blue;
+        if (!isBlocking)
+        {
+            vida = 2;
+            if (sr != null)
+                sr.color = new Color(0.5f, 0.5f, 1f);
+        }
     }
-
+    
     IEnumerator Piscar()
     {
         if (sr == null) yield break;

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static InventoryManager Instance;  // ← Singleton (obrigatório)
+    public static InventoryManager Instance;
     
     [Header("Itens")]
     public int coins = 0;
@@ -14,7 +14,6 @@ public class InventoryManager : MonoBehaviour
 
     private void Awake()
     {
-        // Padrão Singleton - garante que só existe uma instância
         if (Instance == null)
         {
             Instance = this;
@@ -44,7 +43,7 @@ public class InventoryManager : MonoBehaviour
 
     // Coroa
     public void AddCrown(int amount) { crowns += amount; Debug.Log("Coroas: " + crowns); }
-    public bool SpendCrown(int amount) { if (crowns >= amount) { crowns -= amount; return true; } return false; }
+    public bool SpendCrown(int amount) { if (crowns >= amount) { crowns -= amount; Debug.Log($"Gastou {amount} coroa(s). Restam: {crowns}"); return true; } return false; }
 
     // Espada
     public void AddSword() { hasSword = true; Debug.Log("Espada adquirida!"); }

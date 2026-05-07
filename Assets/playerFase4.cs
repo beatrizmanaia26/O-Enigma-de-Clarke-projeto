@@ -103,26 +103,8 @@ public class PlayerFase4 : MonoBehaviour
             Debug.Log("Player tocou no chão");
         }
         
-        // Verifica aranha
-        if (collision.gameObject.CompareTag("aranha"))
-        {
-            if (EstaEmCimaDoInimigo(collision))
-            {
-                MatarAranha(collision.gameObject);
-                Debug.Log("Matou a aranha!");
-            }
-            else
-            {
-                if (!invencivel)
-                {
-                    PerderVida();
-                    StartCoroutine(AtivarInvencibilidade());
-                    Debug.Log("Encostou na aranha! Perdeu vida!");
-                }
-            }
-        }
-        // Verifica outros inimigos
-        else if (collision.gameObject.CompareTag("inimigo") && !invencivel)
+        // Verifica outros inimigos (sem aranha)
+        if (collision.gameObject.CompareTag("inimigo") && !invencivel)
         {
             PerderVida();
             StartCoroutine(AtivarInvencibilidade());
@@ -145,24 +127,6 @@ public class PlayerFase4 : MonoBehaviour
             estaNoChao = false;
             Debug.Log("Player saiu do chão");
         }
-    }
-    
-    bool EstaEmCimaDoInimigo(Collision2D collision)
-    {
-        float inimigoTopo = collision.collider.bounds.max.y;
-        float playerBase = GetComponent<Collider2D>().bounds.min.y;
-        return playerBase >= inimigoTopo - 0.1f;
-    }
-    
-    void MatarAranha(GameObject aranha)
-    {
-        Aranha scriptAranha = aranha.GetComponent<Aranha>();
-        if (scriptAranha != null)
-            scriptAranha.ReceberDano();
-        else
-            Destroy(aranha);
-        
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo * 0.5f);
     }
     
     // ========== SISTEMA DE VIDA ==========
