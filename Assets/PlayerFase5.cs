@@ -25,6 +25,11 @@ public class Player : MonoBehaviour
     public Transform limiteEsquerda;
     public Transform limiteDireita;
     
+    [Header("Escada (teletransporte)")]
+    // Não precisa mais de velocidadeEscada (sem movimento contínuo)
+    private bool pertoDaEscada = false;
+    private Ladder escadaDestino;   // referência ao script da escada
+    
     private Rigidbody2D rb;
     private bool estaNoChao;
     private int vidasRestantes = 5;
@@ -40,16 +45,24 @@ public class Player : MonoBehaviour
     
     void Update()
     {
+        // ========== MOVIMENTO NORMAL ==========
         float movimento = 0;
         if (Input.GetKey(KeyCode.D)) movimento = 1;
         else if (Input.GetKey(KeyCode.A)) movimento = -1;
-        
         rb.linearVelocity = new Vector2(movimento * velocidade, rb.linearVelocity.y);
+        
         AplicarLimites();
         
+        // Pulo
         if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
+        }
+        
+        // ========== USAR ESCADA (teletransporte) ==========
+        if (Input.GetKeyDown(KeyCode.E) && pertoDaEscada && escadaDestino != null)
+        {
+            UsarEscada();
         }
     }
     
@@ -61,6 +74,49 @@ public class Player : MonoBehaviour
         transform.position = pos;
     }
     
+    // ========== DETECÇÃO DA ESCADA ==========
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("escada"))
+        {
+            pertoDaEscada = true;
+            escadaDestino = other.GetComponent<Ladder>();
+        }
+    }
+    
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("escada"))
+        {
+            pertoDaEscada = false;
+            escadaDestino = null;
+        }
+    }
+    
+    void UsarEscada()
+    {
+        if (escadaDestino == null) return;
+        
+        // Se a escada tem uma cena destino, carrega a cena
+        if (!string.IsNullOrEmpty(escadaDestino.nomeCenaDestino))
+        {
+            SceneManager.LoadScene(escadaDestino.nomeCenaDestino);
+        }
+        // Senão, teletransporta para o ponto de destino
+        else if (escadaDestino.pontoDestino != null)
+        {
+            transform.position = escadaDestino.pontoDestino.position;
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 1; // garante que a gravidade volte ao normal
+            Debug.Log($"Teletransportado via escada: {escadaDestino.escadaID}");
+        }
+        else
+        {
+            Debug.LogWarning("Escada sem destino configurado!");
+        }
+    }
+    
+    // ========== COLISÕES COM INIMIGOS ==========
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("aranha"))
@@ -116,6 +172,7 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo * 0.5f);
     }
     
+    // ========== SISTEMA DE VIDA ==========
     void PerderVida()
     {
         if (vidasRestantes <= 0) return;
