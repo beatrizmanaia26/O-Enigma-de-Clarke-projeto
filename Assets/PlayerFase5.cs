@@ -25,10 +25,6 @@ public class Player : MonoBehaviour
     public Transform limiteEsquerda;
     public Transform limiteDireita;
     
-    [Header("Escada (teletransporte)")]
-    // Não precisa mais de velocidadeEscada (sem movimento contínuo)
-    private bool pertoDaEscada = false;
-    private Ladder escadaDestino;   // referência ao script da escada
     
     private Rigidbody2D rb;
     private bool estaNoChao;
@@ -58,12 +54,7 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
         }
-        
-        // ========== USAR ESCADA (teletransporte) ==========
-        if (Input.GetKeyDown(KeyCode.E) && pertoDaEscada && escadaDestino != null)
-        {
-            UsarEscada();
-        }
+    
     }
     
     void AplicarLimites()
@@ -74,48 +65,7 @@ public class Player : MonoBehaviour
         transform.position = pos;
     }
     
-    // ========== DETECÇÃO DA ESCADA ==========
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("escada"))
-        {
-            pertoDaEscada = true;
-            escadaDestino = other.GetComponent<Ladder>();
-        }
-    }
-    
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("escada"))
-        {
-            pertoDaEscada = false;
-            escadaDestino = null;
-        }
-    }
-    
-    void UsarEscada()
-    {
-        if (escadaDestino == null) return;
-        
-        // Se a escada tem uma cena destino, carrega a cena
-        if (!string.IsNullOrEmpty(escadaDestino.nomeCenaDestino))
-        {
-            SceneManager.LoadScene(escadaDestino.nomeCenaDestino);
-        }
-        // Senão, teletransporta para o ponto de destino
-        else if (escadaDestino.pontoDestino != null)
-        {
-            transform.position = escadaDestino.pontoDestino.position;
-            rb.linearVelocity = Vector2.zero;
-            rb.gravityScale = 1; // garante que a gravidade volte ao normal
-            Debug.Log($"Teletransportado via escada: {escadaDestino.escadaID}");
-        }
-        else
-        {
-            Debug.LogWarning("Escada sem destino configurado!");
-        }
-    }
-    
+
     // ========== COLISÕES COM INIMIGOS ==========
     void OnCollisionEnter2D(Collision2D collision)
     {
