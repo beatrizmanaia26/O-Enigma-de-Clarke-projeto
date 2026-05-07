@@ -43,3 +43,4 @@ public class InventoryManager : MonoBehaviour
     // Espada
     public void AddSword() { hasSword = true; Debug.Log("Espada adquirida!"); }
 }
+
