@@ -31,10 +31,10 @@ public class PedraAzulPickup : MonoBehaviour
 
     private void ColetarPedra()
     {
-        if (InventoryManager.Instance != null)
-        {
-            InventoryManager.Instance.AddBlueStone(value);
-        }
-        Destroy(gameObject);
+//         if (InventoryManager.Instance != null)
+//         {
+//             InventoryManager.Instance.AddBlueStone(value);
+//         }
+//         Destroy(gameObject);
     }
 }
