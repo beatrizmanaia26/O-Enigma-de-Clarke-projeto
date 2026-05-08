@@ -15,6 +15,7 @@ TagManager:
   - Ramp
   - coroa
   - livro
+  - bau
   layers:
   - Default
   - TransparentFX

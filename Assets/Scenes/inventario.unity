@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 237379408}
   m_Layer: 0
   m_Name: coroa_paper-removebg-preview_0
-  m_TagString: Untagged
+  m_TagString: coroa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1391,7 +1391,6 @@ MonoBehaviour:
   florCountText: {fileID: 0}
   crownIcon: {fileID: 237379407}
   crownCountText: {fileID: 0}
-  swordIcon: {fileID: 2072743325}
 --- !u!4 &1968583663
 Transform:
   m_ObjectHideFlags: 0
