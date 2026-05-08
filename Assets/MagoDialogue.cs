@@ -1,184 +1,91 @@
-// using UnityEngine;
-// using TMPro; // se usar TextMeshPro; remova essa linha e use UnityEngine.UI.Text se preferir UI Text
-// using System.Collections;
-
-// public class MagoDialogue : MonoBehaviour
-// {
-//     [Header("Configuração do Diálogo")]
-//     public string[] falas = { "Olá, viajante!", "O que te traz aqui?", "Cuidado com as aranhas!" };
-//     public float velocidadeDigitacao = 0.05f; // tempo entre cada letra
-
-//     [Header("UI")]
-//     public GameObject dialogoPanel;          // o painel que contém o texto (começa desativado)
-//     public TextMeshProUGUI dialogoTexto;     // componente de texto (se usar Text normal, troque para 'public Text dialogoTexto')
-
-//     private bool playerPerto = false;
-//     private bool estaFalando = false;
-
-//     void Start()
-//     {
-//         if (dialogoPanel != null)
-//             dialogoPanel.SetActive(false);
-//     }
-
-//     void OnTriggerEnter2D(Collider2D other)
-//     {
-//         if (other.CompareTag("Player"))
-//             playerPerto = true;
-//     }
-
-//     void OnTriggerExit2D(Collider2D other)
-//     {
-//         if (other.CompareTag("Player"))
-//         {
-//             playerPerto = false;
-//             // Se estiver falando, cancela e esconde o painel
-//             if (estaFalando)
-//             {
-//                 StopAllCoroutines();
-//                 dialogoPanel.SetActive(false);
-//                 estaFalando = false;
-//             }
-//         }
-//     }
-
-//     void Update()
-//     {
-//         if (playerPerto && Input.GetKeyDown(KeyCode.E) && !estaFalando)
-//         {
-//             StartCoroutine(MostrarDialogo());
-//         }
-//     }
-
-//     IEnumerator MostrarDialogo()
-//     {
-//         estaFalando = true;
-//         dialogoPanel.SetActive(true);
-
-//         for (int i = 0; i < falas.Length; i++)
-//         {
-//             yield return StartCoroutine(DigitarFala(falas[i]));
-//             yield return new WaitForSeconds(1f); // tempo entre falas
-//         }
-
-//         dialogoPanel.SetActive(false);
-//         estaFalando = false;
-//     }
-
-//     IEnumerator DigitarFala(string frase)
-//     {
-//         dialogoTexto.text = "";
-//         foreach (char letra in frase.ToCharArray())
-//         {
-//             dialogoTexto.text += letra;
-//             yield return new WaitForSeconds(velocidadeDigitacao);
-//         }
-//     }
-// }
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class MagoDialogue : MonoBehaviour
 {
+    [Header("Diálogo")]
+    [TextArea(3,5)]
+    public string[] falas = new string[]
+    {
+        "Olá, eu sou o mago. Como posso ajudá-la?",
+        "Como faço para derrotar a bruxa?",
+        "Para enfraquecê-la você precisa criar uma poção.",
+        "Siga o enigma:\n\nPrimeiro, o sangue estrelado que brota sem feridas.\n\nDepois, a lágrima fria da pedra.\n\nPor fim, a raiz azul que atravessa a escuridão.",
+        "Colete os ingredientes nessa ordem e depois use o caldeirão para criar a poção."
+    };
+
     [Header("UI")]
-    public GameObject interactHint;
-    public GameObject dialoguePanel;
-    public TextMeshProUGUI dialogueText;
+    public GameObject canvasDialogo;
+    public TextMeshProUGUI textoDialogo;
 
-    [Header("Falas")]
-    [TextArea(2, 5)]
-    public string[] lines;
+    [Header("Digitação")]
+    public float tempoPorLetra = 0.05f;
+    public float tempoEntreFalas = 1f;
 
-    private bool playerInRange = false;
-    private bool dialogueOpen = false;
-    private int currentLine = 0;
+    private bool playerPerto = false;
+    private bool dialogoAtivo = false;
 
-    private void Start()
+    void Start()
     {
-        if (interactHint != null)
-            interactHint.SetActive(false);
-
-        if (dialoguePanel != null)
-            dialoguePanel.SetActive(false);
+        if (canvasDialogo != null)
+            canvasDialogo.SetActive(false);
+        
+        // Opcional: log para verificar as falas carregadas
+        for (int i = 0; i < falas.Length; i++)
+            Debug.Log($"Fala {i}: {falas[i]}");
     }
 
-    private void Update()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
-        {
-            if (!dialogueOpen)
-            {
-                StartDialogue();
-            }
-            else
-            {
-                NextLine();
-            }
-        }
+        if (other.CompareTag("Player"))
+            playerPerto = true;
     }
 
-    private void StartDialogue()
-    {
-        dialogueOpen = true;
-        currentLine = 0;
-
-        if (interactHint != null)
-            interactHint.SetActive(false);
-
-        if (dialoguePanel != null)
-            dialoguePanel.SetActive(true);
-
-        if (dialogueText != null && lines.Length > 0)
-            dialogueText.text = lines[currentLine];
-    }
-
-    private void NextLine()
-    {
-        currentLine++;
-
-        if (currentLine < lines.Length)
-        {
-            dialogueText.text = lines[currentLine];
-        }
-        else
-        {
-            EndDialogue();
-        }
-    }
-
-    private void EndDialogue()
-    {
-        dialogueOpen = false;
-
-        if (dialoguePanel != null)
-            dialoguePanel.SetActive(false);
-
-        if (playerInRange && interactHint != null)
-            interactHint.SetActive(true);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = true;
-
-            if (!dialogueOpen && interactHint != null)
-                interactHint.SetActive(true);
+            playerPerto = false;
+            if (dialogoAtivo)
+            {
+                StopAllCoroutines();
+                canvasDialogo.SetActive(false);
+                dialogoAtivo = false;
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    void Update()
     {
-        if (other.CompareTag("Player"))
+        if (playerPerto && Input.GetKeyDown(KeyCode.E) && !dialogoAtivo)
         {
-            playerInRange = false;
+            StartCoroutine(IniciarDialogo());
+        }
+    }
 
-            if (interactHint != null)
-                interactHint.SetActive(false);
+    IEnumerator IniciarDialogo()
+    {
+        dialogoAtivo = true;
+        canvasDialogo.SetActive(true);
 
-            if (dialogueOpen)
-                EndDialogue();
+        for (int i = 0; i < falas.Length; i++)
+        {
+            yield return StartCoroutine(DigitarFala(falas[i]));
+            yield return new WaitForSeconds(tempoEntreFalas);
+        }
+
+        canvasDialogo.SetActive(false);
+        dialogoAtivo = false;
+    }
+
+    IEnumerator DigitarFala(string frase)
+    {
+        textoDialogo.text = "";
+        foreach (char letra in frase)
+        {
+            textoDialogo.text += letra;
+            yield return new WaitForSeconds(tempoPorLetra);
         }
     }
 }
