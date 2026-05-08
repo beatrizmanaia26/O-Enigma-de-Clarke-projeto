@@ -2,139 +2,48 @@ using UnityEngine;
 
 public class AranhaMove : MonoBehaviour
 {
-    [Header("Configuração")]
-    public string itemNecessario = "crown";  // Item necessário para passar
-    public int quantidadeNecessaria = 1;
-    public string mensagemSemItem = "⚠️ VOCÊ PRECISA DE UMA COROA PARA PASSAR! ⚠️";
-    public string mensagemComItem = "✅ COROA DETECTADA! PODE PASSAR! ✅";
+    public string mensagemSemItem = "⚠️ Você não tem todos os itens para passar! ⚠️";
     
-    [Header("Cores (opcional)")]
-    public Color corBloqueado = new Color(1f, 0.3f, 0.3f);  // Vermelho
-    public Color corLiberado = new Color(0.3f, 1f, 0.3f);    // Verde
-    
-    private SpriteRenderer sr;
-    private bool playerPodePassar = false;
-    
-    void Start()
-    {
-        sr = GetComponent<SpriteRenderer>();
-        
-        // Começa bloqueado
-        if (sr != null)
-            sr.color = corBloqueado;
-    }
+    private float tempoMensagem = 0;
     
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            VerificarEAcao(collision.gameObject);
-        }
-    }
-    
-    void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            VerificarEAcao(collision.gameObject);
-        }
-    }
-    
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            // Saiu do baú, desbloqueia
-            PlayerFase4 player = collision.gameObject.GetComponent<PlayerFase4>();
-            if (player != null)
+            Debug.Log("Player encostou na aranha!");
+            
+            // Verificação DIRETA do InventoryManager
+            if (InventoryManager.Instance == null)
             {
-                player.Desbloquear();
+                Debug.LogError("InventoryManager não encontrado!");
+                return;
             }
-            playerPodePassar = false;
-        }
-    }
-    
-    void VerificarEAcao(GameObject player)
-    {
-        // Verifica se tem coroa no inventário
-        if (TemCoroa())
-        {
-            // TEM COROA - pode passar
-            if (!playerPodePassar)
+            
+            Debug.Log($"Quantidade de coroas: {InventoryManager.Instance.crowns}");
+            
+            if (InventoryManager.Instance.crowns > 0)
             {
-                Debug.Log(mensagemComItem);
-                playerPodePassar = true;
+                // TEM COROA - ARANHA SOME
+                Debug.Log("★★★ TEM COROA! ARANHA VAI SUMIR! ★★★");
+                Destroy(gameObject);
+            }
+            else
+            {
+                // NÃO TEM COROA
+                if (Time.time > tempoMensagem)
+                {
+                    Debug.LogWarning(mensagemSemItem);
+                    tempoMensagem = Time.time + 2f;
+                }
                 
-                // Muda a cor para verde (liberado)
-                if (sr != null)
-                    sr.color = corLiberado;
+                // Empurra o player de volta
+                Vector2 direcao = (collision.transform.position - transform.position).normalized;
+                Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
+                if (playerRb != null)
+                {
+                    playerRb.linearVelocity = new Vector2(direcao.x * -3f, playerRb.linearVelocity.y);
+                }
             }
-            
-            // Desbloqueia o player
-            PlayerFase4 playerScript = player.GetComponent<PlayerFase4>();
-            if (playerScript != null)
-            {
-                playerScript.Desbloquear();
-                playerScript.podePassarAranhaBau = true; // Variável extra se precisar
-            }
-        }
-        else
-        {
-            // NÃO TEM COROA - bloqueia
-            Debug.LogWarning(mensagemSemItem);
-            
-            // Muda a cor para vermelho (bloqueado)
-            if (sr != null)
-                sr.color = corBloqueado;
-            
-            // Bloqueia o player
-            PlayerFase4 playerScript = player.GetComponent<PlayerFase4>();
-            if (playerScript != null)
-            {
-                playerScript.Bloquear();
-            }
-            
-            // Empurra o player de volta
-            Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
-            if (playerRb != null)
-            {
-                Vector2 direcao = (player.transform.position - transform.position).normalized;
-                playerRb.linearVelocity = new Vector2(direcao.x * -3f, playerRb.linearVelocity.y);
-            }
-        }
-    }
-    
-    bool TemCoroa()
-    {
-        if (InventoryManager.Instance == null)
-        {
-            Debug.LogError("InventoryManager não encontrado!");
-            return false;
-        }
-        
-        switch (itemNecessario.ToLower())
-        {
-            case "crown":
-            case "coroa":
-                return InventoryManager.Instance.crowns >= quantidadeNecessaria;
-            case "coin":
-            case "moeda":
-                return InventoryManager.Instance.coins >= quantidadeNecessaria;
-            case "star":
-            case "estrela":
-                return InventoryManager.Instance.stars >= quantidadeNecessaria;
-            default:
-                return InventoryManager.Instance.crowns >= quantidadeNecessaria;
-        }
-    }
-    
-    // Método para consumir a coroa (opcional - chamar quando passar)
-    public void ConsumirCoroa()
-    {
-        if (InventoryManager.Instance != null && InventoryManager.Instance.crowns >= quantidadeNecessaria)
-        {
-            InventoryManager.Instance.SpendCrown(quantidadeNecessaria);
-            Debug.Log($"Consumiu {quantidadeNecessaria} coroa(s)!");
         }
     }
 }

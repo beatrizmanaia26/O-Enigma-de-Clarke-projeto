@@ -16,6 +16,10 @@ TagManager:
   - coroa
   - livro
   - bau
+  - flor
+  - caldeirao
+  - pocao
+  - ervaCurva
   layers:
   - Default
   - TransparentFX

@@ -182,4 +182,22 @@ public class MenuNavegacao : MonoBehaviour
 
         Debug.Log("Mostrando tela historiaPersonagem bruxa");
     }
+       public void CarregarCutScene1()
+    {
+        SceneManager.LoadScene("cutSceneFase1");
+
+        Debug.Log("Mostrando tela cutSceneFase1");
+    }
+         public void CarregarcutScene1()
+    {
+        SceneManager.LoadScene("cutSceneFase2");
+
+        Debug.Log("Mostrando tela cutSceneFase2");
+    }
+           public void CarregarcutScene3()
+    {
+        SceneManager.LoadScene("cutSceneFase3");
+
+        Debug.Log("Mostrando tela cutSceneFase3");
+    }
 }

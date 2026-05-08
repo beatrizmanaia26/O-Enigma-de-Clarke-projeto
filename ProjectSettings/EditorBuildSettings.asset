@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/telaInicial.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/novoJogo.unity
-    guid: 7fe7c51b4c6708d4eb6ce0f650db03fa
+    guid: 367ac4869b7e819479e225d6bb427017
   - enabled: 1
     path: Assets/Scenes/opcoes.unity
     guid: 4a24658805a3b804d817ea66bdb52f6f
@@ -59,13 +59,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fase2Jogo.unity
     guid: e4bd42aaef61bfb42b9814c383569bde
-  - enabled: 1
-    path: Assets/Scenes/telaInteracaoFase1.unity
+  - enabled: 0
+    path: Assets/Scenes/cutSceneFase1.unity
     guid: 716caf68025880647a3337b5eec92c7a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/telaInteracaoFase2.unity
     guid: 258092b3da2d94a4ab97bddc51bb717f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/telainteracaoFase3.unity
     guid: 48ef12b971f59f84398e0c688281c425
   - enabled: 1
@@ -104,6 +104,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/historiaPersonagensAranhaBau.unity
     guid: b1cbbe266e2a2834ea50ffe84a012976
+  - enabled: 1
+    path: Assets/Scenes/cutSceneFase1.unity
+    guid: 8013ff3d732a5624da498b12d5337246
+  - enabled: 1
+    path: Assets/Scenes/cutSceneFase2.unity
+    guid: 048f3c0e805e809469b23bcdc450f208
+  - enabled: 1
+    path: Assets/Scenes/cutSceneFase3.unity
+    guid: 7c2d68bbf7a22e64db6ed7f1c6988b65
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
