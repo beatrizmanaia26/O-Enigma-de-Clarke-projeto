@@ -109,7 +109,7 @@ public class PlayerFase2Real : MonoBehaviour
         }
     }
 
-    void PerderVida()
+    public void PerderVida()
     {
         if (vidasRestantes <= 0) return;
 
