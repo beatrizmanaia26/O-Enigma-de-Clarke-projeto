@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -21,15 +22,22 @@ public class PlayerFase4 : MonoBehaviour
     [Header("Derrota")]
     public string nomeCenaDerrota = "TelaDerrota";
     
-    [Header("Limites da Tela")]
+    [Header("Limites")]
     public Transform limiteEsquerda;
     public Transform limiteDireita;
+    
+    public string mensagemSemCoroa = "⚠️ PRECISA DE UMA COROA PARA PASSAR! ⚠️";
     
     private Rigidbody2D rb;
     private bool estaNoChao;
     private int vidasRestantes = 5;
     private bool invencivel = false;
     private SpriteRenderer spriteRenderer;
+    private bool estaBloqueado = false;
+    private float tempoMensagem = 0;
+    
+    // Variável para o baú da aranha
+    public bool podePassarAranhaBau = false;
     
     void Start()
     {
@@ -37,20 +45,26 @@ public class PlayerFase4 : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         AtualizarVidas();
         
-        // Trava rotação para não tombar
         if (rb != null)
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        
-        // Garantir que a gravidade está ligada
-        if (rb != null && rb.gravityScale == 0)
-            rb.gravityScale = 1;
-            
-        Debug.Log("Player iniciado. Gravidade: " + rb.gravityScale);
     }
     
     void Update()
     {
-        // ========== MOVIMENTO ==========
+        // Se bloqueado por aranha/baú, NÃO PODE ANDAR
+        if (estaBloqueado)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            
+            if (Time.time > tempoMensagem)
+            {
+                Debug.LogWarning(mensagemSemCoroa);
+                tempoMensagem = Time.time + 1f;
+            }
+            return;
+        }
+        
+        // Movimento normal
         float movimento = 0;
         if (Input.GetKey(KeyCode.D)) movimento = 1;
         else if (Input.GetKey(KeyCode.A)) movimento = -1;
@@ -58,30 +72,10 @@ public class PlayerFase4 : MonoBehaviour
         
         AplicarLimites();
         
-        // ========== PULO ==========
+        // Pulo
         if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
-            Debug.Log("PULOU! Velocidade Y: " + rb.linearVelocity.y);
-        }
-    }
-    
-    void FixedUpdate()
-    {
-        // Verificação do chão por Raycast
-        VerificarChaoPorRaycast();
-    }
-    
-    void VerificarChaoPorRaycast()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f);
-        if (hit.collider != null && hit.collider.CompareTag("chao"))
-        {
-            estaNoChao = true;
-        }
-        else if (hit.collider == null)
-        {
-            estaNoChao = false;
         }
     }
     
@@ -93,22 +87,26 @@ public class PlayerFase4 : MonoBehaviour
         transform.position = pos;
     }
     
-    // ========== COLISÕES ==========
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Verifica chão
         if (collision.gameObject.CompareTag("chao"))
         {
             estaNoChao = true;
-            Debug.Log("Player tocou no chão");
         }
         
-        // Verifica outros inimigos (sem aranha)
+        // Verifica o objeto BAÚ/ARANHA (tag "bau" ou "aranha")
+        if (collision.gameObject.CompareTag("bau") || collision.gameObject.CompareTag("aranha"))
+        {
+            // O próprio script do baú vai gerenciar o bloqueio/desbloqueio
+            // Não fazemos nada aqui para não duplicar a lógica
+        }
+        
+        // Verifica INIMIGO (tag "inimigo") - PERDE VIDA
         if (collision.gameObject.CompareTag("inimigo") && !invencivel)
         {
+            Debug.Log("Encostou no INIMIGO! Perdeu vida!");
             PerderVida();
             StartCoroutine(AtivarInvencibilidade());
-            Debug.Log("Encostou no inimigo! Perdeu vida!");
         }
     }
     
@@ -118,6 +116,13 @@ public class PlayerFase4 : MonoBehaviour
         {
             estaNoChao = true;
         }
+        
+        // Se ficar encostado no inimigo, perde vida
+        if (collision.gameObject.CompareTag("inimigo") && !invencivel)
+        {
+            PerderVida();
+            StartCoroutine(AtivarInvencibilidade());
+        }
     }
     
     void OnCollisionExit2D(Collision2D collision)
@@ -125,11 +130,23 @@ public class PlayerFase4 : MonoBehaviour
         if (collision.gameObject.CompareTag("chao"))
         {
             estaNoChao = false;
-            Debug.Log("Player saiu do chão");
         }
     }
     
-    // ========== SISTEMA DE VIDA ==========
+    // Adicione esses métodos ao seu PlayerFase4.cs se ainda não tiver
+
+    public void Desbloquear()
+    {
+        estaBloqueado = false;
+        Debug.Log("PLAYER DESBLOQUEADO!");
+    }
+
+    public void Bloquear()
+    {
+        estaBloqueado = true;
+        Debug.Log("PLAYER BLOQUEADO!");
+    }
+    
     void PerderVida()
     {
         if (vidasRestantes <= 0) return;
@@ -137,6 +154,12 @@ public class PlayerFase4 : MonoBehaviour
         AtualizarVidas();
         Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);
         if (vidasRestantes <= 0) Morrer();
+    }
+    
+    public void Morrer()
+    {
+        Debug.Log("Player morreu! Carregando tela de derrota...");
+        SceneManager.LoadScene(nomeCenaDerrota);
     }
     
     IEnumerator AtivarInvencibilidade()
@@ -160,12 +183,6 @@ public class PlayerFase4 : MonoBehaviour
         if (vida3) vida3.SetActive(vidasRestantes >= 3);
         if (vida2) vida2.SetActive(vidasRestantes >= 2);
         if (vida1) vida1.SetActive(vidasRestantes >= 1);
-    }
-    
-    void Morrer()
-    {
-        Debug.Log("Player morreu! Carregando tela de derrota...");
-        SceneManager.LoadScene(nomeCenaDerrota);
     }
     
     public void ReiniciarJogo()

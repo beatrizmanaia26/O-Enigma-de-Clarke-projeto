@@ -3345,6 +3345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a9886c38f27b3ccf8c828f23966721e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyPickup
+  amount: 1
 --- !u!61 &1276772384
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4171,7 +4172,13 @@ MonoBehaviour:
   stars: 0
   blueStones: 0
   flor: 0
+  crowns: 0
+  towerCrowns: 0
+  keys: 0
+  torches: 0
+  ervaCura: 0
   hasSword: 0
+  ordemColeta: []
 --- !u!4 &1757476999
 Transform:
   m_ObjectHideFlags: 0
@@ -4518,6 +4525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0494cb3a5b3db37489a9e4c8bd05969e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  amount: 1
 --- !u!61 &1878559448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5316,7 +5324,7 @@ GameObject:
   - component: {fileID: 2025487887}
   - component: {fileID: 2025487886}
   - component: {fileID: 2025487889}
-  - component: {fileID: 2025487888}
+  - component: {fileID: 2025487890}
   m_Layer: 0
   m_Name: CrownPickup
   m_TagString: Untagged
@@ -5397,18 +5405,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2025487888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025487885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b85fee624652937bbada15979fe59c6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!61 &2025487889
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5455,6 +5451,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.04, y: 3.12}
   m_EdgeRadius: 0
+--- !u!114 &2025487890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025487885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46af6cb0123493dbb8f33934dbe43df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrownPickup_fase1
+  amount: 1
 --- !u!1 &2045509207
 GameObject:
   m_ObjectHideFlags: 0
