@@ -21,62 +21,90 @@ public class Caldeirao : MonoBehaviour
     {
         if (imagemPocao != null) imagemPocao.SetActive(false);
         if (mensagemErro != null) mensagemErro.SetActive(false);
+        Debug.Log("[Caldeirao] Start – pronto.");
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) playerPerto = true;
+        Debug.Log($"[Caldeirao] Trigger entrou com: {other.name} (tag: {other.tag})");
+        if (other.CompareTag("Player"))
+        {
+            playerPerto = true;
+            Debug.Log("[Caldeirao] Player detectado dentro do trigger.");
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) playerPerto = false;
+        if (other.CompareTag("Player"))
+        {
+            playerPerto = false;
+            Debug.Log("[Caldeirao] Player saiu do trigger.");
+        }
     }
 
     void Update()
     {
-        if (playerPerto && Input.GetKeyDown(KeyCode.E) && !jaAtivou)
+        if (playerPerto && Input.GetKeyDown(KeyCode.E))
         {
-            VerificarItens();
+            Debug.Log("[Caldeirao] Tecla E pressionada enquanto player perto.");
+            if (!jaAtivou)
+                VerificarItens();
+            else
+                Debug.Log("[Caldeirao] Caldeirão já foi ativado (jaAtivou = true).");
         }
     }
 
     void VerificarItens()
     {
+        Debug.Log("[Caldeirao] Verificando itens...");
         InventoryManager inv = InventoryManager.Instance;
-        if (inv == null) return;
+        if (inv == null)
+        {
+            Debug.LogError("[Caldeirao] InventoryManager.Instance é NULL!");
+            return;
+        }
 
         bool temEstrela = inv.stars > 0;
-        bool temPedra  = inv.blueStones > 0;
-        bool temFlor   = inv.flor > 0;
+        bool temPedra   = inv.blueStones > 0;
+        bool temFlor    = inv.flor > 0;
 
-        // Verifica se a ordem de coleta é exatamente estrela -> pedra -> flor
         bool ordemCorreta = inv.ordemColeta.Count == 3 &&
                             inv.ordemColeta[0] == "estrela" &&
                             inv.ordemColeta[1] == "pedraAzul" &&
                             inv.ordemColeta[2] == "flor";
 
+        Debug.Log($"[Caldeirao] Tem estrela: {temEstrela} | Tem pedra: {temPedra} | Tem flor: {temFlor}");
+        Debug.Log($"[Caldeirao] Ordem atual: {string.Join(", ", inv.ordemColeta)}");
+        Debug.Log($"[Caldeirao] Ordem correta? {ordemCorreta}");
+
         if (temEstrela && temPedra && temFlor && ordemCorreta)
         {
+            Debug.Log("[Caldeirao] CONDICAO OK – vai mostrar poção.");
             StartCoroutine(MostrarPocao());
             jaAtivou = true;
-            // Opcional: consumir os itens
-            // inv.stars--; inv.blueStones--; inv.flor--;
-            // inv.ResetarOrdem(); // limpa a ordem após usar
-            Debug.Log("Poção criada com sucesso na ordem correta!");
         }
         else
         {
+            Debug.Log("[Caldeirao] Condição falhou – vai mostrar mensagem de erro.");
             StartCoroutine(MostrarMensagemErro());
-            Debug.Log("Faltam itens ou a ordem de coleta está errada. A ordem deve ser: estrela → pedra azul → flor.");
         }
     }
 
     IEnumerator MostrarPocao()
     {
-        imagemPocao.SetActive(true);
-        yield return new WaitForSeconds(tempoExibicao);
-        imagemPocao.SetActive(false);
+        Debug.Log("[Caldeirao] MostrarPocao: ativando imagem.");
+        if (imagemPocao != null)
+        {
+            imagemPocao.SetActive(true);
+            yield return new WaitForSeconds(tempoExibicao);
+            imagemPocao.SetActive(false);
+            Debug.Log("[Caldeirao] Poção desativada após tempo.");
+        }
+        else
+        {
+            Debug.LogError("[Caldeirao] imagemPocao é NULL! Arraste o GameObject da poção no Inspector.");
+        }
     }
 
     IEnumerator MostrarMensagemErro()
@@ -86,6 +114,11 @@ public class Caldeirao : MonoBehaviour
             mensagemErro.SetActive(true);
             yield return new WaitForSeconds(tempoMensagem);
             mensagemErro.SetActive(false);
+            Debug.Log("[Caldeirao] Mensagem de erro exibida.");
+        }
+        else
+        {
+            Debug.LogWarning("[Caldeirao] mensagemErro não atribuída.");
         }
     }
 }

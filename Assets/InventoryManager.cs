@@ -11,23 +11,15 @@ public class InventoryManager : MonoBehaviour
     public int blueStones = 0;
     public int flor = 0;
     public int crowns = 0;
-    public int ervaCura = 0;      // ← NOVO
+    public int ervaCura = 0;
     public bool hasSword = false;
 
-    // Controle da ordem de coleta (para a poção)
     public List<string> ordemColeta = new List<string>();
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) { Instance = this; DontDestroyOnLoad(gameObject); }
+        else Destroy(gameObject);
     }
 
     // ========== MOEDAS ==========
@@ -56,56 +48,27 @@ public class InventoryManager : MonoBehaviour
     public void AddFlor(int amount)
     {
         flor += amount;
-        RegistrarOrdem("flor");
+        RegistrarOrdem("flor");   // ← ESSA LINHA É ESSENCIAL!
         Debug.Log("Flores: " + flor);
     }
     public bool SpendFlor(int amount) { if (flor >= amount) { flor -= amount; return true; } return false; }
 
     // ========== COROAS ==========
-    public void AddCrown(int amount)
-    {
-        crowns += amount;
-        Debug.Log("Coroas: " + crowns);
-    }
-    public bool SpendCrown(int amount)
-    {
-        if (crowns >= amount)
-        {
-            crowns -= amount;
-            Debug.Log($"Gastou {amount} coroa(s). Restam: {crowns}");
-            return true;
-        }
-        return false;
-    }
+    public void AddCrown(int amount) { crowns += amount; Debug.Log("Coroas: " + crowns); }
+    public bool SpendCrown(int amount) { if (crowns >= amount) { crowns -= amount; return true; } return false; }
 
     // ========== ERVA DE CURA ==========
-    public void AddErvaCura(int amount)
-    {
-        ervaCura += amount;
-        Debug.Log("Erva de Cura: " + ervaCura);
-    }
-    public bool SpendErvaCura(int amount)
-    {
-        if (ervaCura >= amount)
-        {
-            ervaCura -= amount;
-            return true;
-        }
-        return false;
-    }
+    public void AddErvaCura(int amount) { ervaCura += amount; Debug.Log("Erva de Cura: " + ervaCura); }
+    public bool SpendErvaCura(int amount) { if (ervaCura >= amount) { ervaCura -= amount; return true; } return false; }
 
     // ========== ESPADA ==========
     public void AddSword() { hasSword = true; Debug.Log("Espada adquirida!"); }
 
-    // ========== MÉTODOS DE ORDEM ==========
     private void RegistrarOrdem(string item)
     {
         if (!ordemColeta.Contains(item))
             ordemColeta.Add(item);
     }
 
-    public void ResetarOrdem()
-    {
-        ordemColeta.Clear();
-    }
+    public void ResetarOrdem() { ordemColeta.Clear(); }
 }

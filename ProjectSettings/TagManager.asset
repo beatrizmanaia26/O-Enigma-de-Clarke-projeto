@@ -17,6 +17,7 @@ TagManager:
   - livro
   - flor
   - caldeirao
+  - pocao
   layers:
   - Default
   - TransparentFX
