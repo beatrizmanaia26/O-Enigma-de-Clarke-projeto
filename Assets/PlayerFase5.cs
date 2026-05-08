@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro; // Necessário para TextMeshProUGUI
 
 public class Player : MonoBehaviour
 {
@@ -25,23 +26,34 @@ public class Player : MonoBehaviour
     public Transform limiteEsquerda;
     public Transform limiteDireita;
     
+    [Header("Cura com Erva")]
+    public float tempoCuraAnimacao = 0.5f;
+    
+    [Header("UI de Mensagens")]
+    public TextMeshProUGUI textoMensagens; // Arraste o TextMeshProUGUI aqui
     
     private Rigidbody2D rb;
     private bool estaNoChao;
     private int vidasRestantes = 5;
     private bool invencivel = false;
+    private bool curando = false;
     private SpriteRenderer spriteRenderer;
+    private Coroutine coroutineMensagem;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         AtualizarVidas();
+        
+        // Garante que o texto de mensagem comece desativado
+        if (textoMensagens != null)
+            textoMensagens.gameObject.SetActive(false);
     }
     
     void Update()
     {
-        // ========== MOVIMENTO NORMAL ==========
+        // ========== MOVIMENTO ==========
         float movimento = 0;
         if (Input.GetKey(KeyCode.D)) movimento = 1;
         else if (Input.GetKey(KeyCode.A)) movimento = -1;
@@ -54,7 +66,12 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
         }
-    
+        
+        // ========== USAR ERVA DE CURA (TECLA R) ==========
+        if (Input.GetKeyDown(KeyCode.R) && !curando)
+        {
+            UsarErvaCura();
+        }
     }
     
     void AplicarLimites()
@@ -65,7 +82,6 @@ public class Player : MonoBehaviour
         transform.position = pos;
     }
     
-
     // ========== COLISÕES COM INIMIGOS ==========
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -122,7 +138,7 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo * 0.5f);
     }
     
-    // ========== SISTEMA DE VIDA ==========
+    // ========== SISTEMA DE VIDA E CURA ==========
     void PerderVida()
     {
         if (vidasRestantes <= 0) return;
@@ -130,6 +146,68 @@ public class Player : MonoBehaviour
         AtualizarVidas();
         Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);
         if (vidasRestantes <= 0) Morrer();
+    }
+    
+    void UsarErvaCura()
+    {
+        if (InventoryManager.Instance == null) return;
+        
+        int ervas = InventoryManager.Instance.ervaCura;
+        int vidaAtual = vidasRestantes;
+        
+        // Verifica se tem erva
+        if (ervas <= 0)
+        {
+            MostrarMensagem("❌ Você não tem erva de cura!");
+            return;
+        }
+        
+        // Verifica se precisa curar
+        if (vidaAtual >= 5)
+        {
+            MostrarMensagem("❤️ Sua vida já está no máximo!");
+            return;
+        }
+        
+        // Aplica a cura: gasta 1 erva, aumenta 1 vida
+        InventoryManager.Instance.SpendErvaCura(1);
+        vidasRestantes = Mathf.Min(vidasRestantes + 1, 5);
+        AtualizarVidas();
+        StartCoroutine(EfeitoCura());
+        MostrarMensagem("🌿 +1 Vida recuperada!");
+    }
+    
+    void MostrarMensagem(string msg)
+    {
+        if (textoMensagens == null) return;
+        if (coroutineMensagem != null) StopCoroutine(coroutineMensagem);
+        textoMensagens.text = msg;
+        textoMensagens.gameObject.SetActive(true);
+        coroutineMensagem = StartCoroutine(DesativarMensagem(2f));
+    }
+    
+    IEnumerator DesativarMensagem(float tempo)
+    {
+        yield return new WaitForSeconds(tempo);
+        if (textoMensagens != null) textoMensagens.gameObject.SetActive(false);
+        coroutineMensagem = null;
+    }
+    
+    IEnumerator EfeitoCura()
+    {
+        curando = true;
+        if (spriteRenderer != null)
+        {
+            Color original = spriteRenderer.color;
+            spriteRenderer.color = Color.green;
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.color = original;
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.color = Color.green;
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.color = original;
+        }
+        curando = false;
     }
     
     IEnumerator AtivarInvencibilidade()
