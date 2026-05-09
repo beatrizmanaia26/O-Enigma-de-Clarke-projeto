@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/Scenes/fase2Jogo.unity
     guid: e4bd42aaef61bfb42b9814c383569bde
   - enabled: 0
-    path: Assets/Scenes/cutSceneFase1.unity
+    path: Assets/Scenes/telaInteracaoFase1.unity
     guid: 716caf68025880647a3337b5eec92c7a
   - enabled: 0
     path: Assets/Scenes/telaInteracaoFase2.unity

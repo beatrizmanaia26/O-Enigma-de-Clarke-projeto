@@ -14,6 +14,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
+            Debug.Log("bateu no mocergo");
             Attack();
         }
     }

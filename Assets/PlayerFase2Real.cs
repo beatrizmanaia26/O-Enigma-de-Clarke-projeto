@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerFase2Real : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class PlayerFase2Real : MonoBehaviour
     public GameObject vida3;
     public GameObject vida2;
     public GameObject vida1;
+
+    [Header("Derrota")]
+    public string nomeCenaDerrota = "TelaDerrota";
 
     private Rigidbody2D rb;
 
@@ -32,7 +36,15 @@ public class PlayerFase2Real : MonoBehaviour
     {
         Move();
         Jump();
+
+        // CURAR COM R
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            UsarErvaCura();
+        }
     }
+
+    
 
     void Move()
     {
@@ -133,10 +145,42 @@ public class PlayerFase2Real : MonoBehaviour
         vida2.SetActive(vidasRestantes >= 2);
         vida1.SetActive(vidasRestantes >= 1);
     }
+    void UsarErvaCura()
+    {
+        // Verifica se existe InventoryManager
+        if (InventoryManager.Instance == null)
+            return;
+
+        // Verifica se tem erva
+        if (InventoryManager.Instance.ervaCura <= 0)
+        {
+            Debug.Log("Sem erva de cura!");
+            return;
+        }
+
+        // Verifica se a vida já está cheia
+        if (vidasRestantes >= 5)
+        {
+            Debug.Log("Vida já está cheia!");
+            return;
+        }
+
+        // Gasta 1 erva
+        InventoryManager.Instance.SpendErvaCura(1);
+
+        // Recupera 1 vida
+        vidasRestantes++;
+
+        // Atualiza UI das vidas
+        AtualizarVidas();
+
+        Debug.Log("Curou 1 vida!");
+    }
 
     void Morrer()
     {
         Debug.Log("Player morreu! Game Over!");
         gameObject.SetActive(false);
+        SceneManager.LoadScene(nomeCenaDerrota);
     }
 }
