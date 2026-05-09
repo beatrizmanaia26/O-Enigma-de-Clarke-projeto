@@ -4,7 +4,22 @@ public class PlayerFase2 : MonoBehaviour
 {
     [Header("Movimento")]
     public float speed = 5f;
+    public float runSpeed = 8f;
+    public float crouchSpeed = 2f;
     public float jumpForce = 7f;
+
+    [Header("Visuais")]
+    public GameObject clarkeSemEspada;
+    public GameObject clarkeComEspada;
+    public GameObject clarkeAgachada;
+
+    [Header("Collider normal")]
+    public Vector2 colliderNormalSize;
+    public Vector2 colliderNormalOffset;
+
+    [Header("Collider agachado")]
+    public Vector2 colliderAgachadoSize;
+    public Vector2 colliderAgachadoOffset;
 
     [Header("Vidas")]
     public GameObject vida5;
@@ -14,38 +29,180 @@ public class PlayerFase2 : MonoBehaviour
     public GameObject vida1;
 
     private Rigidbody2D rb;
+    private BoxCollider2D boxCollider;
+
     private bool isGrounded;
+    private bool isCrouching;
+    private bool viradoParaDireita = true;
+
     private int vidasRestantes = 5;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
+
+        if (boxCollider != null)
+        {
+            if (colliderNormalSize == Vector2.zero)
+                colliderNormalSize = boxCollider.size;
+
+            if (colliderNormalOffset == Vector2.zero)
+                colliderNormalOffset = boxCollider.offset;
+        }
+
+        AtualizarVisual();
         AtualizarVidas();
     }
 
     void Update()
     {
+        Crouch();
         Move();
         Jump();
+
+        if (!isCrouching)
+        {
+            AtualizarVisual();
+        }
     }
 
     void Move()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
+
+        VirarPersonagem(moveInput);
+
+        float currentSpeed = speed;
+
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            currentSpeed = runSpeed;
+        }
+
+        if (isCrouching)
+        {
+            currentSpeed = crouchSpeed;
+        }
+
+        rb.linearVelocity = new Vector2(moveInput * currentSpeed, rb.linearVelocity.y);
     }
 
     void Jump()
     {
+        if (isCrouching) return;
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
+    void Crouch()
+    {
+        if (
+            Input.GetKeyDown(KeyCode.C) ||
+            Input.GetKeyDown(KeyCode.LeftControl) ||
+            Input.GetKeyDown(KeyCode.RightControl)
+        )
+        {
+            if (isCrouching)
+            {
+                Levantar();
+            }
+            else
+            {
+                Agachar();
+            }
+        }
+    }
+
+    void Agachar()
+    {
+        isCrouching = true;
+
+        if (clarkeSemEspada != null)
+            clarkeSemEspada.SetActive(false);
+
+        if (clarkeComEspada != null)
+            clarkeComEspada.SetActive(false);
+
+        if (clarkeAgachada != null)
+            clarkeAgachada.SetActive(true);
+
+        AplicarFlip(clarkeAgachada);
+
+        if (boxCollider != null)
+        {
+            boxCollider.size = colliderAgachadoSize;
+            boxCollider.offset = colliderAgachadoOffset;
+        }
+    }
+
+    void Levantar()
+    {
+        isCrouching = false;
+
+        if (clarkeAgachada != null)
+            clarkeAgachada.SetActive(false);
+
+        if (boxCollider != null)
+        {
+            boxCollider.size = colliderNormalSize;
+            boxCollider.offset = colliderNormalOffset;
+        }
+
+        AtualizarVisual();
+    }
+
+    void AtualizarVisual()
+    {
+        bool temEspada = InventoryManager.Instance != null && InventoryManager.Instance.hasSword;
+
+        if (clarkeSemEspada != null)
+            clarkeSemEspada.SetActive(!temEspada);
+
+        if (clarkeComEspada != null)
+            clarkeComEspada.SetActive(temEspada);
+
+        if (clarkeAgachada != null)
+            clarkeAgachada.SetActive(false);
+
+        AplicarFlip(clarkeSemEspada);
+        AplicarFlip(clarkeComEspada);
+        AplicarFlip(clarkeAgachada);
+    }
+
+    void VirarPersonagem(float moveInput)
+    {
+        if (moveInput > 0)
+        {
+            viradoParaDireita = true;
+        }
+        else if (moveInput < 0)
+        {
+            viradoParaDireita = false;
+        }
+
+        AplicarFlip(clarkeSemEspada);
+        AplicarFlip(clarkeComEspada);
+        AplicarFlip(clarkeAgachada);
+    }
+
+    void AplicarFlip(GameObject visual)
+    {
+        if (visual == null) return;
+
+        SpriteRenderer spriteRenderer = visual.GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = !viradoParaDireita;
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // CHÃO
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;

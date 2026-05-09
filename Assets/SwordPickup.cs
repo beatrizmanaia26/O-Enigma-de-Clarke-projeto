@@ -4,19 +4,46 @@ public class SwordPickup : MonoBehaviour
 {
     public GameObject pickupHint;
 
+    private bool playerPerto = false;
+
     private void Start()
     {
         if (pickupHint != null)
             pickupHint.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (playerPerto && Input.GetKeyDown(KeyCode.E))
+        {
+            PegarEspada();
+        }
+    }
+
+    private void PegarEspada()
+    {
+        if (InventoryManager.Instance != null)
+        {
+            InventoryManager.Instance.AddSword();
+        }
+        else
+        {
+            Debug.LogWarning("InventoryManager não encontrado na cena.");
+        }
+
+        if (pickupHint != null)
+            pickupHint.SetActive(false);
+
+        Debug.Log("Pegou a espada!");
+
+        Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Entrou no trigger: " + other.name);
-
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entrou na área da espada");
+            playerPerto = true;
 
             if (pickupHint != null)
                 pickupHint.SetActive(true);
@@ -25,45 +52,12 @@ public class SwordPickup : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Saiu do trigger: " + other.name);
-
         if (other.CompareTag("Player"))
         {
+            playerPerto = false;
+
             if (pickupHint != null)
                 pickupHint.SetActive(false);
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("Player dentro da área da espada");
-
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log("E apertado na espada");
-
-                PlayerVisualSwap player = other.GetComponent<PlayerVisualSwap>();
-
-                if (player == null)
-                    player = other.GetComponentInParent<PlayerVisualSwap>();
-
-                if (player != null)
-                {
-                    Debug.Log("Pegou a espada");
-                    player.GetSword();
-
-                    if (pickupHint != null)
-                        pickupHint.SetActive(false);
-
-                    Destroy(gameObject);
-                }
-                else
-                {
-                    Debug.Log("PlayerVisualSwap não encontrado");
-                }
-            }
         }
     }
 }
