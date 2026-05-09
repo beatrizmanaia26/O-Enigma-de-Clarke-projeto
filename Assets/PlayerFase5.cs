@@ -244,4 +244,29 @@ public class Player : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    
+    // ========== MÉTODOS PARA O SISTEMA DE SAVE ==========
+    
+    // Propriedade pública para acessar as vidas restantes (usada pelo sistema de save)
+    public int VidasRestantes 
+    { 
+        get { return vidasRestantes; }
+        set 
+        { 
+            vidasRestantes = Mathf.Clamp(value, 0, 5); 
+            AtualizarVidas();
+        }
+    }
+    
+    // Método para obter a posição do jogador (usada pelo sistema de save)
+    public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
+    
+    // Método para definir a posição do jogador (usada pelo sistema de restore)
+    public void SetPosition(Vector3 position)
+    {
+        transform.position = position;
+    }
 }

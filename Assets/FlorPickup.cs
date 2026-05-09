@@ -4,8 +4,9 @@ using System.Collections;
 public class FlorPickup : MonoBehaviour
 {
     public int value = 1;
-    public float duracaoBrilho = 0.5f;  // tempo que brilha antes de sumir
-    public float escalaBrilho = 1.2f;   // tamanho máximo do brilho
+    public string idItem = "";
+    public float duracaoBrilho = 0.5f;
+    public float escalaBrilho = 1.2f;
 
     private bool playerProximo = false;
     private bool coletando = false;
@@ -18,6 +19,9 @@ public class FlorPickup : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         escalaOriginal = transform.localScale;
         if (spriteRenderer != null) corOriginal = spriteRenderer.color;
+        
+        if (string.IsNullOrEmpty(idItem))
+            idItem = $"flor_{gameObject.name}_{transform.position.x}_{transform.position.y}";
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,11 +49,10 @@ public class FlorPickup : MonoBehaviour
         coletando = true;
         playerProximo = false;
 
-        // Efeito de brilho (aumenta e muda cor)
         float tempo = 0;
         while (tempo < duracaoBrilho)
         {
-            float t = tempo / duracaoBrilho; // 0 → 1
+            float t = tempo / duracaoBrilho;
             float escala = Mathf.Lerp(1f, escalaBrilho, t);
             transform.localScale = escalaOriginal * escala;
 
@@ -63,11 +66,18 @@ public class FlorPickup : MonoBehaviour
             yield return null;
         }
 
-        // Adiciona ao inventário
+        // Registrar no SistemaProgresso
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            SistemaProgresso progresso = player.GetComponent<SistemaProgresso>();
+            if (progresso != null)
+                progresso.ColetarItem(idItem);
+        }
+
         if (InventoryManager.Instance != null)
             InventoryManager.Instance.AddFlor(value);
 
-        // Destroi a flor
         Destroy(gameObject);
     }
 }

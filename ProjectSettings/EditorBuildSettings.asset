@@ -104,10 +104,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/historiaPersonagensAranhaBau.unity
     guid: b1cbbe266e2a2834ea50ffe84a012976
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/cutSceneFase1.unity
     guid: 8013ff3d732a5624da498b12d5337246
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/cutSceneFase2.unity
     guid: 048f3c0e805e809469b23bcdc450f208
   - enabled: 1

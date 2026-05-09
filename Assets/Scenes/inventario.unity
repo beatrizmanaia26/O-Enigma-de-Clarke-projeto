@@ -982,7 +982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353, y: 267}
+  m_AnchoredPosition: {x: 199, y: 158}
   m_SizeDelta: {x: 196.9061, y: 138.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498423494
@@ -1900,6 +1900,7 @@ MonoBehaviour:
   torchCountText: {fileID: 0}
   towerCrownIcon: {fileID: 802791691}
   towerCrownCountText: {fileID: 0}
+--- !u!4 &1968583663
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1908,7 +1909,7 @@ Transform:
   m_GameObject: {fileID: 1968583661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -87.84248, y: -18.17294, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2098,11 +2099,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1968583663}
   - {fileID: 563477325}
   - {fileID: 1322735127}
   - {fileID: 45260513}
   - {fileID: 1769651604}
-  - {fileID: 1968583663}
   - {fileID: 1824675453}
   - {fileID: 2072743327}
   - {fileID: 1446671387}

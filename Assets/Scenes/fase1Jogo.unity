@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 180033247}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (8)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 694775056}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1527,7 +1527,7 @@ GameObject:
   - component: {fileID: 785039454}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (1)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1803,7 +1803,7 @@ GameObject:
   - component: {fileID: 869836801}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (7)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1944,7 +1944,7 @@ GameObject:
   - component: {fileID: 875979221}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (5)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3125,7 +3125,7 @@ GameObject:
   - component: {fileID: 1184826777}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (4)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3245,13 +3245,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184826776}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.002878832, w: -0.9999959}
   m_LocalPosition: {x: 22.83, y: -0.85, z: 0}
   m_LocalScale: {x: 0.15135282, y: 0.13677299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.33}
 --- !u!1 &1214898596
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,7 +3707,7 @@ Transform:
   m_GameObject: {fileID: 1276772380}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.06, y: -2.92, z: 0}
+  m_LocalPosition: {x: 33.06, y: -2.57, z: 0}
   m_LocalScale: {x: 0.69940686, y: 0.33803123, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4096,7 +4096,7 @@ GameObject:
   - component: {fileID: 1603062488}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (3)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4623,6 +4623,7 @@ MonoBehaviour:
   keys: 0
   torches: 0
   ervaCura: 0
+  pocao: 0
   hasSword: 0
   ordemColeta: []
 --- !u!4 &1757476999
@@ -5377,7 +5378,7 @@ GameObject:
   - component: {fileID: 1950672826}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (6)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6193,7 +6194,7 @@ GameObject:
   - component: {fileID: 2069748033}
   m_Layer: 0
   m_Name: moeda-removebg-preview_0 (2)
-  m_TagString: Untagged
+  m_TagString: moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

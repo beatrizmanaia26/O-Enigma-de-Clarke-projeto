@@ -4,8 +4,9 @@ using System.Collections;
 public class PedraAzulPickup : MonoBehaviour
 {
     public int value = 1;
+    public string idItem = "";
     public float duracaoEfeito = 0.2f;
-    public float escalaMaxima = 1.01f;   // aumenta apenas 1%
+    public float escalaMaxima = 1.01f;
 
     private bool playerProximo = false;
     private bool coletando = false;
@@ -18,6 +19,9 @@ public class PedraAzulPickup : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         escalaOriginal = transform.localScale;
         if (spriteRenderer != null) corOriginal = spriteRenderer.color;
+        
+        if (string.IsNullOrEmpty(idItem))
+            idItem = $"pedra_{gameObject.name}_{transform.position.x}_{transform.position.y}";
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -60,6 +64,15 @@ public class PedraAzulPickup : MonoBehaviour
 
             tempo += Time.deltaTime;
             yield return null;
+        }
+
+        // Registrar no SistemaProgresso
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            SistemaProgresso progresso = player.GetComponent<SistemaProgresso>();
+            if (progresso != null)
+                progresso.ColetarItem(idItem);
         }
 
         if (InventoryManager.Instance != null)

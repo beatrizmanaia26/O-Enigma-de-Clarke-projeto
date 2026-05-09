@@ -4,8 +4,9 @@ using System.Collections;
 public class StarPickup : MonoBehaviour
 {
     public int value = 1;
+    public string idItem = ""; // ID único para save
     public float duracaoEfeito = 0.2f;
-    public float escalaMaxima = 1.01f;   // aumenta apenas 1%
+    public float escalaMaxima = 1.01f;
 
     private bool playerProximo = false;
     private bool coletando = false;
@@ -18,6 +19,10 @@ public class StarPickup : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         escalaOriginal = transform.localScale;
         if (spriteRenderer != null) corOriginal = spriteRenderer.color;
+        
+        // Criar ID único se não tiver
+        if (string.IsNullOrEmpty(idItem))
+            idItem = $"estrela_{gameObject.name}_{transform.position.x}_{transform.position.y}";
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -62,8 +67,18 @@ public class StarPickup : MonoBehaviour
             yield return null;
         }
 
+        // REGISTRAR NO SISTEMA DE PROGRESSO
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            SistemaProgresso progresso = player.GetComponent<SistemaProgresso>();
+            if (progresso != null)
+                progresso.ColetarItem(idItem);
+        }
+
         if (InventoryManager.Instance != null)
             InventoryManager.Instance.AddStar(value);
+            
         Destroy(gameObject);
     }
 }
