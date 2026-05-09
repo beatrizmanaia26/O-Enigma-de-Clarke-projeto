@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -26,6 +25,7 @@ public class PlayerFase4 : MonoBehaviour
     public Transform limiteEsquerda;
     public Transform limiteDireita;
     
+    [Header("Mensagens")]
     public string mensagemSemCoroa = "⚠️ PRECISA DE UMA COROA PARA PASSAR! ⚠️";
     
     private Rigidbody2D rb;
@@ -36,7 +36,7 @@ public class PlayerFase4 : MonoBehaviour
     private bool estaBloqueado = false;
     private float tempoMensagem = 0;
     
-    // Variável para o baú da aranha
+    // Variável para o baú da aranha (pode ser usada por outros scripts)
     public bool podePassarAranhaBau = false;
     
     void Start()
@@ -51,7 +51,7 @@ public class PlayerFase4 : MonoBehaviour
     
     void Update()
     {
-        // Se bloqueado por aranha/baú, NÃO PODE ANDAR
+        // Se bloqueado, não pode andar
         if (estaBloqueado)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
@@ -69,6 +69,14 @@ public class PlayerFase4 : MonoBehaviour
         if (Input.GetKey(KeyCode.D)) movimento = 1;
         else if (Input.GetKey(KeyCode.A)) movimento = -1;
         rb.linearVelocity = new Vector2(movimento * velocidade, rb.linearVelocity.y);
+        
+        // ========== VIRAR O CORPO NA DIREÇÃO DO MOVIMENTO ==========
+        if (movimento != 0)
+        {
+            Vector3 escala = transform.localScale;
+            escala.x = Mathf.Abs(escala.x) * (movimento > 0 ? 1 : -1);
+            transform.localScale = escala;
+        }
         
         AplicarLimites();
         
@@ -94,14 +102,6 @@ public class PlayerFase4 : MonoBehaviour
             estaNoChao = true;
         }
         
-        // Verifica o objeto BAÚ/ARANHA (tag "bau" ou "aranha")
-        if (collision.gameObject.CompareTag("bau") || collision.gameObject.CompareTag("aranha"))
-        {
-            // O próprio script do baú vai gerenciar o bloqueio/desbloqueio
-            // Não fazemos nada aqui para não duplicar a lógica
-        }
-        
-        // Verifica INIMIGO (tag "inimigo") - PERDE VIDA
         if (collision.gameObject.CompareTag("inimigo") && !invencivel)
         {
             Debug.Log("Encostou no INIMIGO! Perdeu vida!");
@@ -117,7 +117,6 @@ public class PlayerFase4 : MonoBehaviour
             estaNoChao = true;
         }
         
-        // Se ficar encostado no inimigo, perde vida
         if (collision.gameObject.CompareTag("inimigo") && !invencivel)
         {
             PerderVida();
@@ -133,14 +132,13 @@ public class PlayerFase4 : MonoBehaviour
         }
     }
     
-    // Adicione esses métodos ao seu PlayerFase4.cs se ainda não tiver
-
+    // Métodos públicos chamados por outros scripts (ex: baú)
     public void Desbloquear()
     {
         estaBloqueado = false;
         Debug.Log("PLAYER DESBLOQUEADO!");
     }
-
+    
     public void Bloquear()
     {
         estaBloqueado = true;
@@ -189,5 +187,26 @@ public class PlayerFase4 : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    
+    // ========== MÉTODOS PARA SISTEMA DE SAVE ==========
+    public int VidasRestantes 
+    { 
+        get { return vidasRestantes; }
+        set 
+        { 
+            vidasRestantes = Mathf.Clamp(value, 0, 5); 
+            AtualizarVidas();
+        }
+    }
+    
+    public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
+    
+    public void SetPosition(Vector3 position)
+    {
+        transform.position = position;
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using TMPro; // Necessário para TextMeshProUGUI
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     public float tempoCuraAnimacao = 0.5f;
     
     [Header("UI de Mensagens")]
-    public TextMeshProUGUI textoMensagens; // Arraste o TextMeshProUGUI aqui
+    public TextMeshProUGUI textoMensagens;
     
     private Rigidbody2D rb;
     private bool estaNoChao;
@@ -46,7 +46,6 @@ public class Player : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         AtualizarVidas();
         
-        // Garante que o texto de mensagem comece desativado
         if (textoMensagens != null)
             textoMensagens.gameObject.SetActive(false);
     }
@@ -58,6 +57,14 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.D)) movimento = 1;
         else if (Input.GetKey(KeyCode.A)) movimento = -1;
         rb.linearVelocity = new Vector2(movimento * velocidade, rb.linearVelocity.y);
+        
+        // ========== VIRAR O CORPO NA DIREÇÃO DO MOVIMENTO ==========
+        if (movimento != 0)
+        {
+            Vector3 escala = transform.localScale;
+            escala.x = Mathf.Abs(escala.x) * (movimento > 0 ? 1 : -1);
+            transform.localScale = escala;
+        }
         
         AplicarLimites();
         
@@ -82,7 +89,6 @@ public class Player : MonoBehaviour
         transform.position = pos;
     }
     
-    // ========== COLISÕES COM INIMIGOS ==========
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("aranha"))
@@ -138,7 +144,6 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo * 0.5f);
     }
     
-    // ========== SISTEMA DE VIDA E CURA ==========
     void PerderVida()
     {
         if (vidasRestantes <= 0) return;
@@ -155,21 +160,18 @@ public class Player : MonoBehaviour
         int ervas = InventoryManager.Instance.ervaCura;
         int vidaAtual = vidasRestantes;
         
-        // Verifica se tem erva
         if (ervas <= 0)
         {
             MostrarMensagem("❌ Você não tem erva de cura!");
             return;
         }
         
-        // Verifica se precisa curar
         if (vidaAtual >= 5)
         {
             MostrarMensagem("❤️ Sua vida já está no máximo!");
             return;
         }
         
-        // Aplica a cura: gasta 1 erva, aumenta 1 vida
         InventoryManager.Instance.SpendErvaCura(1);
         vidasRestantes = Mathf.Min(vidasRestantes + 1, 5);
         AtualizarVidas();
@@ -245,9 +247,7 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
-    // ========== MÉTODOS PARA O SISTEMA DE SAVE ==========
-    
-    // Propriedade pública para acessar as vidas restantes (usada pelo sistema de save)
+    // ========== MÉTODOS PARA SISTEMA DE SAVE ==========
     public int VidasRestantes 
     { 
         get { return vidasRestantes; }
@@ -258,13 +258,11 @@ public class Player : MonoBehaviour
         }
     }
     
-    // Método para obter a posição do jogador (usada pelo sistema de save)
     public Vector3 GetPosition()
     {
         return transform.position;
     }
     
-    // Método para definir a posição do jogador (usada pelo sistema de restore)
     public void SetPosition(Vector3 position)
     {
         transform.position = position;
