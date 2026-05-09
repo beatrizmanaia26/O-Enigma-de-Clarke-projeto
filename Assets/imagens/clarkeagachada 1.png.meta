@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 505ee01e42f8a1e299bf6449198692b9
+guid: 26e7f6f68fd2c612bb18a932e292443a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3689057689830887741
-    second: clarkeagachada_0
+      213: -4005272976300204906
+    second: clarkeagachada 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clarkeagachada_0
+      name: clarkeagachada 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 1536
+        width: 1515
         height: 1024
-      alignment: 9
-      pivot: {x: 0.4876054, y: 0.3073103}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d311b466c6a223330800000000000000
-      internalID: 3689057689830887741
+      spriteID: 69c972be2796a68c0800000000000000
+      internalID: -4005272976300204906
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f301930d97dbebc97bc77cf89ff37d34
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      clarkeagachada_0: 3689057689830887741
+      clarkeagachada 1_0: -4005272976300204906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

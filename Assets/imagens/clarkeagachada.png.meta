@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 505ee01e42f8a1e299bf6449198692b9
+guid: 26289eef2ead128ff96767635a7ea75d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -103,12 +103,12 @@ TextureImporter:
       name: clarkeagachada_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 1536
+        width: 1515
         height: 1024
-      alignment: 9
-      pivot: {x: 0.4876054, y: 0.3073103}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f301930d97dbebc97bc77cf89ff37d34
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 

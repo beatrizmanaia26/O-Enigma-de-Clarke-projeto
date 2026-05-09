@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class SwordPickup : MonoBehaviour
 {
+    [Header("Dica de interação")]
     public GameObject pickupHint;
 
     private bool playerPerto = false;
+    private PlayerVisualSwap playerVisualSwap;
 
     private void Start()
     {
@@ -22,21 +24,21 @@ public class SwordPickup : MonoBehaviour
 
     private void PegarEspada()
     {
-        if (InventoryManager.Instance != null)
+        if (playerVisualSwap != null)
         {
-            InventoryManager.Instance.AddSword();
+            playerVisualSwap.GetSword();
+
+            if (pickupHint != null)
+                pickupHint.SetActive(false);
+
+            Debug.Log("Pegou a espada!");
+
+            Destroy(gameObject);
         }
         else
         {
-            Debug.LogWarning("InventoryManager não encontrado na cena.");
+            Debug.LogWarning("PlayerVisualSwap não encontrado no Player.");
         }
-
-        if (pickupHint != null)
-            pickupHint.SetActive(false);
-
-        Debug.Log("Pegou a espada!");
-
-        Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -44,6 +46,11 @@ public class SwordPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerPerto = true;
+
+            playerVisualSwap = other.GetComponent<PlayerVisualSwap>();
+
+            if (playerVisualSwap == null)
+                playerVisualSwap = other.GetComponentInParent<PlayerVisualSwap>();
 
             if (pickupHint != null)
                 pickupHint.SetActive(true);
@@ -55,6 +62,7 @@ public class SwordPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerPerto = false;
+            playerVisualSwap = null;
 
             if (pickupHint != null)
                 pickupHint.SetActive(false);

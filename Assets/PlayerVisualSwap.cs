@@ -2,12 +2,29 @@ using UnityEngine;
 
 public class PlayerVisualSwap : MonoBehaviour
 {
-    [SerializeField] private GameObject clarkeSemEspada;
-    [SerializeField] private GameObject clarkeComEspada;
+    [Header("Visuais")]
+    public GameObject clarkeSemEspada;
+    public GameObject clarkeComEspada;
+
+    private PlayerFase2 player;
+
+    private void Awake()
+    {
+        player = GetComponent<PlayerFase2>();
+    }
 
     private void Start()
     {
-        UpdateVisual();
+        AtualizarVisual(true);
+    }
+
+    private void Update()
+    {
+        if (player != null && player.IsCrouching)
+            return;
+
+        bool olhandoDireita = player == null || player.ViradoParaDireita;
+        AtualizarVisual(olhandoDireita);
     }
 
     public void GetSword()
@@ -17,17 +34,40 @@ public class PlayerVisualSwap : MonoBehaviour
             InventoryManager.Instance.AddSword();
         }
 
-        UpdateVisual();
+        bool olhandoDireita = player == null || player.ViradoParaDireita;
+        AtualizarVisual(olhandoDireita);
     }
 
-    public void UpdateVisual()
+    public void EsconderVisuaisNormais()
     {
-        bool hasSword = InventoryManager.Instance != null && InventoryManager.Instance.hasSword;
-
         if (clarkeSemEspada != null)
-            clarkeSemEspada.SetActive(!hasSword);
+            clarkeSemEspada.SetActive(false);
 
         if (clarkeComEspada != null)
-            clarkeComEspada.SetActive(hasSword);
+            clarkeComEspada.SetActive(false);
+    }
+
+    public void AtualizarVisual(bool olhandoDireita)
+    {
+        bool temEspada = InventoryManager.Instance != null && InventoryManager.Instance.hasSword;
+
+        if (clarkeSemEspada != null)
+            clarkeSemEspada.SetActive(!temEspada);
+
+        if (clarkeComEspada != null)
+            clarkeComEspada.SetActive(temEspada);
+
+        AplicarFlip(clarkeSemEspada, olhandoDireita);
+        AplicarFlip(clarkeComEspada, olhandoDireita);
+    }
+
+    private void AplicarFlip(GameObject visual, bool olhandoDireita)
+    {
+        if (visual == null) return;
+
+        SpriteRenderer sr = visual.GetComponent<SpriteRenderer>();
+
+        if (sr != null)
+            sr.flipX = !olhandoDireita;
     }
 }

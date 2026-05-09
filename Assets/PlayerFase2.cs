@@ -8,9 +8,7 @@ public class PlayerFase2 : MonoBehaviour
     public float crouchSpeed = 2f;
     public float jumpForce = 7f;
 
-    [Header("Visuais")]
-    public GameObject clarkeSemEspada;
-    public GameObject clarkeComEspada;
+    [Header("Visual agachado")]
     public GameObject clarkeAgachada;
 
     [Header("Collider normal")]
@@ -30,6 +28,7 @@ public class PlayerFase2 : MonoBehaviour
 
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
+    private PlayerVisualSwap visualSwap;
 
     private bool isGrounded;
     private bool isCrouching;
@@ -37,10 +36,21 @@ public class PlayerFase2 : MonoBehaviour
 
     private int vidasRestantes = 5;
 
+    public bool IsCrouching
+    {
+        get { return isCrouching; }
+    }
+
+    public bool ViradoParaDireita
+    {
+        get { return viradoParaDireita; }
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        visualSwap = GetComponent<PlayerVisualSwap>();
 
         if (boxCollider != null)
         {
@@ -51,7 +61,12 @@ public class PlayerFase2 : MonoBehaviour
                 colliderNormalOffset = boxCollider.offset;
         }
 
-        AtualizarVisual();
+        if (clarkeAgachada != null)
+            clarkeAgachada.SetActive(false);
+
+        if (visualSwap != null)
+            visualSwap.AtualizarVisual(viradoParaDireita);
+
         AtualizarVidas();
     }
 
@@ -61,9 +76,9 @@ public class PlayerFase2 : MonoBehaviour
         Move();
         Jump();
 
-        if (!isCrouching)
+        if (!isCrouching && visualSwap != null)
         {
-            AtualizarVisual();
+            visualSwap.AtualizarVisual(viradoParaDireita);
         }
     }
 
@@ -107,13 +122,9 @@ public class PlayerFase2 : MonoBehaviour
         )
         {
             if (isCrouching)
-            {
                 Levantar();
-            }
             else
-            {
                 Agachar();
-            }
         }
     }
 
@@ -121,16 +132,14 @@ public class PlayerFase2 : MonoBehaviour
     {
         isCrouching = true;
 
-        if (clarkeSemEspada != null)
-            clarkeSemEspada.SetActive(false);
-
-        if (clarkeComEspada != null)
-            clarkeComEspada.SetActive(false);
+        if (visualSwap != null)
+            visualSwap.EsconderVisuaisNormais();
 
         if (clarkeAgachada != null)
+        {
             clarkeAgachada.SetActive(true);
-
-        AplicarFlip(clarkeAgachada);
+            AplicarFlip(clarkeAgachada);
+        }
 
         if (boxCollider != null)
         {
@@ -152,40 +161,20 @@ public class PlayerFase2 : MonoBehaviour
             boxCollider.offset = colliderNormalOffset;
         }
 
-        AtualizarVisual();
-    }
-
-    void AtualizarVisual()
-    {
-        bool temEspada = InventoryManager.Instance != null && InventoryManager.Instance.hasSword;
-
-        if (clarkeSemEspada != null)
-            clarkeSemEspada.SetActive(!temEspada);
-
-        if (clarkeComEspada != null)
-            clarkeComEspada.SetActive(temEspada);
-
-        if (clarkeAgachada != null)
-            clarkeAgachada.SetActive(false);
-
-        AplicarFlip(clarkeSemEspada);
-        AplicarFlip(clarkeComEspada);
-        AplicarFlip(clarkeAgachada);
+        if (visualSwap != null)
+            visualSwap.AtualizarVisual(viradoParaDireita);
     }
 
     void VirarPersonagem(float moveInput)
     {
         if (moveInput > 0)
-        {
             viradoParaDireita = true;
-        }
         else if (moveInput < 0)
-        {
             viradoParaDireita = false;
-        }
 
-        AplicarFlip(clarkeSemEspada);
-        AplicarFlip(clarkeComEspada);
+        if (visualSwap != null && !isCrouching)
+            visualSwap.AtualizarVisual(viradoParaDireita);
+
         AplicarFlip(clarkeAgachada);
     }
 
@@ -196,25 +185,19 @@ public class PlayerFase2 : MonoBehaviour
         SpriteRenderer spriteRenderer = visual.GetComponent<SpriteRenderer>();
 
         if (spriteRenderer != null)
-        {
             spriteRenderer.flipX = !viradoParaDireita;
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
-        {
             isGrounded = true;
-        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
-        {
             isGrounded = false;
-        }
     }
 
     public void PerderVida()
@@ -227,9 +210,7 @@ public class PlayerFase2 : MonoBehaviour
         Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);
 
         if (vidasRestantes <= 0)
-        {
             Morrer();
-        }
     }
 
     void AtualizarVidas()
