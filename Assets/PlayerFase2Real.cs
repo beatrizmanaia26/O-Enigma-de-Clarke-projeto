@@ -61,7 +61,18 @@ public class PlayerFase2Real : MonoBehaviour
             return;
         }
 
-        rb.linearVelocity = new Vector2(moveInput * velocidadeAtual, rb.linearVelocity.y);
+        rb.linearVelocity =
+            new Vector2(moveInput * velocidadeAtual, rb.linearVelocity.y);
+
+        // VIRAR PERSONAGEM
+        if (moveInput > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (moveInput < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 
     void Jump()
