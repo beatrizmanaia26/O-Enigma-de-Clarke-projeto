@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 82014619}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.95, y: -4.01, z: 0}
+  m_LocalPosition: {x: -6.482, y: -4.012, z: 0}
   m_LocalScale: {x: 0.20960519, y: 0.2517318, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -243,7 +243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -481, y: -263}
+  m_AnchoredPosition: {x: -390.7, y: -263.7}
   m_SizeDelta: {x: 223.5874, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113120200
@@ -984,7 +984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52, y: 116}
+  m_AnchoredPosition: {x: 187, y: 119.4}
   m_SizeDelta: {x: 823.7058, y: 358.4754}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2082186486
@@ -1015,9 +1015,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Em meio \xE0 escurid\xE3o, ao sil\xEAncio e aos mist\xE9rios do reino,
+  m_text: "Em meio \xE0 escurid\xE3o, ao sil\xEAncio e aos mist\xE9rios do reino,\n
     Clarke compreendeu que aquela n\xE3o seria uma simples travessia.\r\nCada passo
-    dali em diante a levaria para mais perto de segredos esquecidos, caminhos perigosos
+    dali em diante a levaria para mais perto de \nsegredos esquecidos, caminhos perigosos
     e verdades que haviam sido encobertas pelo tempo.\r\nEla ainda n\xE3o sabia exatamente
     o que encontraria no fim da jornada.\r\nMas sabia de uma coisa: n\xE3o podia
     parar.\r\nE foi assim que sua hist\xF3ria come\xE7ou."
@@ -1029,8 +1029,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284657100
-  m_fontColor: {r: 0.8, g: 0.6784314, b: 0.38431373, a: 1}
+    rgba: 4280521665
+  m_fontColor: {r: 0.75842977, g: 0.5764901, b: 0.13631353, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
