@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SequenceFASE1 : MonoBehaviour
 {
@@ -22,6 +23,11 @@ public class SequenceFASE1 : MonoBehaviour
     [Header("Cena ao completar")]
     public string sceneToLoad = "fase2TelaInicial";
 
+    [Header("Mensagem 3D no mundo")]
+    public GameObject mensagemObject;
+    public TextMeshPro mensagemTexto;
+    public float tempoMensagem = 2.5f;
+
     [Header("Configuração")]
     public bool resetOnWrongClick = true;
 
@@ -31,6 +37,12 @@ public class SequenceFASE1 : MonoBehaviour
     private void Start()
     {
         ResetPuzzle();
+
+        if (mensagemObject != null)
+            mensagemObject.SetActive(false);
+
+        if (mensagemTexto != null)
+            mensagemTexto.text = "";
     }
 
     public void ClickItem(PuzzleItensFase1 clickedButton)
@@ -48,13 +60,56 @@ public class SequenceFASE1 : MonoBehaviour
 
             if (currentIndex >= correctSequence.Length)
             {
-                CompletePuzzle();
+                VerificarItensAntesDeCompletar();
             }
         }
         else
         {
             ErrarPuzzle(clickedButton);
         }
+    }
+
+    private void VerificarItensAntesDeCompletar()
+    {
+        if (InventoryManager.Instance == null)
+        {
+            MostrarMensagem("Inventário não encontrado.");
+            ResetPuzzle();
+            return;
+        }
+
+        string itensFaltando = "";
+
+        if (InventoryManager.Instance.torches <= 0)
+        {
+            itensFaltando += "tocha";
+        }
+
+        if (!InventoryManager.Instance.hasSword)
+        {
+            if (itensFaltando != "") itensFaltando += ", ";
+            itensFaltando += "espada";
+        }
+
+        if (InventoryManager.Instance.crowns <= 0)
+        {
+            if (itensFaltando != "") itensFaltando += ", ";
+            itensFaltando += "coroa";
+        }
+
+        if (itensFaltando != "")
+        {
+            MostrarMensagem("Falta coletar: " + itensFaltando + ".");
+
+            Debug.Log("Ordem correta, mas faltam itens: " + itensFaltando);
+
+            // Acertou a ordem, mas faltou item:
+            // não perde vida, só reseta os botões.
+            ResetPuzzle();
+            return;
+        }
+
+        CompletePuzzle();
     }
 
     private void ErrarPuzzle(PuzzleItensFase1 clickedButton)
@@ -80,8 +135,15 @@ public class SequenceFASE1 : MonoBehaviour
     {
         puzzleCompleted = true;
 
-        Debug.Log("Puzzle completo! Indo para a cena: " + sceneToLoad);
+        MostrarMensagem("Enigma resolvido!");
 
+        Debug.Log("Puzzle completo! Todos os itens foram coletados. Indo para: " + sceneToLoad);
+
+        Invoke(nameof(CarregarCenaFinal), 1f);
+    }
+
+    private void CarregarCenaFinal()
+    {
         SceneManager.LoadScene(sceneToLoad);
     }
 
@@ -98,5 +160,27 @@ public class SequenceFASE1 : MonoBehaviour
 
         if (coroaButton != null)
             coroaButton.SetHighlighted(false);
+    }
+
+    private void MostrarMensagem(string texto)
+    {
+        if (mensagemTexto != null)
+            mensagemTexto.text = texto;
+
+        if (mensagemObject != null)
+        {
+            mensagemObject.SetActive(true);
+
+            CancelInvoke(nameof(EsconderMensagem));
+            Invoke(nameof(EsconderMensagem), tempoMensagem);
+        }
+
+        Debug.Log(texto);
+    }
+
+    private void EsconderMensagem()
+    {
+        if (mensagemObject != null)
+            mensagemObject.SetActive(false);
     }
 }
