@@ -22,6 +22,7 @@ TagManager:
   - ervaCurva
   - moeda
   - chave
+  - tocha
   layers:
   - Default
   - TransparentFX
