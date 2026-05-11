@@ -29,6 +29,11 @@ public class PlayerFase2Real : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (GameStateManager.Instance != null)
+        {
+            vidasRestantes = GameStateManager.Instance.vidasGlobais;
+        }
+
         AtualizarVidas();
     }
 
@@ -137,6 +142,10 @@ public class PlayerFase2Real : MonoBehaviour
         if (vidasRestantes <= 0) return;
 
         vidasRestantes--;
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.vidasGlobais = vidasRestantes;
+        }
 
         AtualizarVidas();
 
@@ -182,6 +191,11 @@ public class PlayerFase2Real : MonoBehaviour
         // Recupera 1 vida
         vidasRestantes++;
 
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.vidasGlobais = vidasRestantes;
+        }
+
         // Atualiza UI das vidas
         AtualizarVidas();
 
@@ -193,5 +207,26 @@ public class PlayerFase2Real : MonoBehaviour
         Debug.Log("Player morreu! Game Over!");
         gameObject.SetActive(false);
         SceneManager.LoadScene(nomeCenaDerrota);
+    }
+
+   // ========== MÉTODOS PARA SISTEMA DE SAVE ==========
+    public int VidasRestantes
+    {
+        get { return vidasRestantes; }
+        set
+        {
+            vidasRestantes = Mathf.Clamp(value, 0, 5);
+            AtualizarVidas();
+        }
+    }
+
+    public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
+
+    public void SetPosition(Vector3 position)
+    {
+        transform.position = position;
     }
 }

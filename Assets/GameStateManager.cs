@@ -155,6 +155,7 @@ using UnityEngine.SceneManagement;
 public class GameStateManager : MonoBehaviour
 {
     public static GameStateManager Instance { get; private set; }
+    public int vidasGlobais = 5;
 
     [System.Serializable]
     public class FaseState
@@ -236,13 +237,24 @@ public class GameStateManager : MonoBehaviour
                 Debug.Log($"Vida salva pelo Player: {estadoAtual.vidaJogador}");
             }
 
-            // Player usado na fase 1/2
+            // Player usado na fase 1
             var playerFase2 = jogador.GetComponent<PlayerFase2>();
             if (playerFase2 != null)
             {
                 estadoAtual.vidaJogador = playerFase2.VidasRestantes;
                 estadoAtual.posicaoJogador = playerFase2.GetPosition();
                 Debug.Log($"Vida salva pelo PlayerFase2: {estadoAtual.vidaJogador}");
+            }
+
+            // Player usado na fase 2
+            var playerFase2Real = jogador.GetComponent<PlayerFase2Real>();
+
+            if (playerFase2Real != null)
+            {
+                estadoAtual.vidaJogador = playerFase2Real.VidasRestantes;
+                estadoAtual.posicaoJogador = playerFase2Real.GetPosition();
+
+                Debug.Log($"Vida salva pelo PlayerFase2Real: {estadoAtual.vidaJogador}");
             }
 
             // Segurança para não salvar vida zerada por erro

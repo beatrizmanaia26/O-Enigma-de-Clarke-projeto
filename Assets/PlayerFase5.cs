@@ -129,7 +129,13 @@ public class Player : MonoBehaviour
                 spriteRendererNormal.enabled = true;
         }
 
+        if (GameStateManager.Instance != null)
+        {
+            vidasRestantes = GameStateManager.Instance.vidasGlobais;
+        }
+
         AtualizarVidas();
+
         if (textoMensagens != null)
             textoMensagens.gameObject.SetActive(false);
     }
@@ -296,6 +302,10 @@ public class Player : MonoBehaviour
     {
         if (vidasRestantes <= 0) return;
         vidasRestantes--;
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.vidasGlobais = vidasRestantes;
+        }
         AtualizarVidas();
         if (vidasRestantes <= 0) Morrer();
     }
@@ -309,6 +319,10 @@ public class Player : MonoBehaviour
 
         InventoryManager.Instance.SpendErvaCura(1);
         vidasRestantes = Mathf.Min(vidasRestantes + 1, 5);
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.vidasGlobais = vidasRestantes;
+        }
         AtualizarVidas();
         StartCoroutine(EfeitoCura());
         MostrarMensagem("🌿 +1 Vida recuperada!");
