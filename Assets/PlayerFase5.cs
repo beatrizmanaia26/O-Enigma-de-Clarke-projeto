@@ -212,19 +212,14 @@ public class Player : MonoBehaviour
         curando = false;
     }
     
+    // ========== MÉTODO MODIFICADO: sem piscar ==========
     IEnumerator AtivarInvencibilidade()
     {
         invencivel = true;
-        float t = 0;
-        while (t < tempoInvencibilidade)
-        {
-            if (spriteRenderer) spriteRenderer.enabled = !spriteRenderer.enabled;
-            yield return new WaitForSeconds(0.1f);
-            t += 0.1f;
-        }
-        if (spriteRenderer) spriteRenderer.enabled = true;
+        yield return new WaitForSeconds(tempoInvencibilidade);
         invencivel = false;
     }
+    // ===================================================
     
     void AtualizarVidas()
     {
