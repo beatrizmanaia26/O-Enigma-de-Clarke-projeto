@@ -299,6 +299,11 @@ public class PlayerFase2 : MonoBehaviour
         if (visualSwap != null)
             visualSwap.AtualizarVisual(viradoParaDireita);
 
+        if (GameStateManager.Instance != null)
+        {
+            vidasRestantes = GameStateManager.Instance.vidasGlobais;
+        }
+
         AtualizarVidas();
     }
 
@@ -437,6 +442,12 @@ public class PlayerFase2 : MonoBehaviour
         if (vidasRestantes <= 0) return;
 
         vidasRestantes--;
+
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.vidasGlobais = vidasRestantes;
+        }
+
         AtualizarVidas();
 
         Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);

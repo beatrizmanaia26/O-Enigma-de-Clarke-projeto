@@ -139,8 +139,10 @@ public class MenuNavegacao : MonoBehaviour
     // ========== SEUS OUTROS MÉTODOS ==========
     public void IrParaNovoJogo() 
     { 
-        if (GameStateManager.Instance != null)
+        if (GameStateManager.Instance != null){
+            GameStateManager.Instance.vidasGlobais = 5;
             GameStateManager.Instance.LimparEstadoSalvo();
+        }
         
         if (InventoryManager.Instance != null)
         {
