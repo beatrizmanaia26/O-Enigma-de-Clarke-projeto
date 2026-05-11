@@ -232,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 356.1, y: 174}
+  m_AnchoredPosition: {x: 159, y: 286}
   m_SizeDelta: {x: 604.8244, y: 156.6204}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142986923
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "As estradas j\xE1 n\xE3o eram como antes.\r\nCasas vazias, madeira quebrada
+  m_text: "As estradas j\xE1 n\xE3o eram como antes. Casas vazias, madeira quebrada
     e pedras\n espalhadas guardavam os vest\xEDgios de uma vida interrompida.\r\nClarke
     seguiu adiante entre os restos do que o reino havia sido, observando cada detalhe
     e tentando compreender o que havia acontecido.\r\nHavia algo escondido por tr\xE1s
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -387.0413, y: 72.2731, z: 329.85718, w: 0}
+  m_margin: {x: -387.0413, y: 72.2731, z: 138.2351, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -615,7 +615,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.77173, y: -208.10867}
+  m_AnchoredPosition: {x: -165, y: -304}
   m_SizeDelta: {x: 596.1531, y: 96.1383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940465768
@@ -746,7 +746,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976105357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 4.5052133}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -755,7 +755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 257.846, y: -154.47473}
+  m_AnchoredPosition: {x: 433.16357, y: -235.00287}
   m_SizeDelta: {x: 178.308, y: 47.0505}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976105359
@@ -1029,7 +1029,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120164308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -4.630001}
+  m_LocalPosition: {x: 0, y: 0, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1038,7 +1038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254.63596, y: -117.47186}
+  m_AnchoredPosition: {x: 430, y: -198}
   m_SizeDelta: {x: 184.7281, y: 107.0522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120164310
