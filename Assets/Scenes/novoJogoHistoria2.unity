@@ -1171,8 +1171,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143.23538, y: 103.77302}
-  m_SizeDelta: {x: 702.3363, y: 207.546}
+  m_AnchoredPosition: {x: 60.7935, y: 182.2983}
+  m_SizeDelta: {x: 901.9232, y: 261.4094}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1391738189
 MonoBehaviour:
@@ -1197,10 +1197,10 @@ MonoBehaviour:
   m_text: "Ent\xE3o, pouco a pouco, a tranquilidade desapareceu.Uma sombra\n tomou
     conta do castelo e se espalhou pelos caminhos do reino.\r\nAs vilas mudaram,
     os rostos se calaram, e o que antes parecia\n seguro passou a carregar sil\xEAncio
-    e medo. Hist\xF3rias \ncome\xE7aram a circular entre os poucos que restaram:
-    falavam de magia, \nde um poder sombrio e de algo importante que havia\n sido
-    perdido.Enquanto muitos se escondiam, Clarke\n ergueu o olhar.E naquele instante
-    sentiu que\n sua jornada estava apenas come\xE7ando.\r\n"
+    e medo. Hist\xF3rias  \ncome\xE7aram a circular entre os poucos que restaram:\n
+    falavam de magia, de um poder sombrio e de algo \nimportante que havia sido perdido.
+    Enquanto muitos \nse escondiam, Clarke ergueu o olhar.E naquele \ninstante sentiu
+    que sua jornada estava apenas       \n come\xE7ando.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
   m_sharedMaterial: {fileID: 3023177841633034920, guid: e8b1cd4cd2e762432af6bac6bff73d08, type: 2}
@@ -1227,8 +1227,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1266,7 +1266,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -137.66763, y: 14.517242, z: 0, w: 0}
+  m_margin: {x: -137.66763, y: 14.517242, z: 190.19226, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
