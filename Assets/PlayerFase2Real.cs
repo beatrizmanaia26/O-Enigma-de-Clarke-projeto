@@ -209,14 +209,17 @@ public class PlayerFase2Real : MonoBehaviour
     void VirarPersonagem(float moveInput)
     {
         if (moveInput > 0)
+        {
             viradoParaDireita = true;
+
+            transform.localScale = new Vector3(1, 1, 1);
+        }
         else if (moveInput < 0)
+        {
             viradoParaDireita = false;
 
-        if (visualSwap != null && !isCrouching)
-            visualSwap.AtualizarVisual(viradoParaDireita);
-
-        AplicarFlip(clarkeAgachada);
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 
     void AplicarFlip(GameObject visual)
