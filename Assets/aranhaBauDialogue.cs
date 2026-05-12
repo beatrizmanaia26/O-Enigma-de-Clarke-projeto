@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections;
 
@@ -16,8 +17,8 @@ public class AranhaBauDialogue : MonoBehaviour
         "Dizem que apenas alguém atento, corajoso e digno conseguiria compreender tudo o que está escrito nele.",
         "Você provou ser essa pessoa, Clarke.",
         "Agora, receba o pergaminho real.",
-        "Mas cuidado... a jornada ainda não terminou.",
-        "A bruxa sabe que você chegou até aqui. A Torre Final aguarda seus passos."
+        "Mas cuidado... a jornada finalmente chegou ao fim.",
+        "Que os antigos reis guiem seus passos, Clarke."
     };
 
     [Header("UI")]
@@ -27,6 +28,10 @@ public class AranhaBauDialogue : MonoBehaviour
     [Header("Digitação")]
     public float tempoPorLetra = 0.05f;
     public float tempoEntreFalas = 1f;
+
+    [Header("Cena de vitória")]
+    public string nomeCenaVitoria = "telaVitoria";
+    public float tempoAntesDeCarregarVitoria = 1f;
 
     [Header("Configuração")]
     public bool falarApenasUmaVez = true;
@@ -39,6 +44,9 @@ public class AranhaBauDialogue : MonoBehaviour
     {
         if (canvasDialogo != null)
             canvasDialogo.SetActive(false);
+
+        if (textoDialogo != null)
+            textoDialogo.text = "";
     }
 
     void Update()
@@ -103,6 +111,10 @@ public class AranhaBauDialogue : MonoBehaviour
             textoDialogo.text = "";
 
         dialogoAtivo = false;
+
+        yield return new WaitForSeconds(tempoAntesDeCarregarVitoria);
+
+        SceneManager.LoadScene(nomeCenaVitoria);
     }
 
     IEnumerator DigitarFala(string frase)
