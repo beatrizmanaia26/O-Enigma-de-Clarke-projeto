@@ -9,7 +9,7 @@ public class PlayerFase4 : MonoBehaviour
     public float velocidade = 5f;
     public float runSpeed = 8f;
     public float forcaPulo = 7f;
-    
+    //teste
 
     [Header("Agachamento")]
     public float crouchSpeed = 2f;
