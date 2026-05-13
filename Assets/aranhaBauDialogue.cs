@@ -17,7 +17,7 @@ public class AranhaBauDialogue : MonoBehaviour
         "Dizem que apenas alguém atento, corajoso e digno conseguiria compreender tudo o que está escrito nele.",
         "Você provou ser essa pessoa, Clarke.",
         "Agora, receba o pergaminho real.",
-        "Mas cuidado... a jornada finalmente chegou ao fim.",
+        "A jornada finalmente chegou ao fim.",
         "Que os antigos reis guiem seus passos, Clarke."
     };
 
@@ -30,8 +30,8 @@ public class AranhaBauDialogue : MonoBehaviour
     public float tempoEntreFalas = 1f;
 
     [Header("Cena de vitória")]
-    public string nomeCenaVitoria = "telaVitoria";
-    public float tempoAntesDeCarregarVitoria = 1f;
+    public string nomeCenaVitoria = "telaVitoria";  // Nome exato da sua cena de vitória
+    public float tempoAntesDeCarregarVitoria = 1f;  // Tempo de espera após o fim do diálogo
 
     [Header("Configuração")]
     public bool falarApenasUmaVez = true;
@@ -66,6 +66,8 @@ public class AranhaBauDialogue : MonoBehaviour
         {
             playerPerto = true;
             Debug.Log("Clarke chegou perto da Aranha do Baú. Aperte E para conversar.");
+            
+            // Opcional: Mostrar um texto na tela "Aperte E para falar com a aranha"
         }
     }
 
@@ -95,6 +97,9 @@ public class AranhaBauDialogue : MonoBehaviour
         dialogoAtivo = true;
         jaFalou = true;
 
+        // Pausar o jogo enquanto o diálogo acontece (opcional)
+        // Time.timeScale = 0f;
+
         if (canvasDialogo != null)
             canvasDialogo.SetActive(true);
 
@@ -104,6 +109,7 @@ public class AranhaBauDialogue : MonoBehaviour
             yield return new WaitForSeconds(tempoEntreFalas);
         }
 
+        // Fechar o diálogo
         if (canvasDialogo != null)
             canvasDialogo.SetActive(false);
 
@@ -112,8 +118,13 @@ public class AranhaBauDialogue : MonoBehaviour
 
         dialogoAtivo = false;
 
+        // Restaurar o tempo do jogo se tiver pausado
+        // Time.timeScale = 1f;
+
+        // Aguardar um pouco e carregar a cena de vitória
         yield return new WaitForSeconds(tempoAntesDeCarregarVitoria);
 
+        Debug.Log("Diálogo finalizado! Carregando tela de vitória...");
         SceneManager.LoadScene(nomeCenaVitoria);
     }
 

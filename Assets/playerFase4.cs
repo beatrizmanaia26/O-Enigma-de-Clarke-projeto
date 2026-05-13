@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;  // Importante para TextMeshPro
 
 public class PlayerFase4 : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerFase4 : MonoBehaviour
     public float velocidade = 5f;
     public float runSpeed = 8f;
     public float forcaPulo = 7f;
+    
 
     [Header("Agachamento")]
     public float crouchSpeed = 2f;
@@ -30,10 +32,19 @@ public class PlayerFase4 : MonoBehaviour
     [Header("Pisar no inimigo")]
     public float forcaQuicarAoMatar = 5f;
 
-    [Header("Ataque")]
+    [Header("Ataque (Botão Direito)")]
     public Transform attackPoint;
     public float attackRange = 1.2f;
     public int attackDamage = 1;
+    public int primeiroAtaqueDano = 3;  // Dano do primeiro clique
+
+    [Header("Poção (Tecla E na bruxa)")]
+    public int pocaoDano = 4;
+
+    [Header("UI de Mensagem")]
+    public GameObject painelMensagem;        // Painel/Canvas que contém o texto
+    public TextMeshProUGUI textoMensagem;    // Texto que vai aparecer
+    public float tempoExibicaoMensagem = 2f; // Tempo que a mensagem fica visível
 
     [Header("Coleta de Erva Cura")]
     public int quantidadeErvaCura = 1;
@@ -48,6 +59,9 @@ public class PlayerFase4 : MonoBehaviour
     [Header("Mensagens")]
     public string mensagemSemCoroa = "⚠️ PRECISA DE UMA COROA PARA PASSAR! ⚠️";
 
+    [Header("Espinho")]
+    public bool espinhoMataInstantaneamente = false;
+
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private SpriteRenderer spriteRenderer;
@@ -56,10 +70,13 @@ public class PlayerFase4 : MonoBehaviour
     private int vidasRestantes = 5;
     private bool invencivel = false;
     private bool estaBloqueado = false;
-    private float tempoMensagem = 0;
+    private float tempoMensagemBloqueio = 0;
     private bool isCrouching = false;
 
     private ErvaCuraPickup ervaCuraPerto;
+    private BruxaEnemy bruxaPerto;
+
+    private bool primeiroAtaqueRealizado = false;  // Controle do primeiro ataque
 
     public bool podePassarAranhaBau = false;
 
@@ -85,6 +102,12 @@ public class PlayerFase4 : MonoBehaviour
 
         if (rb != null)
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        // ========== CONFIGURAR UI DE MENSAGEM ==========
+        if (painelMensagem != null)
+            painelMensagem.SetActive(false);
+        if (textoMensagem != null)
+            textoMensagem.text = "";
     }
 
     void Update()
@@ -93,25 +116,36 @@ public class PlayerFase4 : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
 
-            if (Time.time > tempoMensagem)
+            if (Time.time > tempoMensagemBloqueio)
             {
                 Debug.LogWarning(mensagemSemCoroa);
-                tempoMensagem = Time.time + 1f;
+                tempoMensagemBloqueio = Time.time + 1f;
             }
 
             return;
         }
 
-        // ========== ATAQUE COM MOUSE DIREITO ==========
+        // ========== ATAQUE COM BOTÃO DIREITO DO MOUSE ==========
         if (Input.GetMouseButtonDown(1))
         {
             Atacar();
         }
 
-        // ========== PEGAR ERVA CURA COM E ==========
-        if (Input.GetKeyDown(KeyCode.E) && ervaCuraPerto != null)
+        // ========== INTERAÇÃO (TECLA E) - POÇÃO NA BRUXA OU ERVA ==========
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            PegarErvaCura();
+            if (bruxaPerto != null && InventoryManager.Instance != null && InventoryManager.Instance.pocao > 0)
+            {
+                UsarPocaoNaBruxa();
+            }
+            else if (ervaCuraPerto != null)
+            {
+                PegarErvaCura();
+            }
+            else if (bruxaPerto != null)
+            {
+                MostrarMensagem("❌ Você não tem poção para usar na bruxa!");
+            }
         }
 
         // ========== AGACHAMENTO ==========
@@ -182,58 +216,93 @@ public class PlayerFase4 : MonoBehaviour
 
         foreach (Collider2D objeto in objetosAtingidos)
         {
-            if (!objeto.CompareTag("inimigo"))
-                continue;
-
-            acertouAlgo = true;
-
-            // ========== BRUXA ==========
-            BruxaEnemy bruxa = objeto.GetComponent<BruxaEnemy>();
-
-            if (bruxa == null)
-                bruxa = objeto.GetComponentInParent<BruxaEnemy>();
-
-            if (bruxa != null)
+            // ========== BRUXA (tag "bruxa") ==========
+            if (objeto.CompareTag("bruxa"))
             {
-                bruxa.TakeDamage(attackDamage);
-                Debug.Log("Acertou a bruxa!");
-                continue;
+                BruxaEnemy bruxa = objeto.GetComponent<BruxaEnemy>();
+
+                if (bruxa == null)
+                    bruxa = objeto.GetComponentInParent<BruxaEnemy>();
+
+                if (bruxa != null)
+                {
+                    int danoAplicado;
+                    
+                    // Verifica se é o primeiro ataque
+                    if (!primeiroAtaqueRealizado)
+                    {
+                        danoAplicado = primeiroAtaqueDano;
+                        bruxa.TakeDamage(danoAplicado);
+                        primeiroAtaqueRealizado = true;
+                        MostrarMensagem($"✨ Poção utilizada! Dano +{primeiroAtaqueDano} na bruxa! ✨");
+                        Debug.Log($"Primeiro ataque! Dano especial: {danoAplicado}");
+                    }
+                    else
+                    {
+                        danoAplicado = attackDamage;
+                        bruxa.TakeDamage(danoAplicado);
+                        Debug.Log($"Ataque normal! Dano: {danoAplicado}");
+                    }
+                    
+                    acertouAlgo = true;
+                    continue;
+                }
             }
 
-            // ========== MORCEGO ==========
-            BatEnemy morcego = objeto.GetComponent<BatEnemy>();
-
-            if (morcego == null)
-                morcego = objeto.GetComponentInParent<BatEnemy>();
-
-            if (morcego != null)
+            // ========== INIMIGOS COM TAG "inimigo" ==========
+            if (objeto.CompareTag("inimigo"))
             {
-                morcego.TakeDamage(attackDamage);
-                Debug.Log("Acertou o morcego!");
+                acertouAlgo = true;
+
+                // MORCEGO
+                BatEnemy morcego = objeto.GetComponent<BatEnemy>();
+                if (morcego == null)
+                    morcego = objeto.GetComponentInParent<BatEnemy>();
+
+                if (morcego != null)
+                {
+                    morcego.TakeDamage(attackDamage);
+                    Debug.Log("Acertou o morcego!");
+                    continue;
+                }
+
+                // ARANHA
+                Aranha aranha = objeto.GetComponent<Aranha>();
+                if (aranha == null)
+                    aranha = objeto.GetComponentInParent<Aranha>();
+
+                if (aranha != null)
+                {
+                    aranha.ReceberDano();
+                    Debug.Log("Acertou a aranha!");
+                    continue;
+                }
+
+                Destroy(objeto.gameObject);
+                Debug.Log("Inimigo destruído.");
                 continue;
             }
-
-            // ========== ARANHA ==========
-            Aranha aranha = objeto.GetComponent<Aranha>();
-
-            if (aranha == null)
-                aranha = objeto.GetComponentInParent<Aranha>();
-
-            if (aranha != null)
-            {
-                aranha.ReceberDano();
-                Debug.Log("Acertou a aranha!");
-                continue;
-            }
-
-            // Se for inimigo, mas não tiver script conhecido
-            Destroy(objeto.gameObject);
-            Debug.Log("Inimigo destruído.");
         }
 
         if (!acertouAlgo)
         {
             Debug.Log("Ataque não acertou nenhum inimigo.");
+        }
+    }
+
+    void UsarPocaoNaBruxa()
+    {
+        if (bruxaPerto == null) return;
+        
+        if (InventoryManager.Instance != null && InventoryManager.Instance.SpendPocao(1))
+        {
+            bruxaPerto.TakeDamage(pocaoDano);
+            MostrarMensagem($"✨ Poção do inventário! Dano: {pocaoDano} na bruxa! ✨");
+            Debug.Log($"✨ Usou poção na bruxa! Dano: {pocaoDano}. Poções restantes: {InventoryManager.Instance.pocao}");
+        }
+        else
+        {
+            MostrarMensagem("❌ Sem poção suficiente no inventário!");
         }
     }
 
@@ -244,6 +313,7 @@ public class PlayerFase4 : MonoBehaviour
         if (InventoryManager.Instance != null)
         {
             InventoryManager.Instance.ervaCura += quantidadeErvaCura;
+            MostrarMensagem($"🌿 +{quantidadeErvaCura} Erva de cura! Total: {InventoryManager.Instance.ervaCura}");
             Debug.Log("Erva de cura adicionada ao inventário! Total: " + InventoryManager.Instance.ervaCura);
         }
         else
@@ -261,6 +331,28 @@ public class PlayerFase4 : MonoBehaviour
 
         Destroy(ervaCuraPerto.gameObject);
         ervaCuraPerto = null;
+    }
+
+    // ========== MÉTODO PARA MOSTRAR MENSAGEM NA UI ==========
+    void MostrarMensagem(string mensagem)
+    {
+        if (textoMensagem == null || painelMensagem == null)
+        {
+            Debug.LogWarning("UI de mensagem não configurada no PlayerFase4!");
+            return;
+        }
+
+        StopCoroutine(EsconderMensagem());
+        textoMensagem.text = mensagem;
+        painelMensagem.SetActive(true);
+        StartCoroutine(EsconderMensagem());
+    }
+
+    IEnumerator EsconderMensagem()
+    {
+        yield return new WaitForSeconds(tempoExibicaoMensagem);
+        if (painelMensagem != null)
+            painelMensagem.SetActive(false);
     }
 
     void Agachar()
@@ -346,11 +438,37 @@ public class PlayerFase4 : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaQuicarAoMatar);
     }
 
+    void ReceberDanoEspinho()
+    {
+        if (espinhoMataInstantaneamente)
+        {
+            Morrer();
+        }
+        else
+        {
+            if (!invencivel)
+            {
+                PerderVida();
+                StartCoroutine(AtivarInvencibilidade());
+            }
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("chao"))
         {
             estaNoChao = true;
+        }
+
+        if (collision.gameObject.CompareTag("bruxa"))
+        {
+            if (!invencivel)
+            {
+                PerderVida();
+                StartCoroutine(AtivarInvencibilidade());
+            }
+            Debug.Log("Encostou na bruxa! Perdeu 1 vida.");
         }
 
         if (collision.gameObject.CompareTag("inimigo"))
@@ -368,6 +486,11 @@ public class PlayerFase4 : MonoBehaviour
                 StartCoroutine(AtivarInvencibilidade());
             }
         }
+
+        if (collision.gameObject.CompareTag("espinho"))
+        {
+            ReceberDanoEspinho();
+        }
     }
 
     void OnCollisionStay2D(Collision2D collision)
@@ -375,6 +498,15 @@ public class PlayerFase4 : MonoBehaviour
         if (collision.gameObject.CompareTag("chao"))
         {
             estaNoChao = true;
+        }
+
+        if (collision.gameObject.CompareTag("bruxa"))
+        {
+            if (!invencivel)
+            {
+                PerderVida();
+                StartCoroutine(AtivarInvencibilidade());
+            }
         }
 
         if (collision.gameObject.CompareTag("inimigo"))
@@ -409,7 +541,22 @@ public class PlayerFase4 : MonoBehaviour
         if (erva != null)
         {
             ervaCuraPerto = erva;
-            Debug.Log("Erva de cura próxima. Aperte E para coletar.");
+            MostrarMensagem("🌿 Erva de cura próxima! Aperte E para coletar.");
+        }
+
+        if (other.CompareTag("bruxa"))
+        {
+            BruxaEnemy bruxa = other.GetComponent<BruxaEnemy>();
+            if (bruxa != null)
+            {
+                bruxaPerto = bruxa;
+                MostrarMensagem("🧙‍♀️ Bruxa próxima! Use E para jogar poção.");
+            }
+        }
+
+        if (other.CompareTag("espinho"))
+        {
+            ReceberDanoEspinho();
         }
     }
 
@@ -420,7 +567,14 @@ public class PlayerFase4 : MonoBehaviour
         if (erva != null && erva == ervaCuraPerto)
         {
             ervaCuraPerto = null;
-            Debug.Log("Saiu de perto da erva de cura.");
+        }
+
+        if (other.CompareTag("bruxa"))
+        {
+            if (bruxaPerto != null && other.GetComponent<BruxaEnemy>() == bruxaPerto)
+            {
+                bruxaPerto = null;
+            }
         }
     }
 
@@ -443,6 +597,7 @@ public class PlayerFase4 : MonoBehaviour
         vidasRestantes--;
         AtualizarVidas();
 
+        MostrarMensagem($"❤️ Perdeu 1 vida! Restam: {vidasRestantes}");
         Debug.Log("Perdeu vida! Vidas restantes: " + vidasRestantes);
 
         if (vidasRestantes <= 0)

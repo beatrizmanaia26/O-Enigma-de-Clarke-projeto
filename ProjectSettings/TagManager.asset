@@ -23,6 +23,8 @@ TagManager:
   - moeda
   - chave
   - tocha
+  - espinho
+  - bruxa
   layers:
   - Default
   - TransparentFX
@@ -62,3 +64,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - Layer 1
